@@ -358,9 +358,5 @@ namespace Telegram
 
         }
 
-        private void dungeonTextBox2_KeyPress(object sender, KeyPressEventArgs e)
-        {
-
-        }
     }
 }
