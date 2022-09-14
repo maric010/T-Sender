@@ -183,6 +183,16 @@ namespace Telegram.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap email {
+            get {
+                object obj = ResourceManager.GetObject("email", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap free_icon_logout_305703 {
             get {
                 object obj = ResourceManager.GetObject("free-icon-logout-305703", resourceCulture);
@@ -196,6 +206,16 @@ namespace Telegram.Properties {
         internal static System.Drawing.Bitmap icons8_contacts_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-contacts-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_email_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-email-64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -256,6 +276,16 @@ namespace Telegram.Properties {
         internal static System.Drawing.Bitmap icons8_parse_64 {
             get {
                 object obj = ResourceManager.GetObject("icons8-parse-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_password_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-password-64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -416,6 +446,16 @@ namespace Telegram.Properties {
         internal static System.Drawing.Bitmap Parser1 {
             get {
                 object obj = ResourceManager.GetObject("Parser1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap password {
+            get {
+                object obj = ResourceManager.GetObject("password", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

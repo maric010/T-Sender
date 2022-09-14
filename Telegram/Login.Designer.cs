@@ -45,13 +45,12 @@
             this.my_Form1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.my_Form1.Image = null;
             this.my_Form1.Location = new System.Drawing.Point(0, 0);
-            this.my_Form1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.my_Form1.MinimumSize = new System.Drawing.Size(98, 26);
+            this.my_Form1.MinimumSize = new System.Drawing.Size(112, 35);
             this.my_Form1.Movable = true;
             this.my_Form1.Name = "my_Form1";
             this.my_Form1.NoRounding = false;
             this.my_Form1.Sizable = true;
-            this.my_Form1.Size = new System.Drawing.Size(293, 250);
+            this.my_Form1.Size = new System.Drawing.Size(1561, 1024);
             this.my_Form1.SmartBounds = true;
             this.my_Form1.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.my_Form1.TabIndex = 2;
@@ -64,11 +63,10 @@
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(166)))), ((int)(((byte)(194)))));
-            this.panel1.Location = new System.Drawing.Point(0, 26);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Location = new System.Drawing.Point(0, 35);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(293, 225);
+            this.panel1.Size = new System.Drawing.Size(700, 986);
             this.panel1.TabIndex = 56;
             // 
             // metroControlBox1
@@ -81,8 +79,7 @@
             this.metroControlBox1.DefaultLocation = ReaLTaiizor.Enum.Metro.LocationType.Normal;
             this.metroControlBox1.DisabledForeColor = System.Drawing.Color.DimGray;
             this.metroControlBox1.IsDerivedStyle = true;
-            this.metroControlBox1.Location = new System.Drawing.Point(191, -2);
-            this.metroControlBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.metroControlBox1.Location = new System.Drawing.Point(1460, -5);
             this.metroControlBox1.MaximizeBox = false;
             this.metroControlBox1.MaximizeHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
             this.metroControlBox1.MaximizeHoverForeColor = System.Drawing.Color.Gray;
@@ -102,15 +99,14 @@
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(293, 250);
+            this.ClientSize = new System.Drawing.Size(1561, 1024);
             this.Controls.Add(this.my_Form1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.KeyPreview = true;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.MinimumSize = new System.Drawing.Size(98, 26);
+            this.MinimumSize = new System.Drawing.Size(112, 35);
             this.Name = "Login";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

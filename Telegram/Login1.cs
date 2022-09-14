@@ -15,17 +15,13 @@ namespace Telegram
         public Login1()
         {
             InitializeComponent();
-        }
 
-        private void dungeonButtonLeft1_Click(object sender, EventArgs e)
-        {
-            login();
         }
         void login()
         {
             //делает запрос к серверу передавая данные для авторизации
-            my.username = dungeonTextBox1.Text;
-            my.password = dungeonTextBox2.Text;
+            my.username = loginTextBox1.Text;
+            my.password = loginTextBox2.Text;
             server.send("login|" + my.username + "|" + my.password);
         }
 
@@ -41,5 +37,62 @@ namespace Telegram
         {
             Login.load_form(new Login2());
         }
+
+        private void dungeonTextBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dungeonTextBox1_Leave(object sender, EventArgs e)
+        {
+            MessageBox.Show("leave");
+        }
+
+        private void textBox1_Enter(object sender, EventArgs e)
+        {
+            MessageBox.Show("enter");
+        }
+
+        private void textBox1_Leave(object sender, EventArgs e)
+        {
+            MessageBox.Show("leave");
+        }
+
+        private void loginTextBox1_Enter(object sender, EventArgs e)
+        {
+            label1.Visible = false;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            ActiveControl = loginTextBox1;
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            ActiveControl = loginTextBox2;
+        }
+
+        private void loginTextBox1_Leave(object sender, EventArgs e)
+        {
+            label1.Visible = loginTextBox1.Text == "";
+
+        }
+
+        private void loginTextBox2_Enter(object sender, EventArgs e)
+        {
+            label2.Visible = false;
+        }
+
+        private void loginTextBox2_Leave(object sender, EventArgs e)
+        {
+            label2.Visible = loginTextBox2.Text != "";
+        }
+
+        private void dungeonButtonLeft1_Click(object sender, EventArgs e)
+        {
+            login();
+        }
+        
     }
 }
