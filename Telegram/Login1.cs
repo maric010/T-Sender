@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,7 +16,6 @@ namespace Telegram
         public Login1()
         {
             InitializeComponent();
-
         }
         void login()
         {
@@ -86,13 +86,28 @@ namespace Telegram
 
         private void loginTextBox2_Leave(object sender, EventArgs e)
         {
-            label2.Visible = loginTextBox2.Text != "";
+            label2.Visible = loginTextBox2.Text == "";
         }
 
         private void dungeonButtonLeft1_Click(object sender, EventArgs e)
         {
             login();
         }
+
+        private void airButton1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
         
+        private void Login1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void loginTextBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
     }
 }

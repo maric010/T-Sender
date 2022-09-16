@@ -61,13 +61,14 @@ namespace Telegram
 
         private void flowLayoutPanel1_SizeChanged(object sender, EventArgs e)
         {
-            panel1.Location = new Point(panel1.Location.X,175 + tPanel1.Height);
+            panel1.Location = new Point(panel1.Location.X, tPanel1.Location.Y + tPanel1.Height+20);
+            tPanel1.Width = flowLayoutPanel1.Width+10;
         }
 
         private void flowLayoutPanel1_ControlAdded(object sender, ControlEventArgs e)
         {
-            var height = 0;
-            height += flowLayoutPanel1.Controls.Count * 23;
+            var height = 10;
+            height += (flowLayoutPanel1.Controls.Count+1) * 23;
 
             tPanel1.Height = height + 60;
             flowLayoutPanel1.Height = height;

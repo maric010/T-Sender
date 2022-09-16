@@ -191,19 +191,19 @@ namespace Telegram
         private void IMGPAINT3(object sender, PaintEventArgs e)
         {
             e.Graphics.DrawImage(((TButton)sender).Image, 15, 7, 22, 22);
-            ((TButton)sender).Font = new Font(my.montserrat_bold, ((TButton)sender).Font.Size);
+            ((TButton)sender).Font = new Font(my.montserrat_regular, ((TButton)sender).Font.Size);
         }
 
         private void IMGPAINT4(object sender, PaintEventArgs e)
         {
             e.Graphics.DrawImage(((TButton)sender).Image, 13, 7, 22, 22);
-            ((TButton)sender).Font = new Font(my.montserrat_bold, ((TButton)sender).Font.Size);
+            ((TButton)sender).Font = new Font(my.montserrat_regular, ((TButton)sender).Font.Size);
         }
 
         private void IMGPAINT5(object sender, PaintEventArgs e)
         {
             e.Graphics.DrawImage(((TButton)sender).Image, 16, 7, 22, 22);
-            ((TButton)sender).Font = new Font(my.montserrat_bold, ((TButton)sender).Font.Size);
+            ((TButton)sender).Font = new Font(my.montserrat_regular, ((TButton)sender).Font.Size);
         }
 
         private void panel1_Click(object sender, EventArgs e)

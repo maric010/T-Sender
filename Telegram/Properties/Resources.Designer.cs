@@ -373,9 +373,29 @@ namespace Telegram.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Logo_PNG_270x270 {
+            get {
+                object obj = ResourceManager.GetObject("Logo_PNG_270x270", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logo_T_sender {
             get {
                 object obj = ResourceManager.GetObject("Logo_T-sender", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logo_T_sender1 {
+            get {
+                object obj = ResourceManager.GetObject("Logo_T-sender1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

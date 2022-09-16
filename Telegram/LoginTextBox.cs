@@ -192,7 +192,7 @@ namespace Telegram
 
         private void _Leave(object Obj, EventArgs e)
         {
-            P1 = new Pen(Color.FromArgb(180, 180, 180));
+            P1 = new Pen(Color.FromArgb(60, 161, 210));
             Refresh();
         }
 
@@ -210,10 +210,10 @@ namespace Telegram
 
             Shape = new GraphicsPath();
             GraphicsPath shape = Shape;
-            shape.AddArc(0, 0, 10, 10, 180f, 90f);
+            shape.AddArc(0, 0, 1, 1, 180f, 90f);
             shape.AddArc(base.Width - 11, 0, 10, 10, -90f, 90f);
             shape.AddArc(base.Width - 11, base.Height - 11, 10, 10, 0f, 90f);
-            shape.AddArc(0, base.Height - 11, 10, 10, 90f, 90f);
+            shape.AddArc(0, base.Height - 11, 1, 10, 90f, 90f);
             shape.CloseAllFigures();
         }
 
@@ -227,7 +227,7 @@ namespace Telegram
         {
             TextBox dungeonTB = DungeonTB;
             dungeonTB.Size = new Size(base.Width - 10, 33);
-            dungeonTB.Location = new Point(57, 10);
+            dungeonTB.Location = new Point(10, 10);
             dungeonTB.Text = string.Empty;
             dungeonTB.BorderStyle = BorderStyle.None;
             dungeonTB.TextAlign = HorizontalAlignment.Left;
@@ -256,6 +256,7 @@ namespace Telegram
             Font = new Font("Tahoma", 11f);
             base.Size = new Size(135, 50);
             DoubleBuffered = true;
+
         }
 
         protected override void OnPaint(PaintEventArgs e)

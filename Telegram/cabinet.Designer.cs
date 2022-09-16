@@ -39,7 +39,6 @@
             this.dungeonHeaderLabel1 = new ReaLTaiizor.Controls.DungeonHeaderLabel();
             this.hopeTextBox6 = new ReaLTaiizor.Controls.HopeTextBox();
             this.hopeTextBox7 = new ReaLTaiizor.Controls.HopeTextBox();
-            this.hopeTextBox8 = new ReaLTaiizor.Controls.HopeTextBox();
             this.SuspendLayout();
             // 
             // dungeonButtonLeft2
@@ -269,35 +268,11 @@
             this.hopeTextBox7.TabStop = false;
             this.hopeTextBox7.UseSystemPasswordChar = false;
             // 
-            // hopeTextBox8
-            // 
-            this.hopeTextBox8.BackColor = System.Drawing.Color.White;
-            this.hopeTextBox8.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(55)))), ((int)(((byte)(66)))));
-            this.hopeTextBox8.BorderColorA = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
-            this.hopeTextBox8.BorderColorB = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(223)))), ((int)(((byte)(230)))));
-            this.hopeTextBox8.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.hopeTextBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(49)))), ((int)(((byte)(51)))));
-            this.hopeTextBox8.Hint = "Город";
-            this.hopeTextBox8.Location = new System.Drawing.Point(342, 182);
-            this.hopeTextBox8.MaxLength = 32767;
-            this.hopeTextBox8.Multiline = false;
-            this.hopeTextBox8.Name = "hopeTextBox8";
-            this.hopeTextBox8.PasswordChar = '\0';
-            this.hopeTextBox8.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.hopeTextBox8.SelectedText = "";
-            this.hopeTextBox8.SelectionLength = 0;
-            this.hopeTextBox8.SelectionStart = 0;
-            this.hopeTextBox8.Size = new System.Drawing.Size(231, 39);
-            this.hopeTextBox8.TabIndex = 53;
-            this.hopeTextBox8.TabStop = false;
-            this.hopeTextBox8.UseSystemPasswordChar = false;
-            // 
             // cabinet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(859, 707);
-            this.Controls.Add(this.hopeTextBox8);
             this.Controls.Add(this.hopeTextBox7);
             this.Controls.Add(this.hopeTextBox6);
             this.Controls.Add(this.dungeonButtonLeft2);
@@ -333,6 +308,5 @@
         private ReaLTaiizor.Controls.DungeonHeaderLabel dungeonHeaderLabel1;
         private ReaLTaiizor.Controls.HopeTextBox hopeTextBox6;
         private ReaLTaiizor.Controls.HopeTextBox hopeTextBox7;
-        private ReaLTaiizor.Controls.HopeTextBox hopeTextBox8;
     }
 }

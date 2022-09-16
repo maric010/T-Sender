@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Send));
             this.materialCheckBox1 = new ReaLTaiizor.Controls.MaterialCheckBox();
             this.materialCheckBox2 = new ReaLTaiizor.Controls.MaterialCheckBox();
-            this.bigLabel1 = new ReaLTaiizor.Controls.BigLabel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -71,6 +70,7 @@
             this.dungeonHeaderLabel2 = new ReaLTaiizor.Controls.DungeonHeaderLabel();
             this.dungeonHeaderLabel1 = new ReaLTaiizor.Controls.DungeonHeaderLabel();
             this.bigLabel2 = new ReaLTaiizor.Controls.BigLabel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -85,6 +85,7 @@
             this.panel5.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // materialCheckBox1
@@ -117,19 +118,6 @@
             this.materialCheckBox2.Text = "+3123451321";
             this.materialCheckBox2.UseVisualStyleBackColor = true;
             // 
-            // bigLabel1
-            // 
-            this.bigLabel1.AutoSize = true;
-            this.bigLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.bigLabel1.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bigLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.bigLabel1.Location = new System.Drawing.Point(35, 12);
-            this.bigLabel1.Name = "bigLabel1";
-            this.bigLabel1.Size = new System.Drawing.Size(515, 57);
-            this.bigLabel1.TabIndex = 28;
-            this.bigLabel1.Text = "Новая Telegram рассылка";
-            this.bigLabel1.Paint += new System.Windows.Forms.PaintEventHandler(this.bigLabel1_Paint);
-            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.SystemColors.Control;
@@ -140,7 +128,7 @@
             this.panel4.Controls.Add(this.tPanel1);
             this.panel4.Location = new System.Drawing.Point(759, 76);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(376, 652);
+            this.panel4.Size = new System.Drawing.Size(376, 650);
             this.panel4.TabIndex = 29;
             // 
             // pictureBox2
@@ -337,18 +325,21 @@
             // 
             // panel2
             // 
+            this.panel2.AutoSize = true;
+            this.panel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel2.Controls.Add(this.tPanel3);
             this.panel2.Controls.Add(this.panel5);
             this.panel2.Controls.Add(this.dungeonHeaderLabel4);
             this.panel2.Location = new System.Drawing.Point(30, 427);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(662, 180);
+            this.panel2.Size = new System.Drawing.Size(636, 180);
             this.panel2.TabIndex = 26;
             // 
             // tPanel3
             // 
             this.tPanel3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(170)))), ((int)(((byte)(214)))));
+            this.tPanel3.Controls.Add(this.pictureBox4);
             this.tPanel3.Controls.Add(this.dungeonTextBox1);
             this.tPanel3.Location = new System.Drawing.Point(198, 51);
             this.tPanel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -650,6 +641,14 @@
             this.bigLabel2.Text = "Новая Telegram рассылка";
             this.bigLabel2.Paint += new System.Windows.Forms.PaintEventHandler(this.bigLabel1_Paint);
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Location = new System.Drawing.Point(399, 3);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox4.TabIndex = 31;
+            this.pictureBox4.TabStop = false;
+            // 
             // Send
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -660,7 +659,6 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.bigLabel2);
-            this.Controls.Add(this.bigLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.KeyPreview = true;
             this.Name = "Send";
@@ -686,6 +684,7 @@
             this.panel7.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -694,7 +693,6 @@
         #endregion
         private ReaLTaiizor.Controls.MaterialCheckBox materialCheckBox1;
         private ReaLTaiizor.Controls.MaterialCheckBox materialCheckBox2;
-        private ReaLTaiizor.Controls.BigLabel bigLabel1;
         private Panel panel4;
         private OpenFileDialog openFileDialog1;
         private OpenFileDialog openFileDialog3;
@@ -728,11 +726,12 @@
         private PictureBox pictureBox3;
         private TPanel tPanel2;
         private FlowLayoutPanel flowLayoutPanel1;
-        private TPanel tPanel3;
-        private TextBox dungeonTextBox1;
         private TPanel tpanelll;
         private Label dungeonTextBox2;
         private Panel panel3;
         private ReaLTaiizor.Controls.ForeverButton foreverButton1;
+        private TPanel tPanel3;
+        private TextBox dungeonTextBox1;
+        private PictureBox pictureBox4;
     }
 }

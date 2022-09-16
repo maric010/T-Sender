@@ -124,15 +124,15 @@ namespace Telegram
             {
                 case Style.Light:
                     CloseHoverBackColor = Color.FromArgb(183, 40, 40);
-                    CloseHoverForeColor = Color.White;
-                    CloseNormalForeColor = Color.White;
+                    CloseHoverForeColor = Color.Black;
+                    CloseNormalForeColor = Color.Black;
                     MaximizeHoverBackColor = Color.FromArgb(238, 238, 238);
-                    MaximizeHoverForeColor = Color.White;
-                    MaximizeNormalForeColor = Color.White;
+                    MaximizeHoverForeColor = Color.Black;
+                    MaximizeNormalForeColor = Color.Black;
                     MinimizeHoverBackColor = Color.FromArgb(238, 238, 238);
-                    MinimizeHoverForeColor = Color.White;
-                    MinimizeNormalForeColor = Color.White;
-                    DisabledForeColor = Color.White;
+                    MinimizeHoverForeColor = Color.Black;
+                    MinimizeNormalForeColor = Color.Black;
+                    DisabledForeColor = Color.Black;
                     ThemeAuthor = "Taiizor";
                     ThemeName = "MetroLight";
                     break;
@@ -389,7 +389,7 @@ namespace Telegram
                 using SolidBrush tb = new(CloseHovered ? CloseHoverForeColor : CloseNormalForeColor);
                 using StringFormat sf = new() { Alignment = StringAlignment.Center };
                 g.FillRectangle(closeBoxState, new Rectangle(70, 5, 27, Height));
-                g.DrawString("r", f, CloseHovered ? tb : Brushes.White, new Point(Width - 16, 8), sf);
+                g.DrawString("r", f, CloseHovered ? tb : Brushes.Black, new Point(Width - 16, 8), sf);
             }
             using (SolidBrush maximizeBoxState = new(MaximizeBox ? MaximizeHovered ? MaximizeHoverBackColor : Color.Transparent : Color.Transparent))
             {
@@ -441,7 +441,7 @@ namespace Telegram
         protected override void OnResize(EventArgs e)
         {
             base.OnResize(e);
-            Size = new(100, 25);
+            Size = new(100, 33);
         }
 
         protected override void OnMouseMove(MouseEventArgs e)

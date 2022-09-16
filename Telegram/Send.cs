@@ -21,11 +21,15 @@ namespace Telegram
             InitializeComponent();
             th = this;
             //Сохраненную введенную информацию заполняет. 
+            
             dungeonTextBox2.Text = my.получатели_файл;
+            
             dungeonLabel1.Text = "Загружено " + my.получатели_количество + " контактов";
             dungeonTextBox1.Text = my.получатели_текст;
+            
             hopeRadioButton1.Checked = my.type_message;
             hopeRadioButton2.Checked = !my.type_message;
+            
             if (my.media == 0)
             {
                 hopeRadioButton4.Checked = true;
@@ -65,6 +69,7 @@ namespace Telegram
             }
             is_text(null, null);
             dungeonTextBox1_TextChanged(null, null);
+            
         }
         internal static void load_media(Form f)
         {
@@ -187,9 +192,7 @@ namespace Telegram
                 pictureBox1.Visible = true;
                 pictureBox2.Visible = false;
                 load_media(new media_img());
-                panel3.Visible = true;
-                panel3.Size = new Size(380, 150);
-                panel2.Location = new Point(panel2.Location.X, 320);
+                panel3.Size = new Size(420, 150);
                 if (my.is_text)
                     panel8.Location = new Point(panel8.Location.X, 480);
                 else
@@ -208,13 +211,7 @@ namespace Telegram
                 pictureBox1.Visible = false;
                 pictureBox2.Visible = true;
                 load_media(new media_audio());
-                panel3.Visible = true;
-                panel3.Size = new Size(286, 90); 
-                panel2.Location = new Point(panel2.Location.X, 260);
-                if (my.is_text)
-                    panel8.Location = new Point(panel8.Location.X, 420);
-                else
-                    panel8.Location = new Point(panel8.Location.X, 320);
+                panel3.Size = new Size(420, 130); 
             }
             else if (hopeRadioButton8.Checked)
             {
@@ -226,32 +223,27 @@ namespace Telegram
                 pictureBox1.Image = Properties.Resources.img_522136;
                 load_media(new media_video());
                 panel3.Visible = true;
-                panel3.Size = new Size(295, 87);
-                panel2.Location = new Point(panel2.Location.X, 260);
-                if (my.is_text)
-                    panel8.Location = new Point(panel8.Location.X, 420);
-                else
-                    panel8.Location = new Point(panel8.Location.X, 320);
+                panel3.Size = new Size(420, 130);
             }
             else
             {
                 //Если не выбрана мультимедиа
-                panel3.Visible = false;
+
+                panel3.Size = new Size(420, 0);
                 my.media = 0;
-                th.panel3.Controls.Clear();
+                panel3.Controls.Clear();
                 pictureBox1.Visible = false;
                 pictureBox2.Visible = false;
-                panel2.Location = new Point(panel2.Location.X, panel3.Location.Y);
-                if(my.is_text)
-                    panel8.Location = new Point(panel8.Location.X, 320);
-                else
-                    panel8.Location = new Point(panel8.Location.X, 220);
-                return;
             }
+            panel2.Location = new Point(panel2.Location.X, panel3.Location.Y + panel3.Height + 10);
+
+            panel8.Location = new Point(panel8.Location.X, panel2.Location.Y + panel2.Height + 10);
+
             //макет телефона
             tPanel1.Width = label1.Width + 15;
             tPanel1.Height = label1.Height + 15;
-            tPanel1.Location = new Point(tPanel1.Location.X, 375 - tPanel1.Height);
+            int textlocy = panel4.Height - 150 - tPanel1.Height;
+            tPanel1.Location = new Point(tPanel1.Location.X, textlocy);
             if (hopeRadioButton3.Checked || hopeRadioButton8.Checked)
             {
                 pictureBox1.Location = new Point(tPanel1.Location.X, tPanel1.Location.Y - pictureBox1.Height);
@@ -283,7 +275,8 @@ namespace Telegram
                 tPanel3.Visible = false;
             }
 
-            media(sender, e);
+            panel8.Location = new Point(panel8.Location.X, panel2.Location.Y+panel2.Height+10);
+            
         }
 
 
@@ -294,7 +287,9 @@ namespace Telegram
             label1.Text = dungeonTextBox1.Text;
             tPanel1.Width = label1.Width+15;
             tPanel1.Height = label1.Height+15;
-            tPanel1.Location = new Point(tPanel1.Location.X, 375-tPanel1.Height);
+
+            int textlocy = panel4.Height-150 - tPanel1.Height;
+            tPanel1.Location = new Point(tPanel1.Location.X, textlocy);
             if (hopeRadioButton3.Checked || hopeRadioButton8.Checked)
             {
                 pictureBox1.Location = new Point(tPanel1.Location.X, tPanel1.Location.Y - pictureBox1.Height);
@@ -313,7 +308,7 @@ namespace Telegram
 
         private void bigLabel1_Paint(object sender, PaintEventArgs e)
         {
-            bigLabel1.Font = new Font(my.montserrat_regular, bigLabel1.Font.Size);
+            bigLabel2.Font = new Font(my.montserrat_regular, bigLabel2.Font.Size);
         }
 
         private void dungeonHeaderLabel1_Paint(object sender, PaintEventArgs e)
