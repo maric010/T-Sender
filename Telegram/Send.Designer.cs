@@ -39,7 +39,7 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.openFileDialog3 = new System.Windows.Forms.OpenFileDialog();
             this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1 = new Telegram.TPanel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.tpanelll = new Telegram.TPanel();
             this.dungeonTextBox2 = new System.Windows.Forms.Label();
@@ -52,6 +52,7 @@
             this.dungeonHeaderLabel5 = new ReaLTaiizor.Controls.DungeonHeaderLabel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tPanel3 = new Telegram.TPanel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.dungeonTextBox1 = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.hopeRadioButton6 = new ReaLTaiizor.Controls.HopeRadioButton();
@@ -70,7 +71,6 @@
             this.dungeonHeaderLabel2 = new ReaLTaiizor.Controls.DungeonHeaderLabel();
             this.dungeonHeaderLabel1 = new ReaLTaiizor.Controls.DungeonHeaderLabel();
             this.bigLabel2 = new ReaLTaiizor.Controls.BigLabel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -82,10 +82,10 @@
             this.tPanel2.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel5.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // materialCheckBox1
@@ -192,6 +192,7 @@
             this.panel1.AutoSize = true;
             this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BorderColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.tpanelll);
             this.panel1.Controls.Add(this.panel8);
@@ -204,8 +205,10 @@
             this.panel1.Controls.Add(this.dungeonHeaderLabel1);
             this.panel1.Location = new System.Drawing.Point(35, 76);
             this.panel1.Name = "panel1";
+            this.panel1.Radius = 40;
             this.panel1.Size = new System.Drawing.Size(695, 1248);
             this.panel1.TabIndex = 30;
+            this.panel1.Thickness = 10F;
             // 
             // panel3
             // 
@@ -226,12 +229,12 @@
             this.tpanelll.Radius = 20;
             this.tpanelll.Size = new System.Drawing.Size(435, 45);
             this.tpanelll.TabIndex = 30;
-            this.tpanelll.Thickness = 2F;
+            this.tpanelll.Thickness = 3F;
             // 
             // dungeonTextBox2
             // 
             this.dungeonTextBox2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dungeonTextBox2.Location = new System.Drawing.Point(10, 8);
+            this.dungeonTextBox2.Location = new System.Drawing.Point(10, 7);
             this.dungeonTextBox2.Name = "dungeonTextBox2";
             this.dungeonTextBox2.Size = new System.Drawing.Size(383, 31);
             this.dungeonTextBox2.TabIndex = 29;
@@ -284,10 +287,10 @@
             this.tPanel2.Location = new System.Drawing.Point(198, 7);
             this.tPanel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tPanel2.Name = "tPanel2";
-            this.tPanel2.Radius = 10;
+            this.tPanel2.Radius = 20;
             this.tPanel2.Size = new System.Drawing.Size(435, 360);
             this.tPanel2.TabIndex = 41;
-            this.tPanel2.Thickness = 2F;
+            this.tPanel2.Thickness = 3F;
             // 
             // flowLayoutPanel1
             // 
@@ -295,7 +298,7 @@
             this.flowLayoutPanel1.Location = new System.Drawing.Point(6, 7);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(423, 347);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(420, 345);
             this.flowLayoutPanel1.TabIndex = 41;
             // 
             // dungeonLabel2
@@ -344,10 +347,21 @@
             this.tPanel3.Location = new System.Drawing.Point(198, 51);
             this.tPanel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tPanel3.Name = "tPanel3";
-            this.tPanel3.Radius = 10;
+            this.tPanel3.Radius = 20;
             this.tPanel3.Size = new System.Drawing.Size(435, 125);
             this.tPanel3.TabIndex = 26;
-            this.tPanel3.Thickness = 2F;
+            this.tPanel3.Thickness = 3F;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Telegram.Properties.Resources.icons8_question_64;
+            this.pictureBox4.Location = new System.Drawing.Point(407, 3);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 31;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.MouseHover += new System.EventHandler(this.pictureBox4_MouseHover);
             // 
             // dungeonTextBox1
             // 
@@ -641,14 +655,6 @@
             this.bigLabel2.Text = "Новая Telegram рассылка";
             this.bigLabel2.Paint += new System.Windows.Forms.PaintEventHandler(this.bigLabel1_Paint);
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Location = new System.Drawing.Point(399, 3);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox4.TabIndex = 31;
-            this.pictureBox4.TabStop = false;
-            // 
             // Send
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -678,13 +684,13 @@
             this.panel2.ResumeLayout(false);
             this.tPanel3.ResumeLayout(false);
             this.tPanel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -698,7 +704,7 @@
         private OpenFileDialog openFileDialog3;
         private Panel tPanel1;
         private Label label1;
-        private Panel panel1;
+        private TPanel panel1;
         private Panel panel8;
         private ReaLTaiizor.Controls.DungeonLabel dungeonLabel2;
         private ReaLTaiizor.Controls.DungeonHeaderLabel dungeonHeaderLabel5;

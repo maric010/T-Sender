@@ -31,41 +31,37 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.my_Form1 = new Telegram.My_Form();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.airForm1 = new ReaLTaiizor.Forms.AirForm();
+            this.dungeonButtonLeft1 = new ReaLTaiizor.Controls.DungeonButtonLeft();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.royalButton1 = new ReaLTaiizor.Controls.RoyalButton();
             this.my_ProgressBar1 = new Telegram.My_ProgressBar();
             this.dungeonLabel2 = new ReaLTaiizor.Controls.DungeonLabel();
-            this.metroControlBox1 = new ControlBox();
-            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
-            this.dungeonLabel1 = new ReaLTaiizor.Controls.DungeonLabel();
             this.my_Form1.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.airForm1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // my_Form1
             // 
-            this.my_Form1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(170)))), ((int)(((byte)(214)))));
+            this.my_Form1.BackColor = System.Drawing.Color.White;
             this.my_Form1.BorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.my_Form1.Controls.Add(this.dungeonLabel1);
-            this.my_Form1.Controls.Add(this.panel1);
-            this.my_Form1.Controls.Add(this.metroControlBox1);
+            this.my_Form1.Controls.Add(this.airForm1);
             this.my_Form1.Customization = "AAAA/1paWv9ycnL/";
             this.my_Form1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.my_Form1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.my_Form1.Image = null;
             this.my_Form1.Location = new System.Drawing.Point(0, 0);
-            this.my_Form1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.my_Form1.MinimumSize = new System.Drawing.Size(98, 26);
+            this.my_Form1.MinimumSize = new System.Drawing.Size(112, 35);
             this.my_Form1.Movable = true;
             this.my_Form1.Name = "my_Form1";
             this.my_Form1.NoRounding = false;
             this.my_Form1.Sizable = true;
-            this.my_Form1.Size = new System.Drawing.Size(976, 467);
+            this.my_Form1.Size = new System.Drawing.Size(1115, 623);
             this.my_Form1.SmartBounds = true;
             this.my_Form1.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultLocation;
             this.my_Form1.TabIndex = 0;
@@ -73,19 +69,53 @@
             this.my_Form1.Transparent = false;
             this.my_Form1.Click += new System.EventHandler(this.my_Form1_Click);
             // 
-            // panel1
+            // airForm1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.dataGridView1);
-            this.panel1.Controls.Add(this.royalButton1);
-            this.panel1.Controls.Add(this.my_ProgressBar1);
-            this.panel1.Controls.Add(this.dungeonLabel2);
-            this.panel1.Location = new System.Drawing.Point(0, 25);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(976, 442);
-            this.panel1.TabIndex = 24;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.airForm1.BackColor = System.Drawing.Color.White;
+            this.airForm1.BorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.airForm1.Controls.Add(this.dungeonButtonLeft1);
+            this.airForm1.Controls.Add(this.dataGridView1);
+            this.airForm1.Controls.Add(this.royalButton1);
+            this.airForm1.Controls.Add(this.my_ProgressBar1);
+            this.airForm1.Controls.Add(this.dungeonLabel2);
+            this.airForm1.Customization = "AAAA/1paWv9ycnL/";
+            this.airForm1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.airForm1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.airForm1.Image = null;
+            this.airForm1.Location = new System.Drawing.Point(0, 0);
+            this.airForm1.MinimumSize = new System.Drawing.Size(112, 35);
+            this.airForm1.Movable = true;
+            this.airForm1.Name = "airForm1";
+            this.airForm1.NoRounding = false;
+            this.airForm1.Sizable = true;
+            this.airForm1.Size = new System.Drawing.Size(1115, 623);
+            this.airForm1.SmartBounds = true;
+            this.airForm1.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.airForm1.TabIndex = 0;
+            this.airForm1.Text = "Рассылка №";
+            this.airForm1.TransparencyKey = System.Drawing.Color.Fuchsia;
+            this.airForm1.Transparent = false;
+            // 
+            // dungeonButtonLeft1
+            // 
+            this.dungeonButtonLeft1.BackColor = System.Drawing.Color.Transparent;
+            this.dungeonButtonLeft1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
+            this.dungeonButtonLeft1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dungeonButtonLeft1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dungeonButtonLeft1.Image = null;
+            this.dungeonButtonLeft1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.dungeonButtonLeft1.InactiveColorA = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
+            this.dungeonButtonLeft1.InactiveColorB = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(237)))), ((int)(((byte)(236)))));
+            this.dungeonButtonLeft1.Location = new System.Drawing.Point(879, 523);
+            this.dungeonButtonLeft1.Name = "dungeonButtonLeft1";
+            this.dungeonButtonLeft1.PressedColorA = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.dungeonButtonLeft1.PressedColorB = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.dungeonButtonLeft1.PressedContourColorA = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(167)))), ((int)(((byte)(167)))));
+            this.dungeonButtonLeft1.PressedContourColorB = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(167)))), ((int)(((byte)(167)))));
+            this.dungeonButtonLeft1.Size = new System.Drawing.Size(222, 38);
+            this.dungeonButtonLeft1.TabIndex = 53;
+            this.dungeonButtonLeft1.Text = "Остановить рассылку";
+            this.dungeonButtonLeft1.TextAlignment = System.Drawing.StringAlignment.Center;
             // 
             // dataGridView1
             // 
@@ -114,8 +144,7 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.GridColor = System.Drawing.Color.Green;
-            this.dataGridView1.Location = new System.Drawing.Point(38, 21);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dataGridView1.Location = new System.Drawing.Point(54, 48);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -129,8 +158,8 @@
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(601, 384);
-            this.dataGridView1.TabIndex = 46;
+            this.dataGridView1.Size = new System.Drawing.Size(687, 512);
+            this.dataGridView1.TabIndex = 52;
             // 
             // Column1
             // 
@@ -159,15 +188,13 @@
             this.royalButton1.HotTrackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(221)))));
             this.royalButton1.Image = null;
             this.royalButton1.LayoutFlags = ReaLTaiizor.Util.RoyalLayoutFlags.ImageBeforeText;
-            this.royalButton1.Location = new System.Drawing.Point(797, 65);
-            this.royalButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.royalButton1.Location = new System.Drawing.Point(922, 107);
             this.royalButton1.Name = "royalButton1";
             this.royalButton1.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
             this.royalButton1.PressedForeColor = System.Drawing.Color.White;
-            this.royalButton1.Size = new System.Drawing.Size(157, 38);
-            this.royalButton1.TabIndex = 38;
+            this.royalButton1.Size = new System.Drawing.Size(179, 51);
+            this.royalButton1.TabIndex = 51;
             this.royalButton1.Text = "Скачать результат";
-            this.royalButton1.Click += new System.EventHandler(this.royalButton1_Click);
             // 
             // my_ProgressBar1
             // 
@@ -180,12 +207,11 @@
             this.my_ProgressBar1.FullBallonText = "Ok!";
             this.my_ProgressBar1.FullBarColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(194)))), ((int)(((byte)(58)))));
             this.my_ProgressBar1.IsError = false;
-            this.my_ProgressBar1.Location = new System.Drawing.Point(22, 410);
-            this.my_ProgressBar1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.my_ProgressBar1.Location = new System.Drawing.Point(36, 567);
             this.my_ProgressBar1.Name = "my_ProgressBar1";
             this.my_ProgressBar1.ProgressBarStyle = Telegram.My_ProgressBar.Style.ToolTip;
-            this.my_ProgressBar1.Size = new System.Drawing.Size(906, 32);
-            this.my_ProgressBar1.TabIndex = 37;
+            this.my_ProgressBar1.Size = new System.Drawing.Size(1065, 32);
+            this.my_ProgressBar1.TabIndex = 50;
             this.my_ProgressBar1.Text = "my_ProgressBar1";
             this.my_ProgressBar1.ValueNumber = 0;
             // 
@@ -195,71 +221,28 @@
             this.dungeonLabel2.BackColor = System.Drawing.Color.Transparent;
             this.dungeonLabel2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonLabel2.Location = new System.Drawing.Point(818, 10);
+            this.dungeonLabel2.Location = new System.Drawing.Point(946, 33);
             this.dungeonLabel2.Name = "dungeonLabel2";
-            this.dungeonLabel2.Size = new System.Drawing.Size(52, 20);
-            this.dungeonLabel2.TabIndex = 31;
+            this.dungeonLabel2.Size = new System.Drawing.Size(68, 25);
+            this.dungeonLabel2.TabIndex = 49;
             this.dungeonLabel2.Text = "Статус";
-            // 
-            // metroControlBox1
-            // 
-            this.metroControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.metroControlBox1.CloseHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.metroControlBox1.CloseHoverForeColor = System.Drawing.Color.White;
-            this.metroControlBox1.CloseNormalForeColor = System.Drawing.Color.Gray;
-            this.metroControlBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.metroControlBox1.DefaultLocation = ReaLTaiizor.Enum.Metro.LocationType.Normal;
-            this.metroControlBox1.DisabledForeColor = System.Drawing.Color.DimGray;
-            this.metroControlBox1.IsDerivedStyle = true;
-            this.metroControlBox1.Location = new System.Drawing.Point(876, 0);
-            this.metroControlBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.metroControlBox1.MaximizeBox = true;
-            this.metroControlBox1.MaximizeHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            this.metroControlBox1.MaximizeHoverForeColor = System.Drawing.Color.Gray;
-            this.metroControlBox1.MaximizeNormalForeColor = System.Drawing.Color.Gray;
-            this.metroControlBox1.MinimizeBox = true;
-            this.metroControlBox1.MinimizeHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            this.metroControlBox1.MinimizeHoverForeColor = System.Drawing.Color.Gray;
-            this.metroControlBox1.MinimizeNormalForeColor = System.Drawing.Color.Gray;
-            this.metroControlBox1.Name = "metroControlBox1";
-            this.metroControlBox1.Size = new System.Drawing.Size(100, 25);
-            this.metroControlBox1.Style = ReaLTaiizor.Enum.Metro.Style.Light;
-            this.metroControlBox1.StyleManager = null;
-            this.metroControlBox1.TabIndex = 23;
-            this.metroControlBox1.Text = "metroControlBox1";
-            this.metroControlBox1.ThemeAuthor = "Taiizor";
-            this.metroControlBox1.ThemeName = "MetroLight";
-            // 
-            // dungeonLabel1
-            // 
-            this.dungeonLabel1.AutoSize = true;
-            this.dungeonLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.dungeonLabel1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dungeonLabel1.ForeColor = System.Drawing.Color.White;
-            this.dungeonLabel1.Location = new System.Drawing.Point(3, 3);
-            this.dungeonLabel1.Name = "dungeonLabel1";
-            this.dungeonLabel1.Size = new System.Drawing.Size(94, 20);
-            this.dungeonLabel1.TabIndex = 25;
-            this.dungeonLabel1.Text = "Рассылка №";
             // 
             // Рассылка
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(976, 467);
+            this.ClientSize = new System.Drawing.Size(1115, 623);
             this.Controls.Add(this.my_Form1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.MinimumSize = new System.Drawing.Size(98, 26);
+            this.MinimumSize = new System.Drawing.Size(112, 35);
             this.Name = "Рассылка";
             this.Text = "Рассылка";
             this.TransparencyKey = System.Drawing.Color.Fuchsia;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Рассылка_FormClosing);
             this.Load += new System.EventHandler(this.Рассылка_Load);
             this.my_Form1.ResumeLayout(false);
-            this.my_Form1.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.airForm1.ResumeLayout(false);
+            this.airForm1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
@@ -267,16 +250,15 @@
 
         #endregion
 
+        private SaveFileDialog saveFileDialog1;
         private My_Form my_Form1;
-        private ControlBox metroControlBox1;
-        private Panel panel1;
-        private My_ProgressBar my_ProgressBar1;
-        private ReaLTaiizor.Controls.DungeonLabel dungeonLabel2;
+        private ReaLTaiizor.Forms.AirForm airForm1;
+        private ReaLTaiizor.Controls.DungeonButtonLeft dungeonButtonLeft1;
         private DataGridView dataGridView1;
         private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn Column2;
         private ReaLTaiizor.Controls.RoyalButton royalButton1;
-        private SaveFileDialog saveFileDialog1;
-        private ReaLTaiizor.Controls.DungeonLabel dungeonLabel1;
+        private My_ProgressBar my_ProgressBar1;
+        private ReaLTaiizor.Controls.DungeonLabel dungeonLabel2;
     }
 }

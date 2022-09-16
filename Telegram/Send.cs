@@ -353,5 +353,10 @@ namespace Telegram
 
         }
 
+        private void pictureBox4_MouseHover(object sender, EventArgs e)
+        {
+            ToolTip tt = new ToolTip();
+            tt.SetToolTip(this.pictureBox4, "Какая то подсказка");
+        }
     }
 }

@@ -293,6 +293,16 @@ namespace Telegram.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_question_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-question-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_select_users_40 {
             get {
                 object obj = ResourceManager.GetObject("icons8-select-users-40", resourceCulture);

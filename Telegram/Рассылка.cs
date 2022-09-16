@@ -36,7 +36,7 @@ namespace Telegram
         private async void Рассылка_Load(object sender, EventArgs e)
         {
             th = this;
-            my_Form1.Text += mail.id;
+            Text += mail.id;
             dungeonLabel2.Text = mail.status;
             dataGridView1.Rows.Add("Количество получателей", mail.users_count);
             dataGridView1.Rows.Add("Дата начало", mail.start_date);
@@ -94,6 +94,36 @@ namespace Telegram
         private void Рассылка_FormClosing(object sender, FormClosingEventArgs e)
         {
             stop = true;
+        }
+
+        private void saveFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void dungeonButtonLeft1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dungeonLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dungeonLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void my_ProgressBar1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

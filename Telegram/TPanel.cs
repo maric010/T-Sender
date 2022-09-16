@@ -76,30 +76,31 @@ namespace Telegram
         {
             return new Rectangle(0, Height - e, e, e);
         }
-
+        GraphicsPath path;
         private void ExtendedDraw(PaintEventArgs e)
         {
             e.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
-            GraphicsPath path = new GraphicsPath();
-            path.StartFigure();
-            path.AddArc(GetLeftUpper(Radius), 180, 90);
-            path.AddLine(Radius, 0, Width - Radius, 0);
-            path.AddArc(GetRightUpper(Radius), 270, 90);
-            path.AddLine(Width, Radius, Width, Height - Radius);
-            path.AddArc(GetRightLower(Radius), 0, 90);
-            path.AddLine(Width - Radius, Height, Radius, Height);
-            path.AddArc(GetLeftLower(Radius), 90, 90);
-            path.AddLine(0, Height - Radius, 0, Radius);
-            path.CloseFigure();
-            Region = new Region(path);
+            path = new GraphicsPath();
+            path.AddArc(0, 0, 10, 10, 180f, 90f);
+            path.AddArc(base.Width - 11, 0, 10, 10, -90f, 90f);
+            path.AddArc(base.Width - 11, base.Height - 11, 10, 10, 0f, 90f);
+            path.AddArc(0, base.Height - 11, 10, 10, 90f, 90f);
+            path.CloseAllFigures();
+            //Region = new Region(path);
         }
         private void DrawSingleBorder(Graphics graphics)
         {
+            /*
             graphics.DrawArc(_pen, new Rectangle(0, 0, Radius, Radius), 180, 90);
             graphics.DrawArc(_pen, new Rectangle(Width - Radius - 1, -1, Radius, Radius), 270, 90);
             graphics.DrawArc(_pen, new Rectangle(Width - Radius - 1, Height - Radius - 1, Radius, Radius), 0, 90);
             graphics.DrawArc(_pen, new Rectangle(0, Height - Radius - 1, Radius, Radius), 90, 90);
-            graphics.DrawRectangle(_pen, 0.0f, 0.0f, (float)Width - 1.0f, (float)Height - 1.0f);
+            */
+
+            //graphics.FillPath(B1, Shape);
+            graphics.DrawPath(_pen, path);
+            //graphics.DrawRectangle(_pen, 0.0f, 0.0f, (float)Width - 1.0f, (float)Height - 1.0f);
+        
         }
         private void Draw3DBorder(Graphics graphics)
         {

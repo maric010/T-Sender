@@ -240,7 +240,7 @@
             this.flowLayoutPanel1.Location = new System.Drawing.Point(6, 67);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1075, 68);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1069, 68);
             this.flowLayoutPanel1.TabIndex = 16;
             this.flowLayoutPanel1.SizeChanged += new System.EventHandler(this.flowLayoutPanel1_SizeChanged);
             this.flowLayoutPanel1.ControlAdded += new System.Windows.Forms.ControlEventHandler(this.flowLayoutPanel1_ControlAdded);
@@ -269,7 +269,7 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1075, 57);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1069, 57);
             this.tableLayoutPanel1.TabIndex = 17;
             // 
             // dungeonHeaderLabel2
@@ -358,6 +358,8 @@
             // 
             // tPanel1
             // 
+            this.tPanel1.AutoSize = true;
+            this.tPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.tPanel1.BackColor = System.Drawing.Color.White;
             this.tPanel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(170)))), ((int)(((byte)(214)))));
             this.tPanel1.Controls.Add(this.tableLayoutPanel1);
@@ -365,10 +367,10 @@
             this.tPanel1.Location = new System.Drawing.Point(58, 212);
             this.tPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tPanel1.Name = "tPanel1";
-            this.tPanel1.Radius = 10;
+            this.tPanel1.Radius = 20;
             this.tPanel1.Size = new System.Drawing.Size(1086, 141);
             this.tPanel1.TabIndex = 41;
-            this.tPanel1.Thickness = 2F;
+            this.tPanel1.Thickness = 3F;
             // 
             // headerLabel9
             // 
