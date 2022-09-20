@@ -464,7 +464,7 @@
             this.tButton6.Text = "Рассылка";
             this.tButton6.TextAlignment = System.Drawing.StringAlignment.Far;
             this.tButton6.Click += new Telegram.ButtonFoxBase.ClickEventHandler(this.tButton6_Click);
-            this.tButton6.Paint += new System.Windows.Forms.PaintEventHandler(this.IMGPAINT);
+            this.tButton6.Paint += new System.Windows.Forms.PaintEventHandler(this.IMGPAINT6);
             this.tButton6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tButton2_MouseClick);
             // 
             // foxButton4
@@ -490,7 +490,7 @@
             this.foxButton4.Text = "Парсинг групп";
             this.foxButton4.TextAlignment = System.Drawing.StringAlignment.Center;
             this.foxButton4.Click += new Telegram.ButtonFoxBase.ClickEventHandler(this.foxButton4_Click);
-            this.foxButton4.Paint += new System.Windows.Forms.PaintEventHandler(this.IMGPAINT);
+            this.foxButton4.Paint += new System.Windows.Forms.PaintEventHandler(this.IMGPAINT6);
             this.foxButton4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tButton2_MouseClick);
             // 
             // foxButton3
@@ -516,7 +516,7 @@
             this.foxButton3.Text = "Мои аккаунты";
             this.foxButton3.TextAlignment = System.Drawing.StringAlignment.Center;
             this.foxButton3.Click += new Telegram.ButtonFoxBase.ClickEventHandler(this.foxButton3_Click);
-            this.foxButton3.Paint += new System.Windows.Forms.PaintEventHandler(this.IMGPAINT);
+            this.foxButton3.Paint += new System.Windows.Forms.PaintEventHandler(this.IMGPAINT6);
             this.foxButton3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tButton2_MouseClick);
             // 
             // foxButton2
@@ -542,7 +542,7 @@
             this.foxButton2.Text = "Мои рассылки";
             this.foxButton2.TextAlignment = System.Drawing.StringAlignment.Far;
             this.foxButton2.Click += new Telegram.ButtonFoxBase.ClickEventHandler(this.foxButton2_Click);
-            this.foxButton2.Paint += new System.Windows.Forms.PaintEventHandler(this.IMGPAINT);
+            this.foxButton2.Paint += new System.Windows.Forms.PaintEventHandler(this.IMGPAINT6);
             this.foxButton2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tButton2_MouseClick);
             // 
             // panel3

@@ -66,7 +66,7 @@
             this.tPanel1.Location = new System.Drawing.Point(49, 145);
             this.tPanel1.Name = "tPanel1";
             this.tPanel1.Radius = 15;
-            this.tPanel1.Size = new System.Drawing.Size(946, 556);
+            this.tPanel1.Size = new System.Drawing.Size(956, 555);
             this.tPanel1.TabIndex = 2;
             this.tPanel1.Thickness = 3F;
             // 
@@ -93,13 +93,13 @@
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(930, 535);
+            this.dataGridView1.Size = new System.Drawing.Size(951, 550);
             this.dataGridView1.TabIndex = 1;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // Column1
             // 
-            this.Column1.HeaderText = "#";
+            this.Column1.HeaderText = "№";
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
             this.Column1.ReadOnly = true;

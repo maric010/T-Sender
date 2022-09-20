@@ -233,5 +233,11 @@ namespace Telegram
             if (panel5.Visible)
                 panel5.Visible = false;
         }
+
+        private void IMGPAINT6(object sender, PaintEventArgs e)
+        {
+            e.Graphics.DrawImage(((TButton)sender).Image, 13, (((TButton)sender).Height/2)-12, 22, 22);
+            ((TButton)sender).Font = new Font(my.montserrat_bold, ((TButton)sender).Font.Size);
+        }
     }
 }

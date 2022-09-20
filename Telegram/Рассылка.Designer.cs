@@ -32,69 +32,54 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
-            this.my_Form1 = new Telegram.My_Form();
-            this.airForm1 = new ReaLTaiizor.Forms.AirForm();
+            this.hopeForm1 = new ReaLTaiizor.Forms.HopeForm();
+            this.dungeonButtonLeft2 = new ReaLTaiizor.Controls.DungeonButtonLeft();
             this.dungeonButtonLeft1 = new ReaLTaiizor.Controls.DungeonButtonLeft();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.royalButton1 = new ReaLTaiizor.Controls.RoyalButton();
             this.my_ProgressBar1 = new Telegram.My_ProgressBar();
             this.dungeonLabel2 = new ReaLTaiizor.Controls.DungeonLabel();
-            this.my_Form1.SuspendLayout();
-            this.airForm1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // my_Form1
+            // hopeForm1
             // 
-            this.my_Form1.BackColor = System.Drawing.Color.White;
-            this.my_Form1.BorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.my_Form1.Controls.Add(this.airForm1);
-            this.my_Form1.Customization = "AAAA/1paWv9ycnL/";
-            this.my_Form1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.my_Form1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.my_Form1.Image = null;
-            this.my_Form1.Location = new System.Drawing.Point(0, 0);
-            this.my_Form1.MinimumSize = new System.Drawing.Size(112, 35);
-            this.my_Form1.Movable = true;
-            this.my_Form1.Name = "my_Form1";
-            this.my_Form1.NoRounding = false;
-            this.my_Form1.Sizable = true;
-            this.my_Form1.Size = new System.Drawing.Size(1115, 623);
-            this.my_Form1.SmartBounds = true;
-            this.my_Form1.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultLocation;
-            this.my_Form1.TabIndex = 0;
-            this.my_Form1.TransparencyKey = System.Drawing.Color.Fuchsia;
-            this.my_Form1.Transparent = false;
-            this.my_Form1.Click += new System.EventHandler(this.my_Form1_Click);
+            this.hopeForm1.ControlBoxColorH = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(231)))), ((int)(((byte)(237)))));
+            this.hopeForm1.ControlBoxColorHC = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(108)))), ((int)(((byte)(108)))));
+            this.hopeForm1.ControlBoxColorN = System.Drawing.Color.White;
+            this.hopeForm1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.hopeForm1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.hopeForm1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.hopeForm1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(246)))), ((int)(((byte)(252)))));
+            this.hopeForm1.Image = null;
+            this.hopeForm1.Location = new System.Drawing.Point(0, 0);
+            this.hopeForm1.Name = "hopeForm1";
+            this.hopeForm1.Size = new System.Drawing.Size(1115, 40);
+            this.hopeForm1.TabIndex = 0;
+            this.hopeForm1.Text = "Рассылка №";
+            this.hopeForm1.ThemeColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(173)))), ((int)(((byte)(255)))));
             // 
-            // airForm1
+            // dungeonButtonLeft2
             // 
-            this.airForm1.BackColor = System.Drawing.Color.White;
-            this.airForm1.BorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.airForm1.Controls.Add(this.dungeonButtonLeft1);
-            this.airForm1.Controls.Add(this.dataGridView1);
-            this.airForm1.Controls.Add(this.royalButton1);
-            this.airForm1.Controls.Add(this.my_ProgressBar1);
-            this.airForm1.Controls.Add(this.dungeonLabel2);
-            this.airForm1.Customization = "AAAA/1paWv9ycnL/";
-            this.airForm1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.airForm1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.airForm1.Image = null;
-            this.airForm1.Location = new System.Drawing.Point(0, 0);
-            this.airForm1.MinimumSize = new System.Drawing.Size(112, 35);
-            this.airForm1.Movable = true;
-            this.airForm1.Name = "airForm1";
-            this.airForm1.NoRounding = false;
-            this.airForm1.Sizable = true;
-            this.airForm1.Size = new System.Drawing.Size(1115, 623);
-            this.airForm1.SmartBounds = true;
-            this.airForm1.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.airForm1.TabIndex = 0;
-            this.airForm1.Text = "Рассылка №";
-            this.airForm1.TransparencyKey = System.Drawing.Color.Fuchsia;
-            this.airForm1.Transparent = false;
+            this.dungeonButtonLeft2.BackColor = System.Drawing.Color.Transparent;
+            this.dungeonButtonLeft2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
+            this.dungeonButtonLeft2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dungeonButtonLeft2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dungeonButtonLeft2.Image = null;
+            this.dungeonButtonLeft2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.dungeonButtonLeft2.InactiveColorA = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
+            this.dungeonButtonLeft2.InactiveColorB = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(237)))), ((int)(((byte)(236)))));
+            this.dungeonButtonLeft2.Location = new System.Drawing.Point(853, 110);
+            this.dungeonButtonLeft2.Name = "dungeonButtonLeft2";
+            this.dungeonButtonLeft2.PressedColorA = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.dungeonButtonLeft2.PressedColorB = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.dungeonButtonLeft2.PressedContourColorA = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(167)))), ((int)(((byte)(167)))));
+            this.dungeonButtonLeft2.PressedContourColorB = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(167)))), ((int)(((byte)(167)))));
+            this.dungeonButtonLeft2.Size = new System.Drawing.Size(222, 38);
+            this.dungeonButtonLeft2.TabIndex = 66;
+            this.dungeonButtonLeft2.Text = "Скачать результат";
+            this.dungeonButtonLeft2.TextAlignment = System.Drawing.StringAlignment.Center;
             // 
             // dungeonButtonLeft1
             // 
@@ -106,16 +91,17 @@
             this.dungeonButtonLeft1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dungeonButtonLeft1.InactiveColorA = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
             this.dungeonButtonLeft1.InactiveColorB = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(237)))), ((int)(((byte)(236)))));
-            this.dungeonButtonLeft1.Location = new System.Drawing.Point(879, 523);
+            this.dungeonButtonLeft1.Location = new System.Drawing.Point(853, 544);
             this.dungeonButtonLeft1.Name = "dungeonButtonLeft1";
             this.dungeonButtonLeft1.PressedColorA = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.dungeonButtonLeft1.PressedColorB = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.dungeonButtonLeft1.PressedContourColorA = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(167)))), ((int)(((byte)(167)))));
             this.dungeonButtonLeft1.PressedContourColorB = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(167)))), ((int)(((byte)(167)))));
             this.dungeonButtonLeft1.Size = new System.Drawing.Size(222, 38);
-            this.dungeonButtonLeft1.TabIndex = 53;
+            this.dungeonButtonLeft1.TabIndex = 64;
             this.dungeonButtonLeft1.Text = "Остановить рассылку";
             this.dungeonButtonLeft1.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.dungeonButtonLeft1.Visible = false;
             // 
             // dataGridView1
             // 
@@ -139,12 +125,13 @@
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.GridColor = System.Drawing.Color.Green;
-            this.dataGridView1.Location = new System.Drawing.Point(54, 48);
+            this.dataGridView1.Location = new System.Drawing.Point(28, 69);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -159,7 +146,7 @@
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 29;
             this.dataGridView1.Size = new System.Drawing.Size(687, 512);
-            this.dataGridView1.TabIndex = 52;
+            this.dataGridView1.TabIndex = 63;
             // 
             // Column1
             // 
@@ -177,25 +164,6 @@
             this.Column2.Name = "Column2";
             this.Column2.ReadOnly = true;
             // 
-            // royalButton1
-            // 
-            this.royalButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-            this.royalButton1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
-            this.royalButton1.BorderThickness = 3;
-            this.royalButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.royalButton1.DrawBorder = true;
-            this.royalButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
-            this.royalButton1.HotTrackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(221)))));
-            this.royalButton1.Image = null;
-            this.royalButton1.LayoutFlags = ReaLTaiizor.Util.RoyalLayoutFlags.ImageBeforeText;
-            this.royalButton1.Location = new System.Drawing.Point(922, 107);
-            this.royalButton1.Name = "royalButton1";
-            this.royalButton1.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.royalButton1.PressedForeColor = System.Drawing.Color.White;
-            this.royalButton1.Size = new System.Drawing.Size(179, 51);
-            this.royalButton1.TabIndex = 51;
-            this.royalButton1.Text = "Скачать результат";
-            // 
             // my_ProgressBar1
             // 
             this.my_ProgressBar1.BarColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(223)))), ((int)(((byte)(230)))));
@@ -207,11 +175,11 @@
             this.my_ProgressBar1.FullBallonText = "Ok!";
             this.my_ProgressBar1.FullBarColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(194)))), ((int)(((byte)(58)))));
             this.my_ProgressBar1.IsError = false;
-            this.my_ProgressBar1.Location = new System.Drawing.Point(36, 567);
+            this.my_ProgressBar1.Location = new System.Drawing.Point(10, 588);
             this.my_ProgressBar1.Name = "my_ProgressBar1";
             this.my_ProgressBar1.ProgressBarStyle = Telegram.My_ProgressBar.Style.ToolTip;
             this.my_ProgressBar1.Size = new System.Drawing.Size(1065, 32);
-            this.my_ProgressBar1.TabIndex = 50;
+            this.my_ProgressBar1.TabIndex = 62;
             this.my_ProgressBar1.Text = "my_ProgressBar1";
             this.my_ProgressBar1.ValueNumber = 0;
             // 
@@ -221,43 +189,47 @@
             this.dungeonLabel2.BackColor = System.Drawing.Color.Transparent;
             this.dungeonLabel2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonLabel2.Location = new System.Drawing.Point(946, 33);
+            this.dungeonLabel2.Location = new System.Drawing.Point(920, 54);
             this.dungeonLabel2.Name = "dungeonLabel2";
             this.dungeonLabel2.Size = new System.Drawing.Size(68, 25);
-            this.dungeonLabel2.TabIndex = 49;
+            this.dungeonLabel2.TabIndex = 61;
             this.dungeonLabel2.Text = "Статус";
             // 
             // Рассылка
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1115, 623);
-            this.Controls.Add(this.my_Form1);
+            this.Controls.Add(this.dungeonButtonLeft2);
+            this.Controls.Add(this.dungeonButtonLeft1);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.my_ProgressBar1);
+            this.Controls.Add(this.dungeonLabel2);
+            this.Controls.Add(this.hopeForm1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.MinimumSize = new System.Drawing.Size(112, 35);
+            this.MaximumSize = new System.Drawing.Size(1920, 1030);
+            this.MinimumSize = new System.Drawing.Size(190, 40);
             this.Name = "Рассылка";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Рассылка";
-            this.TransparencyKey = System.Drawing.Color.Fuchsia;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Рассылка_FormClosing);
             this.Load += new System.EventHandler(this.Рассылка_Load);
-            this.my_Form1.ResumeLayout(false);
-            this.airForm1.ResumeLayout(false);
-            this.airForm1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private SaveFileDialog saveFileDialog1;
-        private My_Form my_Form1;
-        private ReaLTaiizor.Forms.AirForm airForm1;
+        private ReaLTaiizor.Forms.HopeForm hopeForm1;
+        private ReaLTaiizor.Controls.DungeonButtonLeft dungeonButtonLeft2;
         private ReaLTaiizor.Controls.DungeonButtonLeft dungeonButtonLeft1;
         private DataGridView dataGridView1;
         private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn Column2;
-        private ReaLTaiizor.Controls.RoyalButton royalButton1;
         private My_ProgressBar my_ProgressBar1;
         private ReaLTaiizor.Controls.DungeonLabel dungeonLabel2;
     }

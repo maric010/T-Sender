@@ -36,8 +36,15 @@ namespace Telegram
         private async void Рассылка_Load(object sender, EventArgs e)
         {
             th = this;
-            Text += mail.id;
-            dungeonLabel2.Text = mail.status;
+            hopeForm1.Text += mail.id;
+            string status = "";
+            if (mail.status == "finished")
+                status = "Завершена";
+            else if (mail.status == "stopped")
+                status = "Остановлена";
+            else if (mail.status == "started")
+                status = "Началось";
+            dungeonLabel2.Text = status;
             dataGridView1.Rows.Add("Количество получателей", mail.users_count);
             dataGridView1.Rows.Add("Дата начало", mail.start_date);
             dataGridView1.Rows.Add("Дата окончания", mail.stop_date);
@@ -57,7 +64,17 @@ namespace Telegram
                 server.send("mail|" + mail.id);
                 await Task.Delay(1000);
                 if(mail.status!= dungeonLabel2.Text)
-                    dungeonLabel2.Text = mail.status;
+                {
+                    status = "";
+                    if (mail.status == "finished")
+                        status = "Завершена";
+                    else if (mail.status == "stopped")
+                        status = "Остановлена";
+                    else if (mail.status == "started")
+                        status = "Началось";
+                    dungeonLabel2.Text = status;
+                }
+                    
                 dataGridView1.Rows[4].Cells[1].Value = mail.success_count;
                 dataGridView1.Rows[5].Cells[1].Value = mail.failed_count;
                 if (mail.success_count != null)
@@ -124,6 +141,12 @@ namespace Telegram
         private void my_ProgressBar1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void dungeonButtonLeft1_Click_1(object sender, EventArgs e)
+        {
+            server.send("mail_stop|" + mail.id);
+            MessageBox.Show("Рассылка остановлена");
         }
     }
 }

@@ -22,7 +22,15 @@ namespace Telegram
             for(int i = 0; i < my.Mails.Count; i++)
             {
                 Mail mail = my.Mails[i];
-                dataGridView1.Rows.Add(mail.id,mail.status,mail.users_count,mail.accounts_count,mail.start_date,"Подробно");
+                string status = "";
+                if (mail.status == "finished")
+                    status = "Завершена";
+                else if (mail.status == "stopped")
+                    status = "Остановлена";
+                else if (mail.status == "started")
+                    status = "Началось";
+
+                dataGridView1.Rows.Add(mail.id,status,mail.users_count,mail.accounts_count,mail.start_date,"Подробно");
             }
         }
 

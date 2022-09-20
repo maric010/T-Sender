@@ -31,6 +31,7 @@
             this.my_Form1 = new Telegram.My_Form();
             this.panel1 = new System.Windows.Forms.Panel();
             this.metroControlBox1 = new ReaLTaiizor.Controls.MetroControlBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.my_Form1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -38,6 +39,7 @@
             // 
             this.my_Form1.BackColor = System.Drawing.Color.White;
             this.my_Form1.BorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.my_Form1.Controls.Add(this.panel2);
             this.my_Form1.Controls.Add(this.panel1);
             this.my_Form1.Controls.Add(this.metroControlBox1);
             this.my_Form1.Customization = "AAAA/1paWv9ycnL/";
@@ -97,6 +99,14 @@
             this.metroControlBox1.ThemeAuthor = "Taiizor";
             this.metroControlBox1.ThemeName = "MetroLight";
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(170)))), ((int)(((byte)(214)))));
+            this.panel2.Location = new System.Drawing.Point(700, 35);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(861, 986);
+            this.panel2.TabIndex = 57;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -123,5 +133,6 @@
         private My_Form my_Form1;
         private ReaLTaiizor.Controls.MetroControlBox metroControlBox1;
         private Panel panel1;
+        private Panel panel2;
     }
 }
