@@ -47,7 +47,7 @@ namespace Telegram
 
         private void IMGPAINT(object sender, PaintEventArgs e)
         {
-            e.Graphics.DrawImage(((TButton)sender).Image, 15, 12, 22, 22);
+            e.Graphics.DrawImage(((TButton)sender).Image, 40, 12, 22, 22);
         }
 
         
@@ -179,17 +179,17 @@ namespace Telegram
 
         private void IMGPAINT3(object sender, PaintEventArgs e)
         {
-            e.Graphics.DrawImage(((TButton)sender).Image, 15, 7, 22, 22);
+            e.Graphics.DrawImage(((TButton)sender).Image, 38, 7, 22, 22);
         }
 
         private void IMGPAINT4(object sender, PaintEventArgs e)
         {
-            e.Graphics.DrawImage(((TButton)sender).Image, 13, 7, 22, 22);
+            e.Graphics.DrawImage(((TButton)sender).Image, 38, 7, 22, 22);
         }
 
         private void IMGPAINT5(object sender, PaintEventArgs e)
         {
-            e.Graphics.DrawImage(((TButton)sender).Image, 16, 7, 22, 22);
+            e.Graphics.DrawImage(((TButton)sender).Image, 41, 7, 22, 22);
         }
 
         private void panel1_Click(object sender, EventArgs e)
@@ -222,7 +222,7 @@ namespace Telegram
 
         private void IMGPAINT6(object sender, PaintEventArgs e)
         {
-            e.Graphics.DrawImage(((TButton)sender).Image, 13, (((TButton)sender).Height/2)-12, 22, 22);
+            e.Graphics.DrawImage(((TButton)sender).Image, 38, (((TButton)sender).Height/2)-12, 22, 22);
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)

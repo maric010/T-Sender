@@ -54,12 +54,12 @@
             this.dungeonLinkLabel1.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(72)))), ((int)(((byte)(20)))));
             this.dungeonLinkLabel1.AutoSize = true;
             this.dungeonLinkLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.dungeonLinkLabel1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dungeonLinkLabel1.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonLinkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.AlwaysUnderline;
             this.dungeonLinkLabel1.LinkColor = System.Drawing.Color.Teal;
-            this.dungeonLinkLabel1.Location = new System.Drawing.Point(17, 292);
+            this.dungeonLinkLabel1.Location = new System.Drawing.Point(17, 301);
             this.dungeonLinkLabel1.Name = "dungeonLinkLabel1";
-            this.dungeonLinkLabel1.Size = new System.Drawing.Size(124, 20);
+            this.dungeonLinkLabel1.Size = new System.Drawing.Size(146, 22);
             this.dungeonLinkLabel1.TabIndex = 73;
             this.dungeonLinkLabel1.TabStop = true;
             this.dungeonLinkLabel1.Text = "Забыли пароль?";
@@ -83,14 +83,13 @@
             // 
             this.bigLabel2.AutoSize = true;
             this.bigLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.bigLabel2.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.bigLabel2.Font = new System.Drawing.Font("Montserrat SemiBold", 24.0928F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.bigLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.bigLabel2.Location = new System.Drawing.Point(17, 126);
             this.bigLabel2.Name = "bigLabel2";
-            this.bigLabel2.Size = new System.Drawing.Size(223, 46);
+            this.bigLabel2.Size = new System.Drawing.Size(253, 46);
             this.bigLabel2.TabIndex = 76;
             this.bigLabel2.Text = "Авторизация";
-            this.bigLabel2.Paint += new System.Windows.Forms.PaintEventHandler(this.bigLabel2_Paint);
             // 
             // loginTextBox1
             // 
@@ -105,7 +104,7 @@
             this.loginTextBox1.Multiline = false;
             this.loginTextBox1.Name = "loginTextBox1";
             this.loginTextBox1.ReadOnly = false;
-            this.loginTextBox1.Size = new System.Drawing.Size(373, 50);
+            this.loginTextBox1.Size = new System.Drawing.Size(373, 40);
             this.loginTextBox1.TabIndex = 78;
             this.loginTextBox1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
             this.loginTextBox1.UseSystemPasswordChar = false;
@@ -145,13 +144,13 @@
             this.loginTextBox2.EdgeColor = System.Drawing.Color.White;
             this.loginTextBox2.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.loginTextBox2.ForeColor = System.Drawing.Color.DimGray;
-            this.loginTextBox2.Location = new System.Drawing.Point(69, 238);
+            this.loginTextBox2.Location = new System.Drawing.Point(69, 250);
             this.loginTextBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.loginTextBox2.MaxLength = 32767;
             this.loginTextBox2.Multiline = false;
             this.loginTextBox2.Name = "loginTextBox2";
             this.loginTextBox2.ReadOnly = false;
-            this.loginTextBox2.Size = new System.Drawing.Size(373, 50);
+            this.loginTextBox2.Size = new System.Drawing.Size(373, 40);
             this.loginTextBox2.TabIndex = 80;
             this.loginTextBox2.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
             this.loginTextBox2.UseSystemPasswordChar = true;
@@ -172,28 +171,26 @@
             this.label1.TabIndex = 82;
             this.label1.Text = "email@example.com";
             this.label1.Click += new System.EventHandler(this.label1_Click);
-            this.label1.Paint += new System.Windows.Forms.PaintEventHandler(this.label1_Paint);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.Gray;
-            this.label2.Location = new System.Drawing.Point(74, 244);
+            this.label2.Location = new System.Drawing.Point(74, 256);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(150, 25);
             this.label2.TabIndex = 83;
             this.label2.Text = "Введите пароль";
             this.label2.Click += new System.EventHandler(this.label2_Click);
-            this.label2.Paint += new System.Windows.Forms.PaintEventHandler(this.label2_Paint);
             // 
             // foreverButton1
             // 
             this.foreverButton1.BackColor = System.Drawing.Color.Transparent;
             this.foreverButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(193)))), ((int)(((byte)(120)))));
             this.foreverButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.foreverButton1.Font = new System.Drawing.Font("Montserrat SemiBold", 11.2935F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.foreverButton1.Location = new System.Drawing.Point(17, 324);
+            this.foreverButton1.Font = new System.Drawing.Font("Montserrat SemiBold", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.foreverButton1.Location = new System.Drawing.Point(17, 333);
             this.foreverButton1.Name = "foreverButton1";
             this.foreverButton1.Rounded = true;
             this.foreverButton1.Size = new System.Drawing.Size(105, 34);
@@ -206,20 +203,20 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
             this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Location = new System.Drawing.Point(17, 238);
+            this.panel2.Location = new System.Drawing.Point(17, 249);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(52, 38);
+            this.panel2.Size = new System.Drawing.Size(52, 42);
             this.panel2.TabIndex = 87;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
             this.panel1.Controls.Add(this.pictureBox3);
-            this.panel1.Location = new System.Drawing.Point(17, 196);
+            this.panel1.Location = new System.Drawing.Point(17, 195);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(52, 38);
+            this.panel1.Size = new System.Drawing.Size(52, 42);
             this.panel1.TabIndex = 88;
             // 
             // pictureBox2
@@ -236,12 +233,14 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(27, 278);
+            this.label3.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.Color.Red;
+            this.label3.Location = new System.Drawing.Point(17, 301);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 25);
+            this.label3.Size = new System.Drawing.Size(334, 22);
             this.label3.TabIndex = 90;
-            this.label3.Text = "label3";
+            this.label3.Text = "Вы ввели неправильный email/пароль";
+            this.label3.Visible = false;
             // 
             // Login1
             // 

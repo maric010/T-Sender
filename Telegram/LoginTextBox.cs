@@ -205,7 +205,7 @@ namespace Telegram
             }
             else
             {
-                base.Height = 50;
+                base.Height = 40;
             }
 
             Shape = new GraphicsPath();
@@ -248,13 +248,12 @@ namespace Telegram
             SetStyle(ControlStyles.UserPaint, value: true);
             AddTextBox();
             base.Controls.Add(DungeonTB);
-            P1 = new Pen(_BorderColor,1.5f);
+            P1 = new Pen(_BorderColor,1f);
             B1 = new SolidBrush(_EdgeColor);
             BackColor = Color.Transparent;
             ForeColor = Color.DimGray;
             Text = null;
-            Font = new Font("Tahoma", 11f);
-            base.Size = new Size(135, 50);
+            base.Size = new Size(135, 40);
             DoubleBuffered = true;
 
         }

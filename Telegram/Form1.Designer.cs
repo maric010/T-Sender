@@ -393,7 +393,7 @@
             this.tButton1.DisabledTextColor = System.Drawing.Color.White;
             this.tButton1.DownColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(138)))), ((int)(((byte)(191)))));
             this.tButton1.EnabledCalc = true;
-            this.tButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.tButton1.Font = new System.Drawing.Font("Montserrat SemiBold", 12.0464F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.tButton1.ForeColor = System.Drawing.Color.White;
             this.tButton1.Image = global::Telegram.Properties.Resources.Support;
             this.tButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -494,7 +494,7 @@
             this.foxButton4.Size = new System.Drawing.Size(230, 50);
             this.foxButton4.TabIndex = 15;
             this.foxButton4.Text = "Парсинг групп";
-            this.foxButton4.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.foxButton4.TextAlignment = System.Drawing.StringAlignment.Far;
             this.foxButton4.Click += new Telegram.ButtonFoxBase.ClickEventHandler(this.foxButton4_Click);
             this.foxButton4.Paint += new System.Windows.Forms.PaintEventHandler(this.IMGPAINT6);
             this.foxButton4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tButton2_MouseClick);
@@ -521,7 +521,7 @@
             this.foxButton3.Size = new System.Drawing.Size(230, 50);
             this.foxButton3.TabIndex = 14;
             this.foxButton3.Text = "Мои аккаунты";
-            this.foxButton3.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.foxButton3.TextAlignment = System.Drawing.StringAlignment.Far;
             this.foxButton3.Click += new Telegram.ButtonFoxBase.ClickEventHandler(this.foxButton3_Click);
             this.foxButton3.Paint += new System.Windows.Forms.PaintEventHandler(this.IMGPAINT6);
             this.foxButton3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tButton2_MouseClick);

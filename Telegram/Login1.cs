@@ -13,9 +13,12 @@ namespace Telegram
 {
     public partial class Login1 : Form
     {
+        internal static Login1 th;
+        internal static bool password_is_wrong = false;
         public Login1()
         {
             InitializeComponent();
+            th = this;
         }
         void login()
         {
@@ -88,7 +91,17 @@ namespace Telegram
         {
             label2.Visible = loginTextBox2.Text == "";
         }
-
+        internal static void check()
+        {
+            if (password_is_wrong)
+            {
+                Login1.th.label3.Visible = true;
+            }
+            else
+            {
+                Login1.th.label3.Visible = true;
+            }
+        }
         private void dungeonButtonLeft1_Click(object sender, EventArgs e)
         {
             login();
@@ -110,19 +123,7 @@ namespace Telegram
 
         }
 
-        private void bigLabel2_Paint(object sender, PaintEventArgs e)
-        {
-        }
-
         private void dungeonLinkLabel1_Paint(object sender, PaintEventArgs e)
-        {
-        }
-
-        private void label1_Paint(object sender, PaintEventArgs e)
-        {
-        }
-
-        private void label2_Paint(object sender, PaintEventArgs e)
         {
         }
 

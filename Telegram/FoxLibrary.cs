@@ -33,7 +33,7 @@ namespace Telegram
             SizeF sizeF = G.MeasureString(T, F);
             using (SolidBrush brush = new SolidBrush(C))
             {//(int)((float)(R.X + R.Width / 2) - sizeF.Width / 2f)
-                G.DrawString(T, F, brush, new Point(40, (int)((float)(R.Y + R.Height / 2) - sizeF.Height / 2f)));
+                G.DrawString(T, F, brush, new Point(65, (int)((float)(R.Y + R.Height / 2) - sizeF.Height / 2f)));
             }
         }
 

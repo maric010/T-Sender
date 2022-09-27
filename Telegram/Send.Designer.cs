@@ -54,12 +54,12 @@
             this.dungeonLabel2 = new ReaLTaiizor.Controls.DungeonLabel();
             this.dungeonHeaderLabel5 = new ReaLTaiizor.Controls.DungeonHeaderLabel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
             this.hopeRadioButton6 = new ReaLTaiizor.Controls.HopeRadioButton();
             this.hopeRadioButton7 = new ReaLTaiizor.Controls.HopeRadioButton();
             this.tPanel3 = new Telegram.TPanel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.dungeonTextBox1 = new System.Windows.Forms.TextBox();
-            this.dungeonHeaderLabel4 = new ReaLTaiizor.Controls.DungeonHeaderLabel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.hopeRadioButton2 = new ReaLTaiizor.Controls.HopeRadioButton();
             this.hopeRadioButton1 = new ReaLTaiizor.Controls.HopeRadioButton();
@@ -214,7 +214,7 @@
             // 
             // label4
             // 
-            this.label4.Font = new System.Drawing.Font("Montserrat SemiBold", 11.2935F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.Font = new System.Drawing.Font("Montserrat SemiBold", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label4.Location = new System.Drawing.Point(30, 50);
             this.label4.Name = "label4";
@@ -225,7 +225,7 @@
             // 
             // label3
             // 
-            this.label3.Font = new System.Drawing.Font("Montserrat SemiBold", 11.2935F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Font = new System.Drawing.Font("Montserrat SemiBold", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label3.Location = new System.Drawing.Point(30, 190);
             this.label3.Name = "label3";
@@ -236,7 +236,7 @@
             // 
             // label2
             // 
-            this.label2.Font = new System.Drawing.Font("Montserrat SemiBold", 11.2935F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Font = new System.Drawing.Font("Montserrat SemiBold", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label2.Location = new System.Drawing.Point(30, 110);
             this.label2.Name = "label2";
@@ -292,7 +292,7 @@
             this.panel8.Controls.Add(this.tPanel2);
             this.panel8.Controls.Add(this.dungeonLabel2);
             this.panel8.Controls.Add(this.dungeonHeaderLabel5);
-            this.panel8.Location = new System.Drawing.Point(26, 550);
+            this.panel8.Location = new System.Drawing.Point(26, 570);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(579, 473);
             this.panel8.TabIndex = 27;
@@ -302,11 +302,11 @@
             this.foreverButton1.BackColor = System.Drawing.Color.Transparent;
             this.foreverButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
             this.foreverButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.foreverButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.foreverButton1.Location = new System.Drawing.Point(380, 396);
+            this.foreverButton1.Font = new System.Drawing.Font("Montserrat SemiBold", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.foreverButton1.Location = new System.Drawing.Point(356, 410);
             this.foreverButton1.Name = "foreverButton1";
             this.foreverButton1.Rounded = true;
-            this.foreverButton1.Size = new System.Drawing.Size(174, 45);
+            this.foreverButton1.Size = new System.Drawing.Size(200, 45);
             this.foreverButton1.TabIndex = 45;
             this.foreverButton1.Text = "Запустить рассылку";
             this.foreverButton1.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
@@ -316,10 +316,10 @@
             // 
             this.tPanel2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(212)))), ((int)(((byte)(235)))));
             this.tPanel2.Controls.Add(this.flowLayoutPanel1);
-            this.tPanel2.Location = new System.Drawing.Point(173, 5);
+            this.tPanel2.Location = new System.Drawing.Point(173, 10);
             this.tPanel2.Name = "tPanel2";
             this.tPanel2.Radius = 20;
-            this.tPanel2.Size = new System.Drawing.Size(381, 270);
+            this.tPanel2.Size = new System.Drawing.Size(380, 245);
             this.tPanel2.TabIndex = 41;
             this.tPanel2.Thickness = 1F;
             // 
@@ -328,7 +328,7 @@
             this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(5, 5);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(368, 259);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(370, 235);
             this.flowLayoutPanel1.TabIndex = 41;
             // 
             // dungeonLabel2
@@ -336,7 +336,7 @@
             this.dungeonLabel2.BackColor = System.Drawing.Color.Transparent;
             this.dungeonLabel2.Font = new System.Drawing.Font("Montserrat", 9.0348F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonLabel2.Location = new System.Drawing.Point(173, 278);
+            this.dungeonLabel2.Location = new System.Drawing.Point(173, 270);
             this.dungeonLabel2.Name = "dungeonLabel2";
             this.dungeonLabel2.Size = new System.Drawing.Size(380, 110);
             this.dungeonLabel2.TabIndex = 27;
@@ -345,9 +345,9 @@
             // dungeonHeaderLabel5
             // 
             this.dungeonHeaderLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.dungeonHeaderLabel5.Font = new System.Drawing.Font("Montserrat SemiBold", 11.2935F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.dungeonHeaderLabel5.Font = new System.Drawing.Font("Montserrat SemiBold", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonHeaderLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.dungeonHeaderLabel5.Location = new System.Drawing.Point(3, 5);
+            this.dungeonHeaderLabel5.Location = new System.Drawing.Point(3, 10);
             this.dungeonHeaderLabel5.Name = "dungeonHeaderLabel5";
             this.dungeonHeaderLabel5.Size = new System.Drawing.Size(134, 50);
             this.dungeonHeaderLabel5.TabIndex = 26;
@@ -358,14 +358,25 @@
             // 
             this.panel2.AutoSize = true;
             this.panel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.hopeRadioButton6);
             this.panel2.Controls.Add(this.hopeRadioButton7);
             this.panel2.Controls.Add(this.tPanel3);
-            this.panel2.Controls.Add(this.dungeonHeaderLabel4);
             this.panel2.Location = new System.Drawing.Point(26, 410);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(556, 135);
             this.panel2.TabIndex = 26;
+            // 
+            // label5
+            // 
+            this.label5.Font = new System.Drawing.Font("Montserrat SemiBold", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.label5.Location = new System.Drawing.Point(3, 10);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(150, 20);
+            this.label5.TabIndex = 34;
+            this.label5.Text = "Текст:";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // hopeRadioButton6
             // 
@@ -445,18 +456,6 @@
             this.dungeonTextBox1.Size = new System.Drawing.Size(364, 85);
             this.dungeonTextBox1.TabIndex = 0;
             this.dungeonTextBox1.TextChanged += new System.EventHandler(this.dungeonTextBox1_TextChanged);
-            // 
-            // dungeonHeaderLabel4
-            // 
-            this.dungeonHeaderLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.dungeonHeaderLabel4.Font = new System.Drawing.Font("Montserrat SemiBold", 11.2935F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.dungeonHeaderLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.dungeonHeaderLabel4.Location = new System.Drawing.Point(3, 10);
-            this.dungeonHeaderLabel4.Name = "dungeonHeaderLabel4";
-            this.dungeonHeaderLabel4.Size = new System.Drawing.Size(134, 20);
-            this.dungeonHeaderLabel4.TabIndex = 23;
-            this.dungeonHeaderLabel4.Text = "Текст:";
-            this.dungeonHeaderLabel4.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // panel7
             // 
@@ -607,7 +606,7 @@
             this.hopeRadioButton4.EnabledUncheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(158)))), ((int)(((byte)(161)))));
             this.hopeRadioButton4.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.hopeRadioButton4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.hopeRadioButton4.Location = new System.Drawing.Point(3, 10);
+            this.hopeRadioButton4.Location = new System.Drawing.Point(0, 10);
             this.hopeRadioButton4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.hopeRadioButton4.Name = "hopeRadioButton4";
             this.hopeRadioButton4.Size = new System.Drawing.Size(66, 20);
@@ -632,7 +631,7 @@
             // 
             this.bigLabel2.AutoSize = true;
             this.bigLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.bigLabel2.Font = new System.Drawing.Font("Montserrat SemiBold", 24.0928F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.bigLabel2.Font = new System.Drawing.Font("Montserrat SemiBold", 24.0928F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.bigLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.bigLabel2.Location = new System.Drawing.Point(31, 25);
             this.bigLabel2.Name = "bigLabel2";
@@ -694,7 +693,6 @@
         private ReaLTaiizor.Controls.DungeonLabel dungeonLabel2;
         private ReaLTaiizor.Controls.DungeonHeaderLabel dungeonHeaderLabel5;
         private Panel panel2;
-        private ReaLTaiizor.Controls.DungeonHeaderLabel dungeonHeaderLabel4;
         private Panel panel7;
         private ReaLTaiizor.Controls.HopeRadioButton hopeRadioButton2;
         private ReaLTaiizor.Controls.HopeRadioButton hopeRadioButton1;
@@ -723,5 +721,6 @@
         private Label label3;
         private ReaLTaiizor.Controls.HopeRadioButton hopeRadioButton6;
         private ReaLTaiizor.Controls.HopeRadioButton hopeRadioButton7;
+        private Label label5;
     }
 }
