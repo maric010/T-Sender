@@ -60,5 +60,13 @@ namespace Telegram
              */
             Login.load_form(new Login1());
         }
+
+        private void dungeonLabel1_Paint(object sender, PaintEventArgs e)
+        {
+        }
+
+        private void dungeonLinkLabel1_Paint(object sender, PaintEventArgs e)
+        {
+        }
     }
 }

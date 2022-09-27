@@ -37,10 +37,11 @@
             this.loginTextBox2 = new Telegram.LoginTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.foreverButton1 = new ReaLTaiizor.Controls.ForeverButton();
+            this.foreverButton1 = new Telegram.ForeverButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -56,9 +57,9 @@
             this.dungeonLinkLabel1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonLinkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.AlwaysUnderline;
             this.dungeonLinkLabel1.LinkColor = System.Drawing.Color.Teal;
-            this.dungeonLinkLabel1.Location = new System.Drawing.Point(19, 389);
+            this.dungeonLinkLabel1.Location = new System.Drawing.Point(17, 292);
             this.dungeonLinkLabel1.Name = "dungeonLinkLabel1";
-            this.dungeonLinkLabel1.Size = new System.Drawing.Size(154, 25);
+            this.dungeonLinkLabel1.Size = new System.Drawing.Size(124, 20);
             this.dungeonLinkLabel1.TabIndex = 73;
             this.dungeonLinkLabel1.TabStop = true;
             this.dungeonLinkLabel1.Text = "Забыли пароль?";
@@ -72,9 +73,9 @@
             this.dungeonLabel1.BackColor = System.Drawing.Color.Transparent;
             this.dungeonLabel1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonLabel1.ForeColor = System.Drawing.Color.White;
-            this.dungeonLabel1.Location = new System.Drawing.Point(483, 13);
+            this.dungeonLabel1.Location = new System.Drawing.Point(423, 10);
             this.dungeonLabel1.Name = "dungeonLabel1";
-            this.dungeonLabel1.Size = new System.Drawing.Size(190, 25);
+            this.dungeonLabel1.Size = new System.Drawing.Size(152, 20);
             this.dungeonLabel1.TabIndex = 71;
             this.dungeonLabel1.Text = "E-mail пользователя";
             // 
@@ -84,9 +85,9 @@
             this.bigLabel2.BackColor = System.Drawing.Color.Transparent;
             this.bigLabel2.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.bigLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.bigLabel2.Location = new System.Drawing.Point(19, 168);
+            this.bigLabel2.Location = new System.Drawing.Point(17, 126);
             this.bigLabel2.Name = "bigLabel2";
-            this.bigLabel2.Size = new System.Drawing.Size(275, 57);
+            this.bigLabel2.Size = new System.Drawing.Size(223, 46);
             this.bigLabel2.TabIndex = 76;
             this.bigLabel2.Text = "Авторизация";
             this.bigLabel2.Paint += new System.Windows.Forms.PaintEventHandler(this.bigLabel2_Paint);
@@ -96,14 +97,15 @@
             this.loginTextBox1.BackColor = System.Drawing.Color.Transparent;
             this.loginTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(161)))), ((int)(((byte)(210)))));
             this.loginTextBox1.EdgeColor = System.Drawing.Color.White;
-            this.loginTextBox1.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.loginTextBox1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.loginTextBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.loginTextBox1.Location = new System.Drawing.Point(79, 261);
+            this.loginTextBox1.Location = new System.Drawing.Point(69, 196);
+            this.loginTextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.loginTextBox1.MaxLength = 32767;
             this.loginTextBox1.Multiline = false;
             this.loginTextBox1.Name = "loginTextBox1";
             this.loginTextBox1.ReadOnly = false;
-            this.loginTextBox1.Size = new System.Drawing.Size(426, 50);
+            this.loginTextBox1.Size = new System.Drawing.Size(373, 50);
             this.loginTextBox1.TabIndex = 78;
             this.loginTextBox1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
             this.loginTextBox1.UseSystemPasswordChar = false;
@@ -117,9 +119,10 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = global::Telegram.Properties.Resources.email;
-            this.pictureBox3.Location = new System.Drawing.Point(12, 10);
+            this.pictureBox3.Location = new System.Drawing.Point(10, 8);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox3.Size = new System.Drawing.Size(28, 24);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 79;
             this.pictureBox3.TabStop = false;
@@ -127,9 +130,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Telegram.Properties.Resources.password;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 8);
+            this.pictureBox1.Location = new System.Drawing.Point(10, 6);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox1.Size = new System.Drawing.Size(28, 24);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 81;
             this.pictureBox1.TabStop = false;
@@ -141,16 +145,18 @@
             this.loginTextBox2.EdgeColor = System.Drawing.Color.White;
             this.loginTextBox2.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.loginTextBox2.ForeColor = System.Drawing.Color.DimGray;
-            this.loginTextBox2.Location = new System.Drawing.Point(79, 317);
+            this.loginTextBox2.Location = new System.Drawing.Point(69, 238);
+            this.loginTextBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.loginTextBox2.MaxLength = 32767;
             this.loginTextBox2.Multiline = false;
             this.loginTextBox2.Name = "loginTextBox2";
             this.loginTextBox2.ReadOnly = false;
-            this.loginTextBox2.Size = new System.Drawing.Size(426, 50);
+            this.loginTextBox2.Size = new System.Drawing.Size(373, 50);
             this.loginTextBox2.TabIndex = 80;
             this.loginTextBox2.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
             this.loginTextBox2.UseSystemPasswordChar = true;
             this.loginTextBox2.Click += new System.EventHandler(this.label2_Click);
+            this.loginTextBox2.Paint += new System.Windows.Forms.PaintEventHandler(this.loginTextBox2_Paint);
             this.loginTextBox2.Enter += new System.EventHandler(this.loginTextBox2_Enter);
             this.loginTextBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Login1_KeyDown);
             this.loginTextBox2.Leave += new System.EventHandler(this.loginTextBox2_Leave);
@@ -160,9 +166,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.Gray;
-            this.label1.Location = new System.Drawing.Point(85, 271);
+            this.label1.Location = new System.Drawing.Point(74, 203);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(228, 31);
+            this.label1.Size = new System.Drawing.Size(187, 25);
             this.label1.TabIndex = 82;
             this.label1.Text = "email@example.com";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -173,9 +179,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.Gray;
-            this.label2.Location = new System.Drawing.Point(85, 325);
+            this.label2.Location = new System.Drawing.Point(74, 244);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(180, 31);
+            this.label2.Size = new System.Drawing.Size(150, 25);
             this.label2.TabIndex = 83;
             this.label2.Text = "Введите пароль";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -184,54 +190,66 @@
             // foreverButton1
             // 
             this.foreverButton1.BackColor = System.Drawing.Color.Transparent;
-            this.foreverButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(181)))), ((int)(((byte)(112)))));
+            this.foreverButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(193)))), ((int)(((byte)(120)))));
             this.foreverButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.foreverButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.foreverButton1.Location = new System.Drawing.Point(19, 432);
-            this.foreverButton1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.foreverButton1.Font = new System.Drawing.Font("Montserrat SemiBold", 11.2935F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.foreverButton1.Location = new System.Drawing.Point(17, 324);
             this.foreverButton1.Name = "foreverButton1";
             this.foreverButton1.Rounded = true;
-            this.foreverButton1.Size = new System.Drawing.Size(120, 50);
+            this.foreverButton1.Size = new System.Drawing.Size(105, 34);
             this.foreverButton1.TabIndex = 84;
             this.foreverButton1.Text = "Войти";
             this.foreverButton1.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
             this.foreverButton1.Click += new System.EventHandler(this.dungeonButtonLeft1_Click);
-            this.foreverButton1.Paint += new System.Windows.Forms.PaintEventHandler(this.foreverButton1_Paint);
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
             this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Location = new System.Drawing.Point(19, 317);
+            this.panel2.Location = new System.Drawing.Point(17, 238);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(60, 50);
+            this.panel2.Size = new System.Drawing.Size(52, 38);
             this.panel2.TabIndex = 87;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
             this.panel1.Controls.Add(this.pictureBox3);
-            this.panel1.Location = new System.Drawing.Point(19, 261);
+            this.panel1.Location = new System.Drawing.Point(17, 196);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(60, 50);
+            this.panel1.Size = new System.Drawing.Size(52, 38);
             this.panel1.TabIndex = 88;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Telegram.Properties.Resources.Logo_T_sender1;
-            this.pictureBox2.Location = new System.Drawing.Point(19, 35);
+            this.pictureBox2.Location = new System.Drawing.Point(17, 26);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(293, 78);
+            this.pictureBox2.Size = new System.Drawing.Size(256, 58);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 89;
             this.pictureBox2.TabStop = false;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(27, 278);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(63, 25);
+            this.label3.TabIndex = 90;
+            this.label3.Text = "label3";
+            // 
             // Login1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(700, 568);
+            this.ClientSize = new System.Drawing.Size(612, 426);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
@@ -246,6 +264,7 @@
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.KeyPreview = true;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Login1";
             this.Text = "Login1";
             this.TransparencyKey = System.Drawing.Color.Fuchsia;
@@ -272,9 +291,10 @@
         private LoginTextBox loginTextBox2;
         private Label label1;
         private Label label2;
-        private ReaLTaiizor.Controls.ForeverButton foreverButton1;
+        private ForeverButton foreverButton1;
         private Panel panel2;
         private Panel panel1;
         private PictureBox pictureBox2;
+        private Label label3;
     }
 }

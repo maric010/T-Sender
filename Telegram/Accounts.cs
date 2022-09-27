@@ -81,38 +81,31 @@ namespace Telegram
 
         private void bigLabel1_Paint(object sender, PaintEventArgs e)
         {
-            bigLabel1.Font = new Font(my.montserrat_regular, bigLabel1.Font.Size);
         }
 
         private void headerLabel1_Paint(object sender, PaintEventArgs e)
         {
-            headerLabel1.Font = new Font(my.montserrat_regular, headerLabel1.Font.Size);
         }
 
         private void dungeonHeaderLabel1_Paint(object sender, PaintEventArgs e)
         {
-            dungeonHeaderLabel1.Font = new Font(my.montserrat_regular, dungeonHeaderLabel1.Font.Size);
         }
 
         private void dungeonLabel1_Paint(object sender, PaintEventArgs e)
         {
-            dungeonLabel1.Font = new Font(my.montserrat_regular, dungeonLabel1.Font.Size);
         }
 
         private void dungeonHeaderLabel3_Paint(object sender, PaintEventArgs e)
         {
-            dungeonHeaderLabel3.Font = new Font(my.montserrat_regular, dungeonHeaderLabel3.Font.Size);
         }
 
         private void dungeonHeaderLabel2_Paint(object sender, PaintEventArgs e)
         {
-            dungeonHeaderLabel2.Font = new Font(my.montserrat_regular, dungeonHeaderLabel2.Font.Size);
 
         }
 
         private void dungeonHeaderLabel4_Paint(object sender, PaintEventArgs e)
         {
-            dungeonHeaderLabel4.Font = new Font(my.montserrat_regular, dungeonHeaderLabel4.Font.Size);
         }
     }
 }

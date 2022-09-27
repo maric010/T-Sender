@@ -89,28 +89,7 @@ namespace Telegram
         internal static bool is_text { get; set; } = true;
 
         internal static string получатели_текст { get; set; }
-        internal static FontFamily montserrat_bold, montserrat_regular;
-        internal static void init_fonts()
-        {
-            PrivateFontCollection pfc = new PrivateFontCollection();
-            PrivateFontCollection pfc2 = new PrivateFontCollection();
-            //Выбираем шрифты из ресурсов
-            int fontLength = Properties.Resources.Montserrat_Bold.Length;
-            int fontLength2 = Properties.Resources.Montserrat_Regular.Length;
-            byte[] fontdata = Properties.Resources.Montserrat_Bold;
-            byte[] fontdata2 = Properties.Resources.Montserrat_Regular;
-
-            System.IntPtr data = Marshal.AllocCoTaskMem(fontLength);
-            System.IntPtr data2 = Marshal.AllocCoTaskMem(fontLength2);
-
-            Marshal.Copy(fontdata, 0, data, fontLength);
-            Marshal.Copy(fontdata2, 0, data2, fontLength2);
-
-            pfc.AddMemoryFont(data, fontLength);
-            pfc2.AddMemoryFont(data2, fontLength2);
-            montserrat_bold = pfc.Families[0];
-            montserrat_regular = pfc2.Families[0];
-        }
+       
     }
 
 }

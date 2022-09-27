@@ -58,11 +58,11 @@
             this.dungeonLabel1.AutoSize = true;
             this.dungeonLabel1.BackColor = System.Drawing.Color.Transparent;
             this.dungeonLabel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.dungeonLabel1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dungeonLabel1.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
             this.dungeonLabel1.Location = new System.Drawing.Point(23, 0);
             this.dungeonLabel1.Name = "dungeonLabel1";
-            this.dungeonLabel1.Size = new System.Drawing.Size(52, 30);
+            this.dungeonLabel1.Size = new System.Drawing.Size(63, 30);
             this.dungeonLabel1.TabIndex = 1;
             this.dungeonLabel1.Text = "@dass";
             // 
@@ -71,11 +71,11 @@
             this.dungeonLabel2.AutoSize = true;
             this.dungeonLabel2.BackColor = System.Drawing.Color.Transparent;
             this.dungeonLabel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.dungeonLabel2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dungeonLabel2.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonLabel2.Location = new System.Drawing.Point(222, 0);
+            this.dungeonLabel2.Location = new System.Drawing.Point(205, 0);
             this.dungeonLabel2.Name = "dungeonLabel2";
-            this.dungeonLabel2.Size = new System.Drawing.Size(115, 30);
+            this.dungeonLabel2.Size = new System.Drawing.Size(132, 30);
             this.dungeonLabel2.TabIndex = 3;
             this.dungeonLabel2.Text = "+375297889595";
             this.dungeonLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -84,6 +84,7 @@
             // 
             this.hopeRadioButton1.AutoSize = true;
             this.hopeRadioButton1.CheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
+            this.hopeRadioButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.hopeRadioButton1.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(198)))), ((int)(((byte)(202)))));
             this.hopeRadioButton1.DisabledStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(187)))), ((int)(((byte)(189)))));
             this.hopeRadioButton1.Dock = System.Windows.Forms.DockStyle.Fill;

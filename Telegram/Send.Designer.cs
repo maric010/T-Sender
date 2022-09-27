@@ -40,6 +40,9 @@
             this.openFileDialog3 = new System.Windows.Forms.OpenFileDialog();
             this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
             this.panel1 = new Telegram.TPanel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.tpanelll = new Telegram.TPanel();
             this.dungeonTextBox2 = new System.Windows.Forms.Label();
@@ -51,12 +54,11 @@
             this.dungeonLabel2 = new ReaLTaiizor.Controls.DungeonLabel();
             this.dungeonHeaderLabel5 = new ReaLTaiizor.Controls.DungeonHeaderLabel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.hopeRadioButton6 = new ReaLTaiizor.Controls.HopeRadioButton();
+            this.hopeRadioButton7 = new ReaLTaiizor.Controls.HopeRadioButton();
             this.tPanel3 = new Telegram.TPanel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.dungeonTextBox1 = new System.Windows.Forms.TextBox();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.hopeRadioButton6 = new ReaLTaiizor.Controls.HopeRadioButton();
-            this.hopeRadioButton7 = new ReaLTaiizor.Controls.HopeRadioButton();
             this.dungeonHeaderLabel4 = new ReaLTaiizor.Controls.DungeonHeaderLabel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.hopeRadioButton2 = new ReaLTaiizor.Controls.HopeRadioButton();
@@ -66,10 +68,7 @@
             this.hopeRadioButton5 = new ReaLTaiizor.Controls.HopeRadioButton();
             this.hopeRadioButton3 = new ReaLTaiizor.Controls.HopeRadioButton();
             this.hopeRadioButton4 = new ReaLTaiizor.Controls.HopeRadioButton();
-            this.dungeonHeaderLabel3 = new ReaLTaiizor.Controls.DungeonHeaderLabel();
             this.dungeonLabel1 = new ReaLTaiizor.Controls.DungeonLabel();
-            this.dungeonHeaderLabel2 = new ReaLTaiizor.Controls.DungeonHeaderLabel();
-            this.dungeonHeaderLabel1 = new ReaLTaiizor.Controls.DungeonHeaderLabel();
             this.bigLabel2 = new ReaLTaiizor.Controls.BigLabel();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -83,7 +82,6 @@
             this.panel2.SuspendLayout();
             this.tPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel5.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel6.SuspendLayout();
             this.SuspendLayout();
@@ -126,17 +124,19 @@
             this.panel4.Controls.Add(this.pictureBox2);
             this.panel4.Controls.Add(this.pictureBox1);
             this.panel4.Controls.Add(this.tPanel1);
-            this.panel4.Location = new System.Drawing.Point(759, 76);
+            this.panel4.Location = new System.Drawing.Point(664, 75);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(376, 650);
+            this.panel4.Size = new System.Drawing.Size(329, 488);
             this.panel4.TabIndex = 29;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Telegram.Properties.Resources.audio;
-            this.pictureBox2.Location = new System.Drawing.Point(94, 453);
+            this.pictureBox2.Location = new System.Drawing.Point(82, 340);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(160, 40);
+            this.pictureBox2.Size = new System.Drawing.Size(140, 30);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
@@ -147,9 +147,10 @@
             this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Image = global::Telegram.Properties.Resources.img_522136;
-            this.pictureBox1.Location = new System.Drawing.Point(94, 359);
+            this.pictureBox1.Location = new System.Drawing.Point(82, 269);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(160, 133);
+            this.pictureBox1.Size = new System.Drawing.Size(140, 100);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
@@ -159,19 +160,20 @@
             // 
             this.tPanel1.BackColor = System.Drawing.Color.White;
             this.tPanel1.Controls.Add(this.label1);
-            this.tPanel1.Location = new System.Drawing.Point(94, 493);
+            this.tPanel1.Location = new System.Drawing.Point(82, 370);
+            this.tPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tPanel1.Name = "tPanel1";
-            this.tPanel1.Size = new System.Drawing.Size(160, 29);
+            this.tPanel1.Size = new System.Drawing.Size(140, 22);
             this.tPanel1.TabIndex = 3;
             this.tPanel1.Visible = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 5);
-            this.label1.MaximumSize = new System.Drawing.Size(149, 481);
+            this.label1.Location = new System.Drawing.Point(8, 4);
+            this.label1.MaximumSize = new System.Drawing.Size(130, 361);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 20);
+            this.label1.Size = new System.Drawing.Size(0, 15);
             this.label1.TabIndex = 0;
             // 
             // openFileDialog1
@@ -189,64 +191,96 @@
             // 
             // panel1
             // 
-            this.panel1.AutoSize = true;
             this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.BorderColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.tpanelll);
             this.panel1.Controls.Add(this.panel8);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.panel7);
             this.panel1.Controls.Add(this.panel6);
-            this.panel1.Controls.Add(this.dungeonHeaderLabel3);
             this.panel1.Controls.Add(this.dungeonLabel1);
-            this.panel1.Controls.Add(this.dungeonHeaderLabel2);
-            this.panel1.Controls.Add(this.dungeonHeaderLabel1);
-            this.panel1.Location = new System.Drawing.Point(35, 76);
+            this.panel1.Location = new System.Drawing.Point(31, 75);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
             this.panel1.Radius = 40;
-            this.panel1.Size = new System.Drawing.Size(695, 1248);
+            this.panel1.Size = new System.Drawing.Size(630, 1013);
             this.panel1.TabIndex = 30;
             this.panel1.Thickness = 10F;
             // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Montserrat SemiBold", 11.2935F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.label4.Location = new System.Drawing.Point(30, 50);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(150, 20);
+            this.label4.TabIndex = 33;
+            this.label4.Text = "Тип сообщения:";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Montserrat SemiBold", 11.2935F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.label3.Location = new System.Drawing.Point(30, 190);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(150, 20);
+            this.label3.TabIndex = 32;
+            this.label3.Text = "Мультимедиа:";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Montserrat SemiBold", 11.2935F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.label2.Location = new System.Drawing.Point(30, 110);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(150, 22);
+            this.label2.TabIndex = 31;
+            this.label2.Text = "Получатели:";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // panel3
             // 
-            this.panel3.Location = new System.Drawing.Point(229, 213);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel3.Location = new System.Drawing.Point(200, 230);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(434, 205);
+            this.panel3.Size = new System.Drawing.Size(380, 154);
             this.panel3.TabIndex = 0;
             // 
             // tpanelll
             // 
-            this.tpanelll.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(170)))), ((int)(((byte)(214)))));
+            this.tpanelll.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(212)))), ((int)(((byte)(235)))));
             this.tpanelll.Controls.Add(this.dungeonTextBox2);
             this.tpanelll.Controls.Add(this.pictureBox3);
-            this.tpanelll.Location = new System.Drawing.Point(227, 75);
-            this.tpanelll.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tpanelll.Location = new System.Drawing.Point(199, 110);
             this.tpanelll.Name = "tpanelll";
             this.tpanelll.Radius = 20;
-            this.tpanelll.Size = new System.Drawing.Size(435, 45);
+            this.tpanelll.Size = new System.Drawing.Size(380, 40);
             this.tpanelll.TabIndex = 30;
-            this.tpanelll.Thickness = 3F;
+            this.tpanelll.Thickness = 1F;
             // 
             // dungeonTextBox2
             // 
-            this.dungeonTextBox2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dungeonTextBox2.Location = new System.Drawing.Point(10, 7);
+            this.dungeonTextBox2.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dungeonTextBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.dungeonTextBox2.Location = new System.Drawing.Point(20, 9);
             this.dungeonTextBox2.Name = "dungeonTextBox2";
-            this.dungeonTextBox2.Size = new System.Drawing.Size(383, 31);
+            this.dungeonTextBox2.Size = new System.Drawing.Size(314, 23);
             this.dungeonTextBox2.TabIndex = 29;
+            this.dungeonTextBox2.Text = "Прикрепите файл";
             this.dungeonTextBox2.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Telegram.Properties.Resources.Donload__1_;
-            this.pictureBox3.Location = new System.Drawing.Point(400, 7);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox3.Location = new System.Drawing.Point(340, 12);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(29, 33);
+            this.pictureBox3.Size = new System.Drawing.Size(20, 20);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 28;
             this.pictureBox3.TabStop = false;
@@ -258,10 +292,9 @@
             this.panel8.Controls.Add(this.tPanel2);
             this.panel8.Controls.Add(this.dungeonLabel2);
             this.panel8.Controls.Add(this.dungeonHeaderLabel5);
-            this.panel8.Location = new System.Drawing.Point(30, 613);
-            this.panel8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel8.Location = new System.Drawing.Point(26, 550);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(662, 631);
+            this.panel8.Size = new System.Drawing.Size(579, 473);
             this.panel8.TabIndex = 27;
             // 
             // foreverButton1
@@ -270,11 +303,10 @@
             this.foreverButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
             this.foreverButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.foreverButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.foreverButton1.Location = new System.Drawing.Point(434, 528);
-            this.foreverButton1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.foreverButton1.Location = new System.Drawing.Point(380, 396);
             this.foreverButton1.Name = "foreverButton1";
             this.foreverButton1.Rounded = true;
-            this.foreverButton1.Size = new System.Drawing.Size(199, 60);
+            this.foreverButton1.Size = new System.Drawing.Size(174, 45);
             this.foreverButton1.TabIndex = 45;
             this.foreverButton1.Text = "Запустить рассылку";
             this.foreverButton1.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
@@ -282,106 +314,58 @@
             // 
             // tPanel2
             // 
-            this.tPanel2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(170)))), ((int)(((byte)(214)))));
+            this.tPanel2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(212)))), ((int)(((byte)(235)))));
             this.tPanel2.Controls.Add(this.flowLayoutPanel1);
-            this.tPanel2.Location = new System.Drawing.Point(198, 7);
-            this.tPanel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tPanel2.Location = new System.Drawing.Point(173, 5);
             this.tPanel2.Name = "tPanel2";
             this.tPanel2.Radius = 20;
-            this.tPanel2.Size = new System.Drawing.Size(435, 360);
+            this.tPanel2.Size = new System.Drawing.Size(381, 270);
             this.tPanel2.TabIndex = 41;
-            this.tPanel2.Thickness = 3F;
+            this.tPanel2.Thickness = 1F;
             // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(6, 7);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(5, 5);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(420, 345);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(368, 259);
             this.flowLayoutPanel1.TabIndex = 41;
             // 
             // dungeonLabel2
             // 
             this.dungeonLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.dungeonLabel2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dungeonLabel2.Font = new System.Drawing.Font("Montserrat", 9.0348F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonLabel2.Location = new System.Drawing.Point(198, 371);
+            this.dungeonLabel2.Location = new System.Drawing.Point(173, 278);
             this.dungeonLabel2.Name = "dungeonLabel2";
-            this.dungeonLabel2.Size = new System.Drawing.Size(429, 120);
+            this.dungeonLabel2.Size = new System.Drawing.Size(380, 110);
             this.dungeonLabel2.TabIndex = 27;
             this.dungeonLabel2.Text = resources.GetString("dungeonLabel2.Text");
-            this.dungeonLabel2.Paint += new System.Windows.Forms.PaintEventHandler(this.dungeonLabel2_Paint);
             // 
             // dungeonHeaderLabel5
             // 
             this.dungeonHeaderLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.dungeonHeaderLabel5.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.dungeonHeaderLabel5.Font = new System.Drawing.Font("Montserrat SemiBold", 11.2935F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.dungeonHeaderLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.dungeonHeaderLabel5.Location = new System.Drawing.Point(3, 7);
+            this.dungeonHeaderLabel5.Location = new System.Drawing.Point(3, 5);
             this.dungeonHeaderLabel5.Name = "dungeonHeaderLabel5";
-            this.dungeonHeaderLabel5.Size = new System.Drawing.Size(153, 53);
+            this.dungeonHeaderLabel5.Size = new System.Drawing.Size(134, 50);
             this.dungeonHeaderLabel5.TabIndex = 26;
             this.dungeonHeaderLabel5.Text = "Рассылка с\r\nаккаунтов:";
             this.dungeonHeaderLabel5.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.dungeonHeaderLabel5.Paint += new System.Windows.Forms.PaintEventHandler(this.dungeonHeaderLabel5_Paint);
             // 
             // panel2
             // 
             this.panel2.AutoSize = true;
             this.panel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panel2.Controls.Add(this.hopeRadioButton6);
+            this.panel2.Controls.Add(this.hopeRadioButton7);
             this.panel2.Controls.Add(this.tPanel3);
-            this.panel2.Controls.Add(this.panel5);
             this.panel2.Controls.Add(this.dungeonHeaderLabel4);
-            this.panel2.Location = new System.Drawing.Point(30, 427);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel2.Location = new System.Drawing.Point(26, 410);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(636, 180);
+            this.panel2.Size = new System.Drawing.Size(556, 135);
             this.panel2.TabIndex = 26;
-            // 
-            // tPanel3
-            // 
-            this.tPanel3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(170)))), ((int)(((byte)(214)))));
-            this.tPanel3.Controls.Add(this.pictureBox4);
-            this.tPanel3.Controls.Add(this.dungeonTextBox1);
-            this.tPanel3.Location = new System.Drawing.Point(198, 51);
-            this.tPanel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tPanel3.Name = "tPanel3";
-            this.tPanel3.Radius = 20;
-            this.tPanel3.Size = new System.Drawing.Size(435, 125);
-            this.tPanel3.TabIndex = 26;
-            this.tPanel3.Thickness = 3F;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Telegram.Properties.Resources.icons8_question_64;
-            this.pictureBox4.Location = new System.Drawing.Point(407, 3);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(24, 24);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 31;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.MouseHover += new System.EventHandler(this.pictureBox4_MouseHover);
-            // 
-            // dungeonTextBox1
-            // 
-            this.dungeonTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dungeonTextBox1.Location = new System.Drawing.Point(10, 9);
-            this.dungeonTextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.dungeonTextBox1.Multiline = true;
-            this.dungeonTextBox1.Name = "dungeonTextBox1";
-            this.dungeonTextBox1.Size = new System.Drawing.Size(416, 107);
-            this.dungeonTextBox1.TabIndex = 0;
-            this.dungeonTextBox1.TextChanged += new System.EventHandler(this.dungeonTextBox1_TextChanged);
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.hopeRadioButton6);
-            this.panel5.Controls.Add(this.hopeRadioButton7);
-            this.panel5.Location = new System.Drawing.Point(198, 7);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(287, 37);
-            this.panel5.TabIndex = 24;
             // 
             // hopeRadioButton6
             // 
@@ -394,15 +378,15 @@
             this.hopeRadioButton6.EnabledCheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
             this.hopeRadioButton6.EnabledStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.hopeRadioButton6.EnabledUncheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(158)))), ((int)(((byte)(161)))));
-            this.hopeRadioButton6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.hopeRadioButton6.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.hopeRadioButton6.ForeColor = System.Drawing.Color.Black;
-            this.hopeRadioButton6.Location = new System.Drawing.Point(102, 5);
+            this.hopeRadioButton6.Location = new System.Drawing.Point(259, 10);
+            this.hopeRadioButton6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.hopeRadioButton6.Name = "hopeRadioButton6";
-            this.hopeRadioButton6.Size = new System.Drawing.Size(69, 20);
-            this.hopeRadioButton6.TabIndex = 15;
+            this.hopeRadioButton6.Size = new System.Drawing.Size(66, 20);
+            this.hopeRadioButton6.TabIndex = 28;
             this.hopeRadioButton6.Text = "Нет";
             this.hopeRadioButton6.UseVisualStyleBackColor = true;
-            this.hopeRadioButton6.CheckedChanged += new System.EventHandler(this.is_text);
             // 
             // hopeRadioButton7
             // 
@@ -416,37 +400,72 @@
             this.hopeRadioButton7.EnabledCheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
             this.hopeRadioButton7.EnabledStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.hopeRadioButton7.EnabledUncheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(158)))), ((int)(((byte)(161)))));
-            this.hopeRadioButton7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.hopeRadioButton7.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.hopeRadioButton7.ForeColor = System.Drawing.Color.Black;
-            this.hopeRadioButton7.Location = new System.Drawing.Point(3, 5);
+            this.hopeRadioButton7.Location = new System.Drawing.Point(173, 10);
+            this.hopeRadioButton7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.hopeRadioButton7.Name = "hopeRadioButton7";
-            this.hopeRadioButton7.Size = new System.Drawing.Size(61, 20);
-            this.hopeRadioButton7.TabIndex = 14;
+            this.hopeRadioButton7.Size = new System.Drawing.Size(57, 20);
+            this.hopeRadioButton7.TabIndex = 27;
             this.hopeRadioButton7.TabStop = true;
             this.hopeRadioButton7.Text = "Да";
             this.hopeRadioButton7.UseVisualStyleBackColor = true;
-            this.hopeRadioButton7.CheckedChanged += new System.EventHandler(this.is_text);
+            // 
+            // tPanel3
+            // 
+            this.tPanel3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(212)))), ((int)(((byte)(235)))));
+            this.tPanel3.Controls.Add(this.pictureBox4);
+            this.tPanel3.Controls.Add(this.dungeonTextBox1);
+            this.tPanel3.Location = new System.Drawing.Point(173, 32);
+            this.tPanel3.Name = "tPanel3";
+            this.tPanel3.Radius = 20;
+            this.tPanel3.Size = new System.Drawing.Size(380, 100);
+            this.tPanel3.TabIndex = 26;
+            this.tPanel3.Thickness = 1F;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Telegram.Properties.Resources.icons8_question_64;
+            this.pictureBox4.Location = new System.Drawing.Point(359, 7);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(14, 14);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 31;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.MouseHover += new System.EventHandler(this.pictureBox4_MouseHover);
+            // 
+            // dungeonTextBox1
+            // 
+            this.dungeonTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dungeonTextBox1.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dungeonTextBox1.Location = new System.Drawing.Point(9, 7);
+            this.dungeonTextBox1.Multiline = true;
+            this.dungeonTextBox1.Name = "dungeonTextBox1";
+            this.dungeonTextBox1.Size = new System.Drawing.Size(364, 85);
+            this.dungeonTextBox1.TabIndex = 0;
+            this.dungeonTextBox1.TextChanged += new System.EventHandler(this.dungeonTextBox1_TextChanged);
             // 
             // dungeonHeaderLabel4
             // 
             this.dungeonHeaderLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.dungeonHeaderLabel4.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.dungeonHeaderLabel4.Font = new System.Drawing.Font("Montserrat SemiBold", 11.2935F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.dungeonHeaderLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.dungeonHeaderLabel4.Location = new System.Drawing.Point(3, 12);
+            this.dungeonHeaderLabel4.Location = new System.Drawing.Point(3, 10);
             this.dungeonHeaderLabel4.Name = "dungeonHeaderLabel4";
-            this.dungeonHeaderLabel4.Size = new System.Drawing.Size(153, 27);
+            this.dungeonHeaderLabel4.Size = new System.Drawing.Size(134, 20);
             this.dungeonHeaderLabel4.TabIndex = 23;
             this.dungeonHeaderLabel4.Text = "Текст:";
             this.dungeonHeaderLabel4.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.dungeonHeaderLabel4.Paint += new System.Windows.Forms.PaintEventHandler(this.dungeonHeaderLabel4_Paint);
             // 
             // panel7
             // 
             this.panel7.Controls.Add(this.hopeRadioButton2);
             this.panel7.Controls.Add(this.hopeRadioButton1);
-            this.panel7.Location = new System.Drawing.Point(229, 20);
+            this.panel7.Location = new System.Drawing.Point(200, 37);
+            this.panel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(287, 48);
+            this.panel7.Size = new System.Drawing.Size(251, 36);
             this.panel7.TabIndex = 21;
             // 
             // hopeRadioButton2
@@ -460,11 +479,12 @@
             this.hopeRadioButton2.EnabledCheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
             this.hopeRadioButton2.EnabledStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.hopeRadioButton2.EnabledUncheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(158)))), ((int)(((byte)(161)))));
-            this.hopeRadioButton2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.hopeRadioButton2.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.hopeRadioButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.hopeRadioButton2.Location = new System.Drawing.Point(136, 17);
+            this.hopeRadioButton2.Location = new System.Drawing.Point(119, 13);
+            this.hopeRadioButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.hopeRadioButton2.Name = "hopeRadioButton2";
-            this.hopeRadioButton2.Size = new System.Drawing.Size(82, 20);
+            this.hopeRadioButton2.Size = new System.Drawing.Size(78, 20);
             this.hopeRadioButton2.TabIndex = 4;
             this.hopeRadioButton2.Text = "В чат";
             this.hopeRadioButton2.UseVisualStyleBackColor = true;
@@ -482,11 +502,12 @@
             this.hopeRadioButton1.EnabledCheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
             this.hopeRadioButton1.EnabledStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.hopeRadioButton1.EnabledUncheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(158)))), ((int)(((byte)(161)))));
-            this.hopeRadioButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.hopeRadioButton1.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.hopeRadioButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.hopeRadioButton1.Location = new System.Drawing.Point(3, 17);
+            this.hopeRadioButton1.Location = new System.Drawing.Point(3, 13);
+            this.hopeRadioButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.hopeRadioButton1.Name = "hopeRadioButton1";
-            this.hopeRadioButton1.Size = new System.Drawing.Size(107, 20);
+            this.hopeRadioButton1.Size = new System.Drawing.Size(100, 20);
             this.hopeRadioButton1.TabIndex = 3;
             this.hopeRadioButton1.TabStop = true;
             this.hopeRadioButton1.Text = "Личное";
@@ -499,9 +520,10 @@
             this.panel6.Controls.Add(this.hopeRadioButton5);
             this.panel6.Controls.Add(this.hopeRadioButton3);
             this.panel6.Controls.Add(this.hopeRadioButton4);
-            this.panel6.Location = new System.Drawing.Point(229, 152);
+            this.panel6.Location = new System.Drawing.Point(200, 184);
+            this.panel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(434, 60);
+            this.panel6.Size = new System.Drawing.Size(380, 45);
             this.panel6.TabIndex = 20;
             // 
             // hopeRadioButton8
@@ -512,14 +534,15 @@
             this.hopeRadioButton8.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(198)))), ((int)(((byte)(202)))));
             this.hopeRadioButton8.DisabledStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(187)))), ((int)(((byte)(189)))));
             this.hopeRadioButton8.Enable = true;
-            this.hopeRadioButton8.EnabledCheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
+            this.hopeRadioButton8.EnabledCheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(161)))), ((int)(((byte)(210)))));
             this.hopeRadioButton8.EnabledStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.hopeRadioButton8.EnabledUncheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(158)))), ((int)(((byte)(161)))));
-            this.hopeRadioButton8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.hopeRadioButton8.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.hopeRadioButton8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.hopeRadioButton8.Location = new System.Drawing.Point(330, 13);
+            this.hopeRadioButton8.Location = new System.Drawing.Point(284, 10);
+            this.hopeRadioButton8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.hopeRadioButton8.Name = "hopeRadioButton8";
-            this.hopeRadioButton8.Size = new System.Drawing.Size(93, 20);
+            this.hopeRadioButton8.Size = new System.Drawing.Size(88, 20);
             this.hopeRadioButton8.TabIndex = 13;
             this.hopeRadioButton8.Text = "Видео";
             this.hopeRadioButton8.UseVisualStyleBackColor = true;
@@ -533,36 +556,38 @@
             this.hopeRadioButton5.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(198)))), ((int)(((byte)(202)))));
             this.hopeRadioButton5.DisabledStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(187)))), ((int)(((byte)(189)))));
             this.hopeRadioButton5.Enable = true;
-            this.hopeRadioButton5.EnabledCheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
+            this.hopeRadioButton5.EnabledCheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(161)))), ((int)(((byte)(210)))));
             this.hopeRadioButton5.EnabledStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.hopeRadioButton5.EnabledUncheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(158)))), ((int)(((byte)(161)))));
-            this.hopeRadioButton5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.hopeRadioButton5.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.hopeRadioButton5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.hopeRadioButton5.Location = new System.Drawing.Point(232, 13);
+            this.hopeRadioButton5.Location = new System.Drawing.Point(191, 10);
+            this.hopeRadioButton5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.hopeRadioButton5.Name = "hopeRadioButton5";
-            this.hopeRadioButton5.Size = new System.Drawing.Size(95, 20);
+            this.hopeRadioButton5.Size = new System.Drawing.Size(87, 20);
             this.hopeRadioButton5.TabIndex = 12;
             this.hopeRadioButton5.Text = "Аудио";
             this.hopeRadioButton5.UseVisualStyleBackColor = true;
             this.hopeRadioButton5.CheckedChanged += new System.EventHandler(this.media);
+            this.hopeRadioButton5.Paint += new System.Windows.Forms.PaintEventHandler(this.hopeRadioButton5_Paint);
             // 
             // hopeRadioButton3
             // 
-            this.hopeRadioButton3.AutoSize = true;
             this.hopeRadioButton3.Checked = true;
             this.hopeRadioButton3.CheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.hopeRadioButton3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.hopeRadioButton3.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(198)))), ((int)(((byte)(202)))));
             this.hopeRadioButton3.DisabledStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(187)))), ((int)(((byte)(189)))));
             this.hopeRadioButton3.Enable = true;
-            this.hopeRadioButton3.EnabledCheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
+            this.hopeRadioButton3.EnabledCheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(161)))), ((int)(((byte)(210)))));
             this.hopeRadioButton3.EnabledStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.hopeRadioButton3.EnabledUncheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(158)))), ((int)(((byte)(161)))));
-            this.hopeRadioButton3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.hopeRadioButton3.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.hopeRadioButton3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.hopeRadioButton3.Location = new System.Drawing.Point(91, 13);
+            this.hopeRadioButton3.Location = new System.Drawing.Point(75, 10);
+            this.hopeRadioButton3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.hopeRadioButton3.Name = "hopeRadioButton3";
-            this.hopeRadioButton3.Size = new System.Drawing.Size(123, 20);
+            this.hopeRadioButton3.Size = new System.Drawing.Size(114, 20);
             this.hopeRadioButton3.TabIndex = 11;
             this.hopeRadioButton3.TabStop = true;
             this.hopeRadioButton3.Text = "Картинка";
@@ -577,31 +602,19 @@
             this.hopeRadioButton4.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(198)))), ((int)(((byte)(202)))));
             this.hopeRadioButton4.DisabledStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(187)))), ((int)(((byte)(189)))));
             this.hopeRadioButton4.Enable = true;
-            this.hopeRadioButton4.EnabledCheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
+            this.hopeRadioButton4.EnabledCheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(161)))), ((int)(((byte)(210)))));
             this.hopeRadioButton4.EnabledStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.hopeRadioButton4.EnabledUncheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(158)))), ((int)(((byte)(161)))));
-            this.hopeRadioButton4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.hopeRadioButton4.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.hopeRadioButton4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.hopeRadioButton4.Location = new System.Drawing.Point(3, 13);
+            this.hopeRadioButton4.Location = new System.Drawing.Point(3, 10);
+            this.hopeRadioButton4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.hopeRadioButton4.Name = "hopeRadioButton4";
-            this.hopeRadioButton4.Size = new System.Drawing.Size(69, 20);
+            this.hopeRadioButton4.Size = new System.Drawing.Size(66, 20);
             this.hopeRadioButton4.TabIndex = 10;
             this.hopeRadioButton4.Text = "Нет";
             this.hopeRadioButton4.UseVisualStyleBackColor = true;
             this.hopeRadioButton4.CheckedChanged += new System.EventHandler(this.media);
-            // 
-            // dungeonHeaderLabel3
-            // 
-            this.dungeonHeaderLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.dungeonHeaderLabel3.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.dungeonHeaderLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.dungeonHeaderLabel3.Location = new System.Drawing.Point(19, 165);
-            this.dungeonHeaderLabel3.Name = "dungeonHeaderLabel3";
-            this.dungeonHeaderLabel3.Size = new System.Drawing.Size(167, 27);
-            this.dungeonHeaderLabel3.TabIndex = 6;
-            this.dungeonHeaderLabel3.Text = "Мультимедиа:";
-            this.dungeonHeaderLabel3.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.dungeonHeaderLabel3.Paint += new System.Windows.Forms.PaintEventHandler(this.dungeonHeaderLabel3_Paint);
             // 
             // dungeonLabel1
             // 
@@ -609,64 +622,37 @@
             this.dungeonLabel1.BackColor = System.Drawing.Color.Transparent;
             this.dungeonLabel1.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonLabel1.Location = new System.Drawing.Point(229, 124);
+            this.dungeonLabel1.Location = new System.Drawing.Point(199, 155);
             this.dungeonLabel1.Name = "dungeonLabel1";
-            this.dungeonLabel1.Size = new System.Drawing.Size(167, 17);
+            this.dungeonLabel1.Size = new System.Drawing.Size(150, 13);
             this.dungeonLabel1.TabIndex = 5;
             this.dungeonLabel1.Text = "Загружено 1200 контактов";
-            this.dungeonLabel1.Paint += new System.Windows.Forms.PaintEventHandler(this.dungeonLabel1_Paint);
-            // 
-            // dungeonHeaderLabel2
-            // 
-            this.dungeonHeaderLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.dungeonHeaderLabel2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.dungeonHeaderLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.dungeonHeaderLabel2.Location = new System.Drawing.Point(30, 75);
-            this.dungeonHeaderLabel2.Name = "dungeonHeaderLabel2";
-            this.dungeonHeaderLabel2.Size = new System.Drawing.Size(157, 27);
-            this.dungeonHeaderLabel2.TabIndex = 3;
-            this.dungeonHeaderLabel2.Text = "Получатели:";
-            this.dungeonHeaderLabel2.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.dungeonHeaderLabel2.Paint += new System.Windows.Forms.PaintEventHandler(this.dungeonHeaderLabel2_Paint);
-            // 
-            // dungeonHeaderLabel1
-            // 
-            this.dungeonHeaderLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.dungeonHeaderLabel1.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.dungeonHeaderLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.dungeonHeaderLabel1.Location = new System.Drawing.Point(14, 37);
-            this.dungeonHeaderLabel1.Name = "dungeonHeaderLabel1";
-            this.dungeonHeaderLabel1.Size = new System.Drawing.Size(173, 27);
-            this.dungeonHeaderLabel1.TabIndex = 0;
-            this.dungeonHeaderLabel1.Text = "Тип сообщения:";
-            this.dungeonHeaderLabel1.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.dungeonHeaderLabel1.Paint += new System.Windows.Forms.PaintEventHandler(this.dungeonHeaderLabel1_Paint);
             // 
             // bigLabel2
             // 
             this.bigLabel2.AutoSize = true;
             this.bigLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.bigLabel2.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.bigLabel2.Font = new System.Drawing.Font("Montserrat SemiBold", 24.0928F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bigLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.bigLabel2.Location = new System.Drawing.Point(35, 12);
+            this.bigLabel2.Location = new System.Drawing.Point(31, 25);
             this.bigLabel2.Name = "bigLabel2";
-            this.bigLabel2.Size = new System.Drawing.Size(515, 57);
+            this.bigLabel2.Size = new System.Drawing.Size(478, 46);
             this.bigLabel2.TabIndex = 28;
             this.bigLabel2.Text = "Новая Telegram рассылка";
-            this.bigLabel2.Paint += new System.Windows.Forms.PaintEventHandler(this.bigLabel1_Paint);
             // 
             // Send
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1163, 1051);
+            this.ClientSize = new System.Drawing.Size(1018, 788);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.bigLabel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.KeyPreview = true;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Send";
             this.Text = "Send";
             this.Click += new System.EventHandler(this.Send_Click);
@@ -682,11 +668,10 @@
             this.panel8.ResumeLayout(false);
             this.tPanel2.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.tPanel3.ResumeLayout(false);
             this.tPanel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.panel6.ResumeLayout(false);
@@ -709,9 +694,6 @@
         private ReaLTaiizor.Controls.DungeonLabel dungeonLabel2;
         private ReaLTaiizor.Controls.DungeonHeaderLabel dungeonHeaderLabel5;
         private Panel panel2;
-        private Panel panel5;
-        private ReaLTaiizor.Controls.HopeRadioButton hopeRadioButton6;
-        private ReaLTaiizor.Controls.HopeRadioButton hopeRadioButton7;
         private ReaLTaiizor.Controls.DungeonHeaderLabel dungeonHeaderLabel4;
         private Panel panel7;
         private ReaLTaiizor.Controls.HopeRadioButton hopeRadioButton2;
@@ -720,10 +702,7 @@
         private ReaLTaiizor.Controls.HopeRadioButton hopeRadioButton8;
         private ReaLTaiizor.Controls.HopeRadioButton hopeRadioButton5;
         private ReaLTaiizor.Controls.HopeRadioButton hopeRadioButton4;
-        private ReaLTaiizor.Controls.DungeonHeaderLabel dungeonHeaderLabel3;
         public ReaLTaiizor.Controls.DungeonLabel dungeonLabel1;
-        private ReaLTaiizor.Controls.DungeonHeaderLabel dungeonHeaderLabel2;
-        private ReaLTaiizor.Controls.DungeonHeaderLabel dungeonHeaderLabel1;
         private ReaLTaiizor.Controls.BigLabel bigLabel2;
         public PictureBox pictureBox2;
         public PictureBox pictureBox1;
@@ -739,5 +718,10 @@
         private TPanel tPanel3;
         private TextBox dungeonTextBox1;
         private PictureBox pictureBox4;
+        private Label label2;
+        private Label label4;
+        private Label label3;
+        private ReaLTaiizor.Controls.HopeRadioButton hopeRadioButton6;
+        private ReaLTaiizor.Controls.HopeRadioButton hopeRadioButton7;
     }
 }

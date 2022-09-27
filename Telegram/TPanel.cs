@@ -9,7 +9,7 @@ namespace Telegram
 {
     public class TPanel : Panel
     {
-        private float _thickness = 5;
+        private float _thickness = 1;
         public float Thickness
         {
             get
@@ -24,7 +24,7 @@ namespace Telegram
             }
         }
 
-        private Color _borderColor = Color.White;
+        private Color _borderColor = Color.FromArgb(170, 212, 235);
         public Color BorderColor
         {
             get

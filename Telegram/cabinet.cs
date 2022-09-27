@@ -63,12 +63,10 @@ namespace Telegram
 
         private void dungeonHeaderLabel2_Paint(object sender, PaintEventArgs e)
         {
-            dungeonHeaderLabel2.Font = new Font(my.montserrat_regular, dungeonHeaderLabel2.Font.Size);
         }
 
         private void dungeonHeaderLabel1_Paint(object sender, PaintEventArgs e)
         {
-            dungeonHeaderLabel1.Font = new Font(my.montserrat_regular, dungeonHeaderLabel1.Font.Size);
         }
     }
 }

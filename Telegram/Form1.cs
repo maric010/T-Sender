@@ -17,10 +17,10 @@ namespace Telegram
         {
             skyLabel1.Text = my.firstname + " " + my.lastname;
             skyLabel2.Text = my.email;
-            dungeonHeaderLabel1.Text = "Тарифный план: "+my.tarif;
+            dungeonHeaderLabel1.Text = "Тарифный план: "+my.tarif.Split(":")[0];
             metroEllipse1.Text = my.firstname.First().ToString();
             th = this;
-            load_form(new My_mails());
+            foxButton3_Click(null, null);
         }
 
         
@@ -48,7 +48,6 @@ namespace Telegram
         private void IMGPAINT(object sender, PaintEventArgs e)
         {
             e.Graphics.DrawImage(((TButton)sender).Image, 15, 12, 22, 22);
-            ((TButton)sender).Font = new Font(my.montserrat_bold, ((TButton)sender).Font.Size);
         }
 
         
@@ -168,42 +167,29 @@ namespace Telegram
                 panel5.Visible = true;
         }
 
-        private void dungeonHeaderLabel1_Paint(object sender, PaintEventArgs e)
-        {
-            dungeonHeaderLabel1.Font = new Font(my.montserrat_regular, dungeonHeaderLabel1.Font.Size);
-        }
-
-        private void dungeonLabel1_Paint(object sender, PaintEventArgs e)
-        {
-            dungeonLabel1.Font = new Font(my.montserrat_regular, dungeonLabel1.Font.Size);
-        }
+        
 
         private void skyLabel1_Paint(object sender, PaintEventArgs e)
         {
-            skyLabel1.Font = new Font(my.montserrat_regular, skyLabel1.Font.Size);
         }
 
         private void skyLabel2_Paint(object sender, PaintEventArgs e)
         {
-            skyLabel2.Font = new Font(my.montserrat_regular, skyLabel2.Font.Size);
         }
 
         private void IMGPAINT3(object sender, PaintEventArgs e)
         {
             e.Graphics.DrawImage(((TButton)sender).Image, 15, 7, 22, 22);
-            ((TButton)sender).Font = new Font(my.montserrat_regular, ((TButton)sender).Font.Size);
         }
 
         private void IMGPAINT4(object sender, PaintEventArgs e)
         {
             e.Graphics.DrawImage(((TButton)sender).Image, 13, 7, 22, 22);
-            ((TButton)sender).Font = new Font(my.montserrat_regular, ((TButton)sender).Font.Size);
         }
 
         private void IMGPAINT5(object sender, PaintEventArgs e)
         {
             e.Graphics.DrawImage(((TButton)sender).Image, 16, 7, 22, 22);
-            ((TButton)sender).Font = new Font(my.montserrat_regular, ((TButton)sender).Font.Size);
         }
 
         private void panel1_Click(object sender, EventArgs e)
@@ -237,7 +223,11 @@ namespace Telegram
         private void IMGPAINT6(object sender, PaintEventArgs e)
         {
             e.Graphics.DrawImage(((TButton)sender).Image, 13, (((TButton)sender).Height/2)-12, 22, 22);
-            ((TButton)sender).Font = new Font(my.montserrat_bold, ((TButton)sender).Font.Size);
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

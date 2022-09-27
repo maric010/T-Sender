@@ -189,7 +189,7 @@ namespace Telegram
         }
         public TButton()
         {
-            Font = new Font("Segoe UI", 10f);
+            Font = new Font("Arial", 24, FontStyle.Bold);
             _TextAlignment = StringAlignment.Center;
         }
         private StringFormat GetStringFormat(ContentAlignment _ContentAlignment)

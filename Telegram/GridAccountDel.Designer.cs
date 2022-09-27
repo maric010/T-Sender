@@ -37,18 +37,18 @@
             // 
             this.dungeonLabel2.AutoSize = true;
             this.dungeonLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.dungeonLabel2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dungeonLabel2.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
             this.dungeonLabel2.Location = new System.Drawing.Point(58, 3);
             this.dungeonLabel2.Name = "dungeonLabel2";
-            this.dungeonLabel2.Size = new System.Drawing.Size(89, 17);
+            this.dungeonLabel2.Size = new System.Drawing.Size(109, 22);
             this.dungeonLabel2.TabIndex = 8;
             this.dungeonLabel2.Text = "Вы удалили";
             this.dungeonLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // circleProgressBar1
             // 
-            this.circleProgressBar1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.circleProgressBar1.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.circleProgressBar1.ForeColor = System.Drawing.Color.Red;
             this.circleProgressBar1.Location = new System.Drawing.Point(3, -1);
             this.circleProgressBar1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -59,7 +59,7 @@
             this.circleProgressBar1.ProgressColor1 = System.Drawing.Color.Red;
             this.circleProgressBar1.ProgressColor2 = System.Drawing.Color.Red;
             this.circleProgressBar1.ProgressShape = Telegram.CircleProgressBar._ProgressShape.Round;
-            this.circleProgressBar1.Size = new System.Drawing.Size(24, 24);
+            this.circleProgressBar1.Size = new System.Drawing.Size(28, 28);
             this.circleProgressBar1.TabIndex = 15;
             this.circleProgressBar1.Text = "circleProgressBar1";
             this.circleProgressBar1.Value = ((long)(100));
@@ -70,12 +70,12 @@
             this.dungeonLinkLabel1.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(72)))), ((int)(((byte)(20)))));
             this.dungeonLinkLabel1.AutoSize = true;
             this.dungeonLinkLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.dungeonLinkLabel1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dungeonLinkLabel1.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonLinkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.AlwaysUnderline;
             this.dungeonLinkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(119)))), ((int)(((byte)(70)))));
-            this.dungeonLinkLabel1.Location = new System.Drawing.Point(842, 3);
+            this.dungeonLinkLabel1.Location = new System.Drawing.Point(915, 3);
             this.dungeonLinkLabel1.Name = "dungeonLinkLabel1";
-            this.dungeonLinkLabel1.Size = new System.Drawing.Size(64, 17);
+            this.dungeonLinkLabel1.Size = new System.Drawing.Size(80, 22);
             this.dungeonLinkLabel1.TabIndex = 16;
             this.dungeonLinkLabel1.TabStop = true;
             this.dungeonLinkLabel1.Text = "Вернуть";
@@ -92,7 +92,7 @@
             this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "GridAccountDel";
-            this.Size = new System.Drawing.Size(908, 23);
+            this.Size = new System.Drawing.Size(1000, 30);
             this.ResumeLayout(false);
             this.PerformLayout();
 

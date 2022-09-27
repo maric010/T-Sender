@@ -21,8 +21,8 @@ namespace Telegram
             InitializeComponent();
             th = this;
             //Сохраненную введенную информацию заполняет. 
-            
-            dungeonTextBox2.Text = my.получатели_файл;
+            if(my.получатели_файл!=null && my.получатели_файл!="")
+                dungeonTextBox2.Text = my.получатели_файл;
             
             dungeonLabel1.Text = "Загружено " + my.получатели_количество + " контактов";
             dungeonTextBox1.Text = my.получатели_текст;
@@ -306,44 +306,16 @@ namespace Telegram
                 tPanel1.Visible = true;
         }
 
-        private void bigLabel1_Paint(object sender, PaintEventArgs e)
-        {
-            bigLabel2.Font = new Font(my.montserrat_regular, bigLabel2.Font.Size);
-        }
-
-        private void dungeonHeaderLabel1_Paint(object sender, PaintEventArgs e)
-        {
-            dungeonHeaderLabel1.Font = new Font(my.montserrat_bold, dungeonHeaderLabel1.Font.Size,FontStyle.Bold);
-        }
-
-        private void dungeonHeaderLabel2_Paint(object sender, PaintEventArgs e)
-        {
-            dungeonHeaderLabel2.Font = new Font(my.montserrat_bold, dungeonHeaderLabel2.Font.Size, FontStyle.Bold);
-        }
+     
 
         private void dungeonLabel1_Paint(object sender, PaintEventArgs e)
         {
-            dungeonLabel1.Font = new Font(my.montserrat_regular, dungeonLabel1.Font.Size);
         }
 
-        private void dungeonHeaderLabel3_Paint(object sender, PaintEventArgs e)
-        {
-            dungeonHeaderLabel3.Font = new Font(my.montserrat_bold, dungeonHeaderLabel3.Font.Size, FontStyle.Bold);
-        }
-
-        private void dungeonHeaderLabel4_Paint(object sender, PaintEventArgs e)
-        {
-            dungeonHeaderLabel4.Font = new Font(my.montserrat_bold, dungeonHeaderLabel4.Font.Size, FontStyle.Bold);
-        }
-
-        private void dungeonHeaderLabel5_Paint(object sender, PaintEventArgs e)
-        {
-            dungeonHeaderLabel5.Font = new Font(my.montserrat_bold, dungeonHeaderLabel5.Font.Size, FontStyle.Bold);
-        }
+       
 
         private void dungeonLabel2_Paint(object sender, PaintEventArgs e)
         {
-            dungeonLabel2.Font = new Font(my.montserrat_regular, dungeonLabel2.Font.Size);
         }
 
         
@@ -358,5 +330,11 @@ namespace Telegram
             ToolTip tt = new ToolTip();
             tt.SetToolTip(this.pictureBox4, "Какая то подсказка");
         }
+
+        private void hopeRadioButton5_Paint(object sender, PaintEventArgs e)
+        {
+        }
+
+      
     }
 }

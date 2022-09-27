@@ -441,7 +441,7 @@ namespace Telegram
         protected override void OnResize(EventArgs e)
         {
             base.OnResize(e);
-            Size = new(100, 33);
+            //Size = new(100, 33);
         }
 
         protected override void OnMouseMove(MouseEventArgs e)

@@ -112,27 +112,30 @@ namespace Telegram
 
         private void bigLabel2_Paint(object sender, PaintEventArgs e)
         {
-            ((Label)sender).Font = new Font(my.montserrat_regular, ((Label)sender).Font.Size);
         }
 
         private void dungeonLinkLabel1_Paint(object sender, PaintEventArgs e)
         {
-            ((Label)sender).Font = new Font(my.montserrat_regular, ((Label)sender).Font.Size);
         }
 
         private void label1_Paint(object sender, PaintEventArgs e)
         {
-            ((Label)sender).Font = new Font(my.montserrat_regular, ((Label)sender).Font.Size);
         }
 
         private void label2_Paint(object sender, PaintEventArgs e)
         {
-            ((Label)sender).Font = new Font(my.montserrat_regular, ((Label)sender).Font.Size);
         }
 
         private void foreverButton1_Paint(object sender, PaintEventArgs e)
         {
-            foreverButton1.Font = new Font(my.montserrat_regular, foreverButton1.Font.Size);
+        }
+
+        private void loginTextBox1_Paint(object sender, PaintEventArgs e)
+        {
+        }
+
+        private void loginTextBox2_Paint(object sender, PaintEventArgs e)
+        {
         }
     }
 }

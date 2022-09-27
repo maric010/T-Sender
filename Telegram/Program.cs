@@ -12,8 +12,6 @@ namespace Telegram
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            //Генерируем наши шрифты
-            my.init_fonts();
             //Соеденимся к серверу
             server.connect();
             //Откроем форму авторизации
