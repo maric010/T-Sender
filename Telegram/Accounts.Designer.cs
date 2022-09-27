@@ -101,6 +101,7 @@
             this.bigLabel1.Size = new System.Drawing.Size(299, 57);
             this.bigLabel1.TabIndex = 9;
             this.bigLabel1.Text = "Мои аккаунты";
+            this.bigLabel1.Paint += new System.Windows.Forms.PaintEventHandler(this.bigLabel1_Paint);
             // 
             // dungeonLabel1
             // 
@@ -113,6 +114,7 @@
             this.dungeonLabel1.Size = new System.Drawing.Size(143, 25);
             this.dungeonLabel1.TabIndex = 10;
             this.dungeonLabel1.Text = "Введите номер";
+            this.dungeonLabel1.Paint += new System.Windows.Forms.PaintEventHandler(this.dungeonLabel1_Paint);
             // 
             // dungeonHeaderLabel1
             // 
@@ -125,6 +127,7 @@
             this.dungeonHeaderLabel1.Size = new System.Drawing.Size(155, 25);
             this.dungeonHeaderLabel1.TabIndex = 11;
             this.dungeonHeaderLabel1.Text = "Новый аккаунт";
+            this.dungeonHeaderLabel1.Paint += new System.Windows.Forms.PaintEventHandler(this.dungeonHeaderLabel1_Paint);
             // 
             // dreamTextBox3
             // 
@@ -285,6 +288,7 @@
             this.dungeonHeaderLabel2.TabIndex = 16;
             this.dungeonHeaderLabel2.Text = "№";
             this.dungeonHeaderLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.dungeonHeaderLabel2.Paint += new System.Windows.Forms.PaintEventHandler(this.dungeonHeaderLabel2_Paint);
             // 
             // dungeonHeaderLabel3
             // 
@@ -299,6 +303,7 @@
             this.dungeonHeaderLabel3.TabIndex = 17;
             this.dungeonHeaderLabel3.Text = "Номер телефона";
             this.dungeonHeaderLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dungeonHeaderLabel3.Paint += new System.Windows.Forms.PaintEventHandler(this.dungeonHeaderLabel3_Paint);
             // 
             // dungeonHeaderLabel4
             // 
@@ -313,6 +318,7 @@
             this.dungeonHeaderLabel4.TabIndex = 18;
             this.dungeonHeaderLabel4.Text = "Имя пользователя";
             this.dungeonHeaderLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dungeonHeaderLabel4.Paint += new System.Windows.Forms.PaintEventHandler(this.dungeonHeaderLabel4_Paint);
             // 
             // dungeonHeaderLabel5
             // 
@@ -395,6 +401,7 @@
             this.headerLabel1.Size = new System.Drawing.Size(156, 22);
             this.headerLabel1.TabIndex = 43;
             this.headerLabel1.Text = "Аккаунтов: 0 из 0";
+            this.headerLabel1.Paint += new System.Windows.Forms.PaintEventHandler(this.headerLabel1_Paint);
             // 
             // hopeProgressBar1
             // 

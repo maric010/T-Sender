@@ -142,6 +142,7 @@
             this.dungeonHeaderLabel2.Size = new System.Drawing.Size(72, 25);
             this.dungeonHeaderLabel2.TabIndex = 46;
             this.dungeonHeaderLabel2.Text = "О себе";
+            this.dungeonHeaderLabel2.Paint += new System.Windows.Forms.PaintEventHandler(this.dungeonHeaderLabel2_Paint);
             // 
             // dungeonButtonLeft1
             // 
@@ -221,6 +222,7 @@
             this.dungeonHeaderLabel1.Size = new System.Drawing.Size(190, 25);
             this.dungeonHeaderLabel1.TabIndex = 42;
             this.dungeonHeaderLabel1.Text = "Изменение пароля";
+            this.dungeonHeaderLabel1.Paint += new System.Windows.Forms.PaintEventHandler(this.dungeonHeaderLabel1_Paint);
             // 
             // hopeTextBox6
             // 

@@ -404,7 +404,7 @@
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.White;
-            this.panel10.Location = new System.Drawing.Point(0, 313);
+            this.panel10.Location = new System.Drawing.Point(0, 180);
             this.panel10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(3, 67);
@@ -414,7 +414,7 @@
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.White;
-            this.panel9.Location = new System.Drawing.Point(0, 380);
+            this.panel9.Location = new System.Drawing.Point(0, 247);
             this.panel9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(3, 67);
@@ -424,7 +424,7 @@
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.White;
-            this.panel8.Location = new System.Drawing.Point(0, 247);
+            this.panel8.Location = new System.Drawing.Point(0, 380);
             this.panel8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(3, 67);
@@ -434,7 +434,7 @@
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.White;
-            this.panel7.Location = new System.Drawing.Point(0, 180);
+            this.panel7.Location = new System.Drawing.Point(0, 313);
             this.panel7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(3, 67);
@@ -456,7 +456,7 @@
             this.tButton6.ForeColor = System.Drawing.Color.White;
             this.tButton6.Image = global::Telegram.Properties.Resources.Letter1;
             this.tButton6.ImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.tButton6.Location = new System.Drawing.Point(0, 180);
+            this.tButton6.Location = new System.Drawing.Point(0, 313);
             this.tButton6.Name = "tButton6";
             this.tButton6.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(100)))), ((int)(((byte)(155)))));
             this.tButton6.Size = new System.Drawing.Size(263, 67);
@@ -482,7 +482,7 @@
             this.foxButton4.ForeColor = System.Drawing.Color.White;
             this.foxButton4.Image = global::Telegram.Properties.Resources.Parser1;
             this.foxButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.foxButton4.Location = new System.Drawing.Point(0, 380);
+            this.foxButton4.Location = new System.Drawing.Point(0, 247);
             this.foxButton4.Name = "foxButton4";
             this.foxButton4.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(100)))), ((int)(((byte)(155)))));
             this.foxButton4.Size = new System.Drawing.Size(263, 67);
@@ -508,7 +508,7 @@
             this.foxButton3.ForeColor = System.Drawing.Color.White;
             this.foxButton3.Image = global::Telegram.Properties.Resources.Accaunts1;
             this.foxButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.foxButton3.Location = new System.Drawing.Point(0, 313);
+            this.foxButton3.Location = new System.Drawing.Point(0, 180);
             this.foxButton3.Name = "foxButton3";
             this.foxButton3.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(100)))), ((int)(((byte)(155)))));
             this.foxButton3.Size = new System.Drawing.Size(263, 67);
@@ -534,7 +534,7 @@
             this.foxButton2.ForeColor = System.Drawing.Color.White;
             this.foxButton2.Image = global::Telegram.Properties.Resources.Letters1;
             this.foxButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.foxButton2.Location = new System.Drawing.Point(0, 247);
+            this.foxButton2.Location = new System.Drawing.Point(0, 380);
             this.foxButton2.Name = "foxButton2";
             this.foxButton2.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(100)))), ((int)(((byte)(155)))));
             this.foxButton2.Size = new System.Drawing.Size(263, 67);

@@ -64,6 +64,7 @@
             this.dungeonLinkLabel1.Text = "Забыли пароль?";
             this.dungeonLinkLabel1.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(119)))), ((int)(((byte)(70)))));
             this.dungeonLinkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.dungeonLinkLabel1_LinkClicked);
+            this.dungeonLinkLabel1.Paint += new System.Windows.Forms.PaintEventHandler(this.dungeonLinkLabel1_Paint);
             // 
             // dungeonLabel1
             // 
@@ -88,6 +89,7 @@
             this.bigLabel2.Size = new System.Drawing.Size(275, 57);
             this.bigLabel2.TabIndex = 76;
             this.bigLabel2.Text = "Авторизация";
+            this.bigLabel2.Paint += new System.Windows.Forms.PaintEventHandler(this.bigLabel2_Paint);
             // 
             // loginTextBox1
             // 
@@ -164,6 +166,7 @@
             this.label1.TabIndex = 82;
             this.label1.Text = "email@example.com";
             this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.Paint += new System.Windows.Forms.PaintEventHandler(this.label1_Paint);
             // 
             // label2
             // 
@@ -176,6 +179,7 @@
             this.label2.TabIndex = 83;
             this.label2.Text = "Введите пароль";
             this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.label2.Paint += new System.Windows.Forms.PaintEventHandler(this.label2_Paint);
             // 
             // foreverButton1
             // 
@@ -192,6 +196,7 @@
             this.foreverButton1.Text = "Войти";
             this.foreverButton1.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
             this.foreverButton1.Click += new System.EventHandler(this.dungeonButtonLeft1_Click);
+            this.foreverButton1.Paint += new System.Windows.Forms.PaintEventHandler(this.foreverButton1_Paint);
             // 
             // panel2
             // 
