@@ -40,16 +40,6 @@ namespace Telegram
         }
         private void dungeonButtonLeft1_Click(object sender, EventArgs e)
         {
-            /*
-             * Проверяем правильность email и отправляем серверу этот email
-             * Сервер в свою очередь отправит код на указанный email
-             */
-            if(!IsValidEmail(dungeonTextBox1.Text))
-            {
-                MessageBox.Show("Указанный email не существует!");
-            }
-            email = dungeonTextBox1.Text;
-            server.send("forget_password|" + dungeonTextBox1.Text);
 
         }
 

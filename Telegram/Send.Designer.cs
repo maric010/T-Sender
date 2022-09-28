@@ -292,7 +292,7 @@
             this.panel8.Controls.Add(this.tPanel2);
             this.panel8.Controls.Add(this.dungeonLabel2);
             this.panel8.Controls.Add(this.dungeonHeaderLabel5);
-            this.panel8.Location = new System.Drawing.Point(26, 570);
+            this.panel8.Location = new System.Drawing.Point(26, 580);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(579, 473);
             this.panel8.TabIndex = 27;
@@ -364,7 +364,7 @@
             this.panel2.Controls.Add(this.tPanel3);
             this.panel2.Location = new System.Drawing.Point(26, 410);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(556, 135);
+            this.panel2.Size = new System.Drawing.Size(556, 143);
             this.panel2.TabIndex = 26;
             // 
             // label5
@@ -398,6 +398,7 @@
             this.hopeRadioButton6.TabIndex = 28;
             this.hopeRadioButton6.Text = "Нет";
             this.hopeRadioButton6.UseVisualStyleBackColor = true;
+            this.hopeRadioButton6.CheckedChanged += new System.EventHandler(this.is_text);
             // 
             // hopeRadioButton7
             // 
@@ -421,13 +422,14 @@
             this.hopeRadioButton7.TabStop = true;
             this.hopeRadioButton7.Text = "Да";
             this.hopeRadioButton7.UseVisualStyleBackColor = true;
+            this.hopeRadioButton7.CheckedChanged += new System.EventHandler(this.is_text);
             // 
             // tPanel3
             // 
             this.tPanel3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(212)))), ((int)(((byte)(235)))));
             this.tPanel3.Controls.Add(this.pictureBox4);
             this.tPanel3.Controls.Add(this.dungeonTextBox1);
-            this.tPanel3.Location = new System.Drawing.Point(173, 32);
+            this.tPanel3.Location = new System.Drawing.Point(173, 40);
             this.tPanel3.Name = "tPanel3";
             this.tPanel3.Radius = 20;
             this.tPanel3.Size = new System.Drawing.Size(380, 100);

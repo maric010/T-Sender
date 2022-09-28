@@ -28,63 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dungeonLabel1 = new ReaLTaiizor.Controls.DungeonLabel();
-            this.dungeonButtonLeft1 = new ReaLTaiizor.Controls.DungeonButtonLeft();
-            this.dungeonTextBox1 = new ReaLTaiizor.Controls.DungeonTextBox();
             this.dungeonLinkLabel1 = new ReaLTaiizor.Controls.DungeonLinkLabel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.bigLabel2 = new ReaLTaiizor.Controls.BigLabel();
+            this.foreverButton1 = new Telegram.ForeverButton();
+            this.dungeonTextBox1 = new ReaLTaiizor.Controls.DungeonTextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dungeonLabel1
-            // 
-            this.dungeonLabel1.AutoSize = true;
-            this.dungeonLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.dungeonLabel1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dungeonLabel1.ForeColor = System.Drawing.Color.White;
-            this.dungeonLabel1.Location = new System.Drawing.Point(80, 69);
-            this.dungeonLabel1.Name = "dungeonLabel1";
-            this.dungeonLabel1.Size = new System.Drawing.Size(190, 25);
-            this.dungeonLabel1.TabIndex = 77;
-            this.dungeonLabel1.Text = "E-mail пользователя";
-            this.dungeonLabel1.Paint += new System.Windows.Forms.PaintEventHandler(this.dungeonLabel1_Paint);
-            // 
-            // dungeonButtonLeft1
-            // 
-            this.dungeonButtonLeft1.BackColor = System.Drawing.Color.Transparent;
-            this.dungeonButtonLeft1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
-            this.dungeonButtonLeft1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dungeonButtonLeft1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dungeonButtonLeft1.Image = null;
-            this.dungeonButtonLeft1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.dungeonButtonLeft1.InactiveColorA = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
-            this.dungeonButtonLeft1.InactiveColorB = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(237)))), ((int)(((byte)(236)))));
-            this.dungeonButtonLeft1.Location = new System.Drawing.Point(80, 147);
-            this.dungeonButtonLeft1.Name = "dungeonButtonLeft1";
-            this.dungeonButtonLeft1.PressedColorA = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.dungeonButtonLeft1.PressedColorB = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.dungeonButtonLeft1.PressedContourColorA = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(167)))), ((int)(((byte)(167)))));
-            this.dungeonButtonLeft1.PressedContourColorB = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(167)))), ((int)(((byte)(167)))));
-            this.dungeonButtonLeft1.Size = new System.Drawing.Size(190, 37);
-            this.dungeonButtonLeft1.TabIndex = 76;
-            this.dungeonButtonLeft1.Text = "Востановить";
-            this.dungeonButtonLeft1.TextAlignment = System.Drawing.StringAlignment.Center;
-            this.dungeonButtonLeft1.Click += new System.EventHandler(this.dungeonButtonLeft1_Click);
-            // 
-            // dungeonTextBox1
-            // 
-            this.dungeonTextBox1.BackColor = System.Drawing.Color.Transparent;
-            this.dungeonTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
-            this.dungeonTextBox1.EdgeColor = System.Drawing.Color.White;
-            this.dungeonTextBox1.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dungeonTextBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.dungeonTextBox1.Location = new System.Drawing.Point(80, 101);
-            this.dungeonTextBox1.MaxLength = 32767;
-            this.dungeonTextBox1.Multiline = false;
-            this.dungeonTextBox1.Name = "dungeonTextBox1";
-            this.dungeonTextBox1.ReadOnly = false;
-            this.dungeonTextBox1.Size = new System.Drawing.Size(190, 33);
-            this.dungeonTextBox1.TabIndex = 74;
-            this.dungeonTextBox1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dungeonTextBox1.UseSystemPasswordChar = false;
             // 
             // dungeonLinkLabel1
             // 
@@ -92,11 +42,12 @@
             this.dungeonLinkLabel1.AutoSize = true;
             this.dungeonLinkLabel1.BackColor = System.Drawing.Color.Transparent;
             this.dungeonLinkLabel1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dungeonLinkLabel1.ForeColor = System.Drawing.Color.Teal;
             this.dungeonLinkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.AlwaysUnderline;
-            this.dungeonLinkLabel1.LinkColor = System.Drawing.Color.White;
-            this.dungeonLinkLabel1.Location = new System.Drawing.Point(142, 205);
+            this.dungeonLinkLabel1.LinkColor = System.Drawing.Color.Teal;
+            this.dungeonLinkLabel1.Location = new System.Drawing.Point(236, 317);
             this.dungeonLinkLabel1.Name = "dungeonLinkLabel1";
-            this.dungeonLinkLabel1.Size = new System.Drawing.Size(64, 25);
+            this.dungeonLinkLabel1.Size = new System.Drawing.Size(51, 20);
             this.dungeonLinkLabel1.TabIndex = 78;
             this.dungeonLinkLabel1.TabStop = true;
             this.dungeonLinkLabel1.Text = "Войти";
@@ -104,30 +55,89 @@
             this.dungeonLinkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.dungeonLinkLabel1_LinkClicked);
             this.dungeonLinkLabel1.Paint += new System.Windows.Forms.PaintEventHandler(this.dungeonLinkLabel1_Paint);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Telegram.Properties.Resources.Logo_T_sender1;
+            this.pictureBox2.Location = new System.Drawing.Point(144, 26);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(256, 58);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 93;
+            this.pictureBox2.TabStop = false;
+            // 
+            // bigLabel2
+            // 
+            this.bigLabel2.AutoSize = true;
+            this.bigLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.bigLabel2.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.bigLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.bigLabel2.Location = new System.Drawing.Point(17, 126);
+            this.bigLabel2.Name = "bigLabel2";
+            this.bigLabel2.Size = new System.Drawing.Size(512, 44);
+            this.bigLabel2.TabIndex = 92;
+            this.bigLabel2.Text = "Восстановление пароля\r\nВведите email, который вы использовали при регистрации.";
+            this.bigLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // foreverButton1
+            // 
+            this.foreverButton1.BackColor = System.Drawing.Color.Transparent;
+            this.foreverButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(193)))), ((int)(((byte)(120)))));
+            this.foreverButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.foreverButton1.Font = new System.Drawing.Font("Montserrat SemiBold", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.foreverButton1.Location = new System.Drawing.Point(168, 254);
+            this.foreverButton1.Name = "foreverButton1";
+            this.foreverButton1.Rounded = true;
+            this.foreverButton1.Size = new System.Drawing.Size(200, 45);
+            this.foreverButton1.TabIndex = 94;
+            this.foreverButton1.Text = "Восстановить";
+            this.foreverButton1.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
+            this.foreverButton1.Click += new System.EventHandler(this.dungeonButtonLeft1_Click);
+            // 
+            // dungeonTextBox1
+            // 
+            this.dungeonTextBox1.BackColor = System.Drawing.Color.Transparent;
+            this.dungeonTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
+            this.dungeonTextBox1.EdgeColor = System.Drawing.Color.White;
+            this.dungeonTextBox1.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dungeonTextBox1.ForeColor = System.Drawing.Color.DimGray;
+            this.dungeonTextBox1.Location = new System.Drawing.Point(85, 195);
+            this.dungeonTextBox1.MaxLength = 32767;
+            this.dungeonTextBox1.Multiline = false;
+            this.dungeonTextBox1.Name = "dungeonTextBox1";
+            this.dungeonTextBox1.ReadOnly = false;
+            this.dungeonTextBox1.Size = new System.Drawing.Size(373, 28);
+            this.dungeonTextBox1.TabIndex = 95;
+            this.dungeonTextBox1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
+            this.dungeonTextBox1.UseSystemPasswordChar = false;
+            // 
             // Login2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(166)))), ((int)(((byte)(194)))));
-            this.ClientSize = new System.Drawing.Size(350, 300);
-            this.Controls.Add(this.dungeonLinkLabel1);
-            this.Controls.Add(this.dungeonLabel1);
-            this.Controls.Add(this.dungeonButtonLeft1);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(581, 397);
             this.Controls.Add(this.dungeonTextBox1);
+            this.Controls.Add(this.foreverButton1);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.bigLabel2);
+            this.Controls.Add(this.dungeonLinkLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Login2";
-            this.Text = "Login2";
+            this.Text = "ё";
             this.TransparencyKey = System.Drawing.Color.Fuchsia;
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private ReaLTaiizor.Controls.DungeonLabel dungeonLabel1;
-        private ReaLTaiizor.Controls.DungeonButtonLeft dungeonButtonLeft1;
-        private ReaLTaiizor.Controls.DungeonTextBox dungeonTextBox1;
         private ReaLTaiizor.Controls.DungeonLinkLabel dungeonLinkLabel1;
+        private PictureBox pictureBox2;
+        private ReaLTaiizor.Controls.BigLabel bigLabel2;
+        private ForeverButton foreverButton1;
+        private ReaLTaiizor.Controls.DungeonTextBox dungeonTextBox1;
     }
 }

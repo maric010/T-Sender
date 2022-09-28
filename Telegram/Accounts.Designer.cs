@@ -98,7 +98,7 @@
             this.bigLabel1.BackColor = System.Drawing.Color.Transparent;
             this.bigLabel1.Font = new System.Drawing.Font("Montserrat SemiBold", 24.0928F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bigLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.bigLabel1.Location = new System.Drawing.Point(51, 28);
+            this.bigLabel1.Location = new System.Drawing.Point(30, 28);
             this.bigLabel1.Name = "bigLabel1";
             this.bigLabel1.Size = new System.Drawing.Size(272, 46);
             this.bigLabel1.TabIndex = 9;
@@ -159,10 +159,10 @@
             this.panel1.Controls.Add(this.dreamTextBox3);
             this.panel1.Controls.Add(this.dreamTextBox1);
             this.panel1.Controls.Add(this.dreamTextBox2);
-            this.panel1.Location = new System.Drawing.Point(52, 270);
+            this.panel1.Location = new System.Drawing.Point(30, 270);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(917, 89);
+            this.panel1.Size = new System.Drawing.Size(1050, 89);
             this.panel1.TabIndex = 14;
             // 
             // dungeonButtonLeft3
@@ -243,7 +243,7 @@
             this.flowLayoutPanel1.Location = new System.Drawing.Point(5, 50);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1000, 51);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1060, 51);
             this.flowLayoutPanel1.TabIndex = 16;
             this.flowLayoutPanel1.SizeChanged += new System.EventHandler(this.flowLayoutPanel1_SizeChanged);
             this.flowLayoutPanel1.ControlAdded += new System.Windows.Forms.ControlEventHandler(this.flowLayoutPanel1_ControlAdded);
@@ -255,11 +255,11 @@
             this.tableLayoutPanel1.ColumnCount = 8;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 138F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 181F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 154F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 199F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 123F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 142F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 185F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 193F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 205F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 126F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 8F));
             this.tableLayoutPanel1.Controls.Add(this.dungeonHeaderLabel2, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.dungeonHeaderLabel3, 1, 0);
@@ -271,7 +271,7 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1000, 43);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1060, 43);
             this.tableLayoutPanel1.TabIndex = 17;
             // 
             // dungeonHeaderLabel2
@@ -313,7 +313,7 @@
             this.dungeonHeaderLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
             this.dungeonHeaderLabel4.Location = new System.Drawing.Point(171, 0);
             this.dungeonHeaderLabel4.Name = "dungeonHeaderLabel4";
-            this.dungeonHeaderLabel4.Size = new System.Drawing.Size(125, 43);
+            this.dungeonHeaderLabel4.Size = new System.Drawing.Size(136, 43);
             this.dungeonHeaderLabel4.TabIndex = 18;
             this.dungeonHeaderLabel4.Text = "Имя пользователя";
             this.dungeonHeaderLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -326,9 +326,9 @@
             this.dungeonHeaderLabel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dungeonHeaderLabel5.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonHeaderLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonHeaderLabel5.Location = new System.Drawing.Point(302, 0);
+            this.dungeonHeaderLabel5.Location = new System.Drawing.Point(313, 0);
             this.dungeonHeaderLabel5.Name = "dungeonHeaderLabel5";
-            this.dungeonHeaderLabel5.Size = new System.Drawing.Size(175, 43);
+            this.dungeonHeaderLabel5.Size = new System.Drawing.Size(179, 43);
             this.dungeonHeaderLabel5.TabIndex = 19;
             this.dungeonHeaderLabel5.Text = "Имя и Фамилия";
             this.dungeonHeaderLabel5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -340,9 +340,9 @@
             this.dungeonHeaderLabel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dungeonHeaderLabel6.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonHeaderLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonHeaderLabel6.Location = new System.Drawing.Point(483, 0);
+            this.dungeonHeaderLabel6.Location = new System.Drawing.Point(498, 0);
             this.dungeonHeaderLabel6.Name = "dungeonHeaderLabel6";
-            this.dungeonHeaderLabel6.Size = new System.Drawing.Size(148, 43);
+            this.dungeonHeaderLabel6.Size = new System.Drawing.Size(187, 43);
             this.dungeonHeaderLabel6.TabIndex = 20;
             this.dungeonHeaderLabel6.Text = "Последное использование";
             this.dungeonHeaderLabel6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -354,9 +354,9 @@
             this.dungeonHeaderLabel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dungeonHeaderLabel7.Font = new System.Drawing.Font("Montserrat", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonHeaderLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonHeaderLabel7.Location = new System.Drawing.Point(836, 0);
+            this.dungeonHeaderLabel7.Location = new System.Drawing.Point(896, 0);
             this.dungeonHeaderLabel7.Name = "dungeonHeaderLabel7";
-            this.dungeonHeaderLabel7.Size = new System.Drawing.Size(117, 43);
+            this.dungeonHeaderLabel7.Size = new System.Drawing.Size(120, 43);
             this.dungeonHeaderLabel7.TabIndex = 21;
             this.dungeonHeaderLabel7.Text = "Статус";
             this.dungeonHeaderLabel7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -369,24 +369,24 @@
             this.tPanel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(212)))), ((int)(((byte)(235)))));
             this.tPanel1.Controls.Add(this.tableLayoutPanel1);
             this.tPanel1.Controls.Add(this.flowLayoutPanel1);
-            this.tPanel1.Location = new System.Drawing.Point(51, 159);
+            this.tPanel1.Location = new System.Drawing.Point(30, 159);
             this.tPanel1.Name = "tPanel1";
             this.tPanel1.Radius = 20;
-            this.tPanel1.Size = new System.Drawing.Size(1010, 106);
+            this.tPanel1.Size = new System.Drawing.Size(1070, 106);
             this.tPanel1.TabIndex = 41;
             this.tPanel1.Thickness = 1F;
             // 
             // headerLabel9
             // 
-            this.headerLabel9.AutoSize = true;
             this.headerLabel9.BackColor = System.Drawing.Color.Transparent;
             this.headerLabel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.headerLabel9.ForeColor = System.Drawing.Color.Black;
-            this.headerLabel9.Location = new System.Drawing.Point(449, 91);
+            this.headerLabel9.Location = new System.Drawing.Point(385, 91);
             this.headerLabel9.Name = "headerLabel9";
-            this.headerLabel9.Size = new System.Drawing.Size(29, 18);
+            this.headerLabel9.Size = new System.Drawing.Size(83, 18);
             this.headerLabel9.TabIndex = 44;
-            this.headerLabel9.Text = "0%";
+            this.headerLabel9.Text = "100%";
+            this.headerLabel9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // headerLabel1
             // 
@@ -394,7 +394,7 @@
             this.headerLabel1.BackColor = System.Drawing.Color.Transparent;
             this.headerLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.headerLabel1.ForeColor = System.Drawing.Color.Black;
-            this.headerLabel1.Location = new System.Drawing.Point(52, 91);
+            this.headerLabel1.Location = new System.Drawing.Point(31, 91);
             this.headerLabel1.Name = "headerLabel1";
             this.headerLabel1.Size = new System.Drawing.Size(128, 18);
             this.headerLabel1.TabIndex = 43;
@@ -412,7 +412,7 @@
             this.hopeProgressBar1.FullBallonText = "Ok!";
             this.hopeProgressBar1.FullBarColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(194)))), ((int)(((byte)(58)))));
             this.hopeProgressBar1.IsError = false;
-            this.hopeProgressBar1.Location = new System.Drawing.Point(52, 118);
+            this.hopeProgressBar1.Location = new System.Drawing.Point(30, 118);
             this.hopeProgressBar1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.hopeProgressBar1.Name = "hopeProgressBar1";
             this.hopeProgressBar1.ProgressBarStyle = Telegram.My_ProgressBar.Style.ValueInSide;

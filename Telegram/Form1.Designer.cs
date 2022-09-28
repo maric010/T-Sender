@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.nightForm1 = new Telegram.My_Form();
-            this.controlBox1 = new Telegram.ControlBox();
+            this.metroControlBox1 = new ReaLTaiizor.Controls.MetroControlBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.tButton4 = new Telegram.TButton();
             this.tButton3 = new Telegram.TButton();
@@ -70,7 +70,7 @@
             // 
             this.nightForm1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
             this.nightForm1.BorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.nightForm1.Controls.Add(this.controlBox1);
+            this.nightForm1.Controls.Add(this.metroControlBox1);
             this.nightForm1.Controls.Add(this.panel5);
             this.nightForm1.Controls.Add(this.panel1);
             this.nightForm1.Controls.Add(this.panel4);
@@ -94,34 +94,34 @@
             this.nightForm1.TransparencyKey = System.Drawing.Color.Fuchsia;
             this.nightForm1.Transparent = false;
             // 
-            // controlBox1
+            // metroControlBox1
             // 
-            this.controlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.controlBox1.CloseHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.controlBox1.CloseHoverForeColor = System.Drawing.Color.Black;
-            this.controlBox1.CloseNormalForeColor = System.Drawing.Color.Black;
-            this.controlBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.controlBox1.DefaultLocation = ReaLTaiizor.Enum.Metro.LocationType.Normal;
-            this.controlBox1.DisabledForeColor = System.Drawing.Color.Black;
-            this.controlBox1.IsDerivedStyle = true;
-            this.controlBox1.Location = new System.Drawing.Point(1266, 0);
-            this.controlBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.controlBox1.MaximizeBox = true;
-            this.controlBox1.MaximizeHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            this.controlBox1.MaximizeHoverForeColor = System.Drawing.Color.Black;
-            this.controlBox1.MaximizeNormalForeColor = System.Drawing.Color.Black;
-            this.controlBox1.MinimizeBox = true;
-            this.controlBox1.MinimizeHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            this.controlBox1.MinimizeHoverForeColor = System.Drawing.Color.Black;
-            this.controlBox1.MinimizeNormalForeColor = System.Drawing.Color.Black;
-            this.controlBox1.Name = "controlBox1";
-            this.controlBox1.Size = new System.Drawing.Size(100, 25);
-            this.controlBox1.Style = ReaLTaiizor.Enum.Metro.Style.Light;
-            this.controlBox1.StyleManager = null;
-            this.controlBox1.TabIndex = 11;
-            this.controlBox1.Text = "controlBox1";
-            this.controlBox1.ThemeAuthor = "Taiizor";
-            this.controlBox1.ThemeName = "MetroLight";
+            this.metroControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.metroControlBox1.CloseHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.metroControlBox1.CloseHoverForeColor = System.Drawing.Color.White;
+            this.metroControlBox1.CloseNormalForeColor = System.Drawing.Color.Gray;
+            this.metroControlBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.metroControlBox1.DefaultLocation = ReaLTaiizor.Enum.Metro.LocationType.Normal;
+            this.metroControlBox1.DisabledForeColor = System.Drawing.Color.DimGray;
+            this.metroControlBox1.IsDerivedStyle = true;
+            this.metroControlBox1.Location = new System.Drawing.Point(1266, 0);
+            this.metroControlBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.metroControlBox1.MaximizeBox = true;
+            this.metroControlBox1.MaximizeHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.metroControlBox1.MaximizeHoverForeColor = System.Drawing.Color.Gray;
+            this.metroControlBox1.MaximizeNormalForeColor = System.Drawing.Color.Gray;
+            this.metroControlBox1.MinimizeBox = true;
+            this.metroControlBox1.MinimizeHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.metroControlBox1.MinimizeHoverForeColor = System.Drawing.Color.Gray;
+            this.metroControlBox1.MinimizeNormalForeColor = System.Drawing.Color.Gray;
+            this.metroControlBox1.Name = "metroControlBox1";
+            this.metroControlBox1.Size = new System.Drawing.Size(100, 25);
+            this.metroControlBox1.Style = ReaLTaiizor.Enum.Metro.Style.Light;
+            this.metroControlBox1.StyleManager = null;
+            this.metroControlBox1.TabIndex = 56;
+            this.metroControlBox1.Text = "metroControlBox1";
+            this.metroControlBox1.ThemeAuthor = "Taiizor";
+            this.metroControlBox1.ThemeName = "MetroLight";
             // 
             // panel5
             // 
@@ -131,7 +131,7 @@
             this.panel5.Controls.Add(this.tButton3);
             this.panel5.Controls.Add(this.tButton2);
             this.panel5.Controls.Add(this.panel6);
-            this.panel5.Location = new System.Drawing.Point(1090, 85);
+            this.panel5.Location = new System.Drawing.Point(1090, 90);
             this.panel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(250, 250);
@@ -294,7 +294,7 @@
             this.metroEllipse1.Image = null;
             this.metroEllipse1.ImageSize = new System.Drawing.Size(64, 64);
             this.metroEllipse1.IsDerivedStyle = true;
-            this.metroEllipse1.Location = new System.Drawing.Point(1050, 10);
+            this.metroEllipse1.Location = new System.Drawing.Point(1050, 15);
             this.metroEllipse1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroEllipse1.Name = "metroEllipse1";
             this.metroEllipse1.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(170)))), ((int)(((byte)(214)))));
@@ -367,7 +367,7 @@
             this.panel2.Location = new System.Drawing.Point(0, 25);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(230, 743);
+            this.panel2.Size = new System.Drawing.Size(230, 740);
             this.panel2.TabIndex = 17;
             this.panel2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tButton2_MouseClick);
             // 
@@ -375,7 +375,7 @@
             // 
             this.panel11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.panel11.BackColor = System.Drawing.Color.White;
-            this.panel11.Location = new System.Drawing.Point(0, 692);
+            this.panel11.Location = new System.Drawing.Point(0, 689);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(3, 50);
             this.panel11.TabIndex = 21;
@@ -397,7 +397,7 @@
             this.tButton1.ForeColor = System.Drawing.Color.White;
             this.tButton1.Image = global::Telegram.Properties.Resources.Support;
             this.tButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.tButton1.Location = new System.Drawing.Point(0, 690);
+            this.tButton1.Location = new System.Drawing.Point(0, 687);
             this.tButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tButton1.Name = "tButton1";
             this.tButton1.OverColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(100)))), ((int)(((byte)(155)))));
@@ -592,6 +592,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "themeForm1";
             this.TransparencyKey = System.Drawing.Color.Fuchsia;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.nightForm1.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
@@ -636,6 +637,6 @@
         private Panel panel7;
         private Panel panel11;
         private TButton tButton1;
-        private ControlBox controlBox1;
+        private ReaLTaiizor.Controls.MetroControlBox metroControlBox1;
     }
 }

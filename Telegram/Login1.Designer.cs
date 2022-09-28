@@ -57,7 +57,7 @@
             this.dungeonLinkLabel1.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonLinkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.AlwaysUnderline;
             this.dungeonLinkLabel1.LinkColor = System.Drawing.Color.Teal;
-            this.dungeonLinkLabel1.Location = new System.Drawing.Point(17, 301);
+            this.dungeonLinkLabel1.Location = new System.Drawing.Point(17, 300);
             this.dungeonLinkLabel1.Name = "dungeonLinkLabel1";
             this.dungeonLinkLabel1.Size = new System.Drawing.Size(146, 22);
             this.dungeonLinkLabel1.TabIndex = 73;
@@ -190,10 +190,10 @@
             this.foreverButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(193)))), ((int)(((byte)(120)))));
             this.foreverButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.foreverButton1.Font = new System.Drawing.Font("Montserrat SemiBold", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.foreverButton1.Location = new System.Drawing.Point(17, 333);
+            this.foreverButton1.Location = new System.Drawing.Point(17, 330);
             this.foreverButton1.Name = "foreverButton1";
             this.foreverButton1.Rounded = true;
-            this.foreverButton1.Size = new System.Drawing.Size(105, 34);
+            this.foreverButton1.Size = new System.Drawing.Size(105, 45);
             this.foreverButton1.TabIndex = 84;
             this.foreverButton1.Text = "Войти";
             this.foreverButton1.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
@@ -235,7 +235,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(17, 301);
+            this.label3.Location = new System.Drawing.Point(17, 300);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(334, 22);
             this.label3.TabIndex = 90;

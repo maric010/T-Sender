@@ -19,7 +19,7 @@ namespace Telegram
     //[Designer(typeof(MetroControlBoxDesigner))]
     [DefaultProperty("Click")]
     [ComVisible(true)]
-    public class ControlBox : Control, IMetroControl
+    public class ControlBox : ContainerControl, IMetroControl
     {
         #region Interfaces
 
@@ -232,8 +232,14 @@ namespace Telegram
             get => _maximizeBox;
             set
             {
-                _maximizeBox = value;
-                Refresh();
+                try
+                {
+                    base.ParentForm.MaximizeBox = value;
+                    Invalidate();
+                }
+                catch
+                {
+                }
             }
         }
 
@@ -380,36 +386,65 @@ namespace Telegram
 
         protected override void OnPaint(PaintEventArgs e)
         {
-            Graphics g = e.Graphics;
-            g.TextRenderingHint = TextRenderingHint.ClearTypeGridFit;
-
-            using (SolidBrush closeBoxState = new(CloseHovered ? CloseHoverBackColor : Color.Transparent))
+            Graphics graphics = e.Graphics;
+            graphics.TextRenderingHint = TextRenderingHint.ClearTypeGridFit;
+            using (SolidBrush brush = new SolidBrush(CloseHovered ? CloseHoverBackColor : Color.Transparent))
             {
-                using Font f = new(@"Marlett", 12);
-                using SolidBrush tb = new(CloseHovered ? CloseHoverForeColor : CloseNormalForeColor);
-                using StringFormat sf = new() { Alignment = StringAlignment.Center };
-                g.FillRectangle(closeBoxState, new Rectangle(70, 5, 27, Height));
-                g.DrawString("r", f, CloseHovered ? tb : Brushes.Black, new Point(Width - 16, 8), sf);
-            }
-            using (SolidBrush maximizeBoxState = new(MaximizeBox ? MaximizeHovered ? MaximizeHoverBackColor : Color.Transparent : Color.Transparent))
-            {
-                using Font f = new(@"Marlett", 12);
-                using SolidBrush tb = new(MaximizeBox ? MaximizeHovered ? MaximizeHoverForeColor : MaximizeNormalForeColor : DisabledForeColor);
-                string maxSymbol = Parent.FindForm()?.WindowState == FormWindowState.Maximized ? "2" : "1";
-                using StringFormat sf = new() { Alignment = StringAlignment.Center };
-                g.FillRectangle(maximizeBoxState, new Rectangle(38, 5, 24, Height));
-                g.DrawString(maxSymbol, f, tb, new Point(51, 7), sf);
-            }
-            using (SolidBrush minimizeBoxState = new(MinimizeBox ? MinimizeHovered ? MinimizeHoverBackColor : Color.Transparent : Color.Transparent))
-            {
-                using Font f = new(@"Marlett", 12);
-                using SolidBrush tb = new(MinimizeBox ? MinimizeHovered ? MinimizeHoverForeColor : MinimizeNormalForeColor : DisabledForeColor);
-                using StringFormat sf = new() { Alignment = StringAlignment.Center };
-                g.FillRectangle(minimizeBoxState, new Rectangle(5, 5, 27, Height));
-                g.DrawString("0", f, tb, new Point(20, 7), sf);
+                using (Font font = new Font("Marlett", 12f))
+                {
+                    using (SolidBrush solidBrush = new SolidBrush(CloseHovered ? CloseHoverForeColor : CloseNormalForeColor))
+                    {
+                        using (StringFormat format = new StringFormat
+                        {
+                            Alignment = StringAlignment.Center
+                        })
+                        {
+                            graphics.FillRectangle(brush, new Rectangle(70, 5, 27, base.Height));
+                            graphics.DrawString("r", font, CloseHovered ? solidBrush : Brushes.Gray, new Point(base.Width - 16, 8), format);
+                        }
+                    }
+                }
             }
 
+            using (SolidBrush brush2 = new SolidBrush((!MaximizeBox) ? Color.Transparent : (MaximizeHovered ? MaximizeHoverBackColor : Color.Transparent)))
+            {
+                using (Font font2 = new Font("Marlett", 12f))
+                {
+                    using (SolidBrush brush3 = new SolidBrush((!MaximizeBox) ? DisabledForeColor : (MaximizeHovered ? MaximizeHoverForeColor : MaximizeNormalForeColor)))
+                    {
+                        Form form = base.Parent.FindForm();
+                        string s = (form != null && form.WindowState == FormWindowState.Maximized) ? "2" : "1";
+                        using (StringFormat format2 = new StringFormat
+                        {
+                            Alignment = StringAlignment.Center
+                        })
+                        {
+                            graphics.FillRectangle(brush2, new Rectangle(38, 5, 24, base.Height));
+                            graphics.DrawString(s, font2, brush3, new Point(51, 7), format2);
+                        }
+                    }
+                }
+            }
+
+            using (SolidBrush brush4 = new SolidBrush((!MinimizeBox) ? Color.Transparent : (MinimizeHovered ? MinimizeHoverBackColor : Color.Transparent)))
+            {
+                using (Font font3 = new Font("Marlett", 12f))
+                {
+                    using (SolidBrush brush5 = new SolidBrush((!MinimizeBox) ? DisabledForeColor : (MinimizeHovered ? MinimizeHoverForeColor : MinimizeNormalForeColor)))
+                    {
+                        using (StringFormat format3 = new StringFormat
+                        {
+                            Alignment = StringAlignment.Center
+                        })
+                        {
+                            graphics.FillRectangle(brush4, new Rectangle(5, 5, 27, base.Height));
+                            graphics.DrawString("0", font3, brush5, new Point(20, 7), format3);
+                        }
+                    }
+                }
+            }
         }
+
 
         #endregion
 
@@ -441,6 +476,7 @@ namespace Telegram
         protected override void OnResize(EventArgs e)
         {
             base.OnResize(e);
+            base.Height = 40;
             //Size = new(100, 33);
         }
 

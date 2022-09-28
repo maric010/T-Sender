@@ -21,6 +21,7 @@ namespace Telegram
             metroEllipse1.Text = my.firstname.First().ToString();
             th = this;
             foxButton3_Click(null, null);
+            this.MaximumSize = Screen.PrimaryScreen.WorkingArea.Size;
         }
 
         
@@ -228,6 +229,13 @@ namespace Telegram
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Вы действительно хотите выйти?", "Выйти из аккаунта", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Abort)
+                e.Cancel = true;
         }
     }
 }

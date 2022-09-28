@@ -30,6 +30,7 @@ namespace Telegram
 
         private void Login1_KeyDown(object sender, KeyEventArgs e)
         {
+            check();
             if (e.KeyCode == Keys.Enter)
             {
                 login();
@@ -41,25 +42,7 @@ namespace Telegram
             Login.load_form(new Login2());
         }
 
-        private void dungeonTextBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dungeonTextBox1_Leave(object sender, EventArgs e)
-        {
-            MessageBox.Show("leave");
-        }
-
-        private void textBox1_Enter(object sender, EventArgs e)
-        {
-            MessageBox.Show("enter");
-        }
-
-        private void textBox1_Leave(object sender, EventArgs e)
-        {
-            MessageBox.Show("leave");
-        }
+      
 
         private void loginTextBox1_Enter(object sender, EventArgs e)
         {
@@ -91,16 +74,38 @@ namespace Telegram
         {
             label2.Visible = loginTextBox2.Text == "";
         }
-        internal static void check()
+        internal static void check(string text="")
         {
-            if (password_is_wrong)
+            Login1.th.Invoke(new Action(() =>
             {
-                Login1.th.label3.Visible = true;
-            }
-            else
-            {
-                Login1.th.label3.Visible = true;
-            }
+                if (text == "")
+                {
+                    Login1.th.loginTextBox1.BorderColor = Color.FromArgb(60, 161, 210);
+                    Login1.th.loginTextBox2.BorderColor = Color.FromArgb(60, 161, 210);
+                    Login1.th.label3.Visible = false;
+                    Login1.th.dungeonLinkLabel1.Location = new Point(Login1.th.dungeonLinkLabel1.Location.X, 300);
+                    Login1.th.foreverButton1.Location = new Point(Login1.th.foreverButton1.Location.X, 330);
+
+
+                }
+                else
+                {
+                    Login1.th.label3.Text = text;
+                    Login1.th.label3.Visible = true;
+                    Login1.th.dungeonLinkLabel1.Location = new Point(Login1.th.dungeonLinkLabel1.Location.X, 325);
+                    Login1.th.foreverButton1.Location = new Point(Login1.th.foreverButton1.Location.X, 355);
+                    if(text== "Пароль введен неправильно")
+                    {
+                        Login1.th.loginTextBox2.BorderColor = Color.Red;
+                    }
+                    else
+                    {
+                        Login1.th.loginTextBox1.BorderColor = Color.Red;
+                        Login1.th.loginTextBox2.BorderColor = Color.Red;
+                    }
+                }
+            }));
+            
         }
         private void dungeonButtonLeft1_Click(object sender, EventArgs e)
         {
@@ -127,13 +132,7 @@ namespace Telegram
         {
         }
 
-        private void foreverButton1_Paint(object sender, PaintEventArgs e)
-        {
-        }
-
-        private void loginTextBox1_Paint(object sender, PaintEventArgs e)
-        {
-        }
+      
 
         private void loginTextBox2_Paint(object sender, PaintEventArgs e)
         {

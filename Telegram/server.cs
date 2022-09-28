@@ -130,9 +130,11 @@ namespace Telegram
                     break;
                 case "login_failed":
                     if (sp[1] == "password_is_wrong")
-                        MessageBox.Show("Пароль введен неправильно");
-                    else if(sp[1]== "username_is_not_found")
-                        MessageBox.Show("Имя пользователя не существует");
+                        Login1.check("Пароль введен неправильно");
+                    else if (sp[1] == "username_is_not_found")
+                        Login1.check("Имя пользователя не существует");
+                    else
+                        Login1.check("Произошла ошибка при авторизации");
                     break;
                 case "account_added_successfully":
                     T_ACCOUNT new_account = new T_ACCOUNT();

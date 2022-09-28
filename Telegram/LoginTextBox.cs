@@ -43,6 +43,8 @@ namespace Telegram
             set
             {
                 _BorderColor = value;
+                P1 = new Pen(_BorderColor);
+                Refresh();
             }
         }
 
@@ -186,7 +188,7 @@ namespace Telegram
 
         private void _Enter(object Obj, EventArgs e)
         {
-            P1 = new Pen(Color.FromArgb(205, 87, 40));
+            P1 = new Pen(Color.FromArgb(60, 161, 210));
             Refresh();
         }
 

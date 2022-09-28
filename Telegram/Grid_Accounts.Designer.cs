@@ -58,7 +58,7 @@
             this.dungeonLabel3.BackColor = System.Drawing.Color.Transparent;
             this.dungeonLabel3.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonLabel3.Location = new System.Drawing.Point(165, 3);
+            this.dungeonLabel3.Location = new System.Drawing.Point(180, 3);
             this.dungeonLabel3.Name = "dungeonLabel3";
             this.dungeonLabel3.Size = new System.Drawing.Size(124, 22);
             this.dungeonLabel3.TabIndex = 9;
@@ -72,7 +72,7 @@
             this.dungeonLabel4.BackColor = System.Drawing.Color.Transparent;
             this.dungeonLabel4.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonLabel4.Location = new System.Drawing.Point(290, 3);
+            this.dungeonLabel4.Location = new System.Drawing.Point(320, 3);
             this.dungeonLabel4.Name = "dungeonLabel4";
             this.dungeonLabel4.Size = new System.Drawing.Size(174, 22);
             this.dungeonLabel4.TabIndex = 10;
@@ -86,7 +86,7 @@
             this.dungeonLabel6.BackColor = System.Drawing.Color.Transparent;
             this.dungeonLabel6.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonLabel6.Location = new System.Drawing.Point(470, 3);
+            this.dungeonLabel6.Location = new System.Drawing.Point(500, 3);
             this.dungeonLabel6.Name = "dungeonLabel6";
             this.dungeonLabel6.Size = new System.Drawing.Size(180, 22);
             this.dungeonLabel6.TabIndex = 12;
@@ -105,7 +105,7 @@
             this.dungeonButtonLeft1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dungeonButtonLeft1.InactiveColorA = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
             this.dungeonButtonLeft1.InactiveColorB = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(237)))), ((int)(((byte)(236)))));
-            this.dungeonButtonLeft1.Location = new System.Drawing.Point(660, 3);
+            this.dungeonButtonLeft1.Location = new System.Drawing.Point(690, 3);
             this.dungeonButtonLeft1.Name = "dungeonButtonLeft1";
             this.dungeonButtonLeft1.PressedColorA = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.dungeonButtonLeft1.PressedColorB = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
@@ -122,7 +122,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Telegram.Properties.Resources.remove;
-            this.pictureBox1.Location = new System.Drawing.Point(970, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(1030, 3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(20, 20);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -152,9 +152,9 @@
             this.dungeonLabel7.BackColor = System.Drawing.Color.Transparent;
             this.dungeonLabel7.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonLabel7.Location = new System.Drawing.Point(860, 3);
+            this.dungeonLabel7.Location = new System.Drawing.Point(890, 3);
             this.dungeonLabel7.Name = "dungeonLabel7";
-            this.dungeonLabel7.Size = new System.Drawing.Size(84, 22);
+            this.dungeonLabel7.Size = new System.Drawing.Size(130, 22);
             this.dungeonLabel7.TabIndex = 16;
             this.dungeonLabel7.Text = "Статус";
             this.dungeonLabel7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -176,7 +176,7 @@
             this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "Grid_Accounts";
-            this.Size = new System.Drawing.Size(1000, 30);
+            this.Size = new System.Drawing.Size(1060, 30);
             this.MouseLeave += new System.EventHandler(this.Grid_Accounts_MouseLeave);
             this.MouseHover += new System.EventHandler(this.Grid_Accounts_MouseHover);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
