@@ -85,8 +85,6 @@ namespace Telegram
                     Login1.th.label3.Visible = false;
                     Login1.th.dungeonLinkLabel1.Location = new Point(Login1.th.dungeonLinkLabel1.Location.X, 300);
                     Login1.th.foreverButton1.Location = new Point(Login1.th.foreverButton1.Location.X, 330);
-
-
                 }
                 else
                 {

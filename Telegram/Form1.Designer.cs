@@ -318,7 +318,7 @@
             this.dungeonLabel1.BackColor = System.Drawing.Color.Transparent;
             this.dungeonLabel1.Font = new System.Drawing.Font("Montserrat", 12.0464F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonLabel1.Location = new System.Drawing.Point(48, 39);
+            this.dungeonLabel1.Location = new System.Drawing.Point(43, 39);
             this.dungeonLabel1.Name = "dungeonLabel1";
             this.dungeonLabel1.Size = new System.Drawing.Size(168, 24);
             this.dungeonLabel1.TabIndex = 9;
@@ -330,7 +330,7 @@
             this.dungeonHeaderLabel1.BackColor = System.Drawing.Color.Transparent;
             this.dungeonHeaderLabel1.Font = new System.Drawing.Font("Montserrat SemiBold", 12.0464F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonHeaderLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonHeaderLabel1.Location = new System.Drawing.Point(48, 14);
+            this.dungeonHeaderLabel1.Location = new System.Drawing.Point(43, 14);
             this.dungeonHeaderLabel1.Name = "dungeonHeaderLabel1";
             this.dungeonHeaderLabel1.Size = new System.Drawing.Size(0, 24);
             this.dungeonHeaderLabel1.TabIndex = 8;

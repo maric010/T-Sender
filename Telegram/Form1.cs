@@ -133,6 +133,7 @@ namespace Telegram
             DialogResult dialogResult = MessageBox.Show("Вы действительно хотите выйти?", "Выйти из аккаунта", MessageBoxButtons.YesNo);
             if (dialogResult == DialogResult.Yes)
             {
+                my.login = false;
                 Close();
             }
         }
@@ -233,9 +234,18 @@ namespace Telegram
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Вы действительно хотите выйти?", "Выйти из аккаунта", MessageBoxButtons.YesNo);
-            if (dialogResult == DialogResult.Abort)
-                e.Cancel = true;
+            if (my.login)
+            {
+                DialogResult dialogResult = MessageBox.Show("Вы действительно хотите выйти?", "Выйти из аккаунта", MessageBoxButtons.YesNo);
+                if (dialogResult == DialogResult.Yes)
+                {
+                    my.exit = true;
+                    e.Cancel = false;
+                }
+                else
+                    e.Cancel = true;
+            }
+            
         }
     }
 }

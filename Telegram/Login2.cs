@@ -13,9 +13,11 @@ namespace Telegram
     public partial class Login2 : Form
     {
         internal static string email;
+        internal static Login2 th;
         public Login2()
         {
             InitializeComponent();
+            th = this;
         }
         bool IsValidEmail(string email)
         {
@@ -40,6 +42,17 @@ namespace Telegram
         }
         private void dungeonButtonLeft1_Click(object sender, EventArgs e)
         {
+            /*
+             * Проверяем правильность email и отправляем серверу этот email
+             * Сервер в свою очередь отправит код на указанный email
+             */
+            if (!IsValidEmail(dungeonTextBox1.Text))
+            {
+                MessageBox.Show("Указанный email не существует!");
+            }
+            email = dungeonTextBox1.Text;
+            server.send("forget_password|" + dungeonTextBox1.Text);
+
 
         }
 
@@ -51,9 +64,7 @@ namespace Telegram
             Login.load_form(new Login1());
         }
 
-        private void dungeonLabel1_Paint(object sender, PaintEventArgs e)
-        {
-        }
+        
 
         private void dungeonLinkLabel1_Paint(object sender, PaintEventArgs e)
         {

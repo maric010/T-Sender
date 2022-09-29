@@ -92,12 +92,18 @@ namespace Telegram
 
                         my.phone = sp[7];
                         my.tarif = sp[8];
-                        Login.load_form(new Login4());
+                        Login3.th.Invoke(new MethodInvoker(() =>
+                        {
+                            Login.load_form(new Login4());
+                        }));
+                        
                         break;
                     }
                 case "email_code_sended":
-                    MessageBox.Show("Код вышлен на почту");
-                    Login.load_form(new Login3());
+                    Login2.th.Invoke(new MethodInvoker(() =>
+                    {
+                        Login.load_form(new Login3());
+                    }));
                     return;
                 case "email_is_invalid":
                     MessageBox.Show("Указанный email не существует!");
@@ -190,7 +196,8 @@ namespace Telegram
                         Accounts.th.Invoke(new MethodInvoker(() =>
                         {
                             Accounts.th.dungeonButtonLeft3.Visible = true;
-                            Accounts.th.dreamTextBox3.Visible = true;
+                            
+                            Accounts.th.tPanel4.Visible = true;
                         }));
                     
                     break;
@@ -198,7 +205,7 @@ namespace Telegram
                     if (Accounts.th != null)
                         Accounts.th.Invoke(new MethodInvoker(() =>
                         {
-                            Accounts.th.dreamTextBox2.Visible = true;
+                            Accounts.th.tPanel3.Visible = true;
                             Accounts.th.dungeonButtonLeft2.Visible = true;
                         }));
                     break;

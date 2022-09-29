@@ -40,5 +40,12 @@ namespace Telegram
             load_form(new Login1());
         }
 
+        private void Login_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (!my.login)
+            {
+                my.exit = true;
+            }
+        }
     }
 }

@@ -96,12 +96,12 @@
             this.loginTextBox1.BackColor = System.Drawing.Color.Transparent;
             this.loginTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(161)))), ((int)(((byte)(210)))));
             this.loginTextBox1.EdgeColor = System.Drawing.Color.White;
-            this.loginTextBox1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.loginTextBox1.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.loginTextBox1.ForeColor = System.Drawing.Color.DimGray;
             this.loginTextBox1.Location = new System.Drawing.Point(69, 196);
             this.loginTextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.loginTextBox1.MaxLength = 32767;
-            this.loginTextBox1.Multiline = false;
+            this.loginTextBox1.Multiline = true;
             this.loginTextBox1.Name = "loginTextBox1";
             this.loginTextBox1.ReadOnly = false;
             this.loginTextBox1.Size = new System.Drawing.Size(373, 40);
@@ -142,7 +142,7 @@
             this.loginTextBox2.BackColor = System.Drawing.Color.Transparent;
             this.loginTextBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(161)))), ((int)(((byte)(210)))));
             this.loginTextBox2.EdgeColor = System.Drawing.Color.White;
-            this.loginTextBox2.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.loginTextBox2.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.loginTextBox2.ForeColor = System.Drawing.Color.DimGray;
             this.loginTextBox2.Location = new System.Drawing.Point(69, 250);
             this.loginTextBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -163,11 +163,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.Gray;
-            this.label1.Location = new System.Drawing.Point(74, 203);
+            this.label1.Location = new System.Drawing.Point(85, 205);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(187, 25);
+            this.label1.Size = new System.Drawing.Size(180, 22);
             this.label1.TabIndex = 82;
             this.label1.Text = "email@example.com";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -175,11 +175,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.Gray;
-            this.label2.Location = new System.Drawing.Point(74, 256);
+            this.label2.Location = new System.Drawing.Point(85, 257);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(150, 25);
+            this.label2.Size = new System.Drawing.Size(145, 22);
             this.label2.TabIndex = 83;
             this.label2.Text = "Введите пароль";
             this.label2.Click += new System.EventHandler(this.label2_Click);

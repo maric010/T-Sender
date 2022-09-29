@@ -37,7 +37,7 @@
             // 
             // my_Form1
             // 
-            this.my_Form1.BackColor = System.Drawing.Color.White;
+            this.my_Form1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
             this.my_Form1.BorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.my_Form1.Controls.Add(this.panel2);
             this.my_Form1.Controls.Add(this.panel1);
@@ -115,7 +115,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
             this.ClientSize = new System.Drawing.Size(1366, 768);
             this.Controls.Add(this.my_Form1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -127,6 +127,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "dungeonForm1";
             this.TransparencyKey = System.Drawing.Color.Fuchsia;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Login_FormClosing);
             this.Load += new System.EventHandler(this.Login_Load);
             this.my_Form1.ResumeLayout(false);
             this.ResumeLayout(false);

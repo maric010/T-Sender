@@ -14,11 +14,15 @@ namespace Telegram
             ApplicationConfiguration.Initialize();
             //—оеденимс€ к серверу
             server.connect();
-            //ќткроем форму авторизации
-            Application.Run(new Login());
-            //≈сли пользователь авторизовалс€. запускаем основную форму
-            if(my.login)
-                Application.Run(new Form1());
+            while (!my.exit)
+            {
+                //ќткроем форму авторизации
+                Application.Run(new Login());
+                //≈сли пользователь авторизовалс€. запускаем основную форму
+                if (my.login)
+                    Application.Run(new Form1());
+            }
+            
             //ѕосле завершени€ основной формы отключаемс€ от сервера
             server.close();
             server.is_connected = false;

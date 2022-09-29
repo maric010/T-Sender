@@ -30,7 +30,7 @@ namespace Telegram
                 else if (mail.status == "started")
                     status = "Началось";
 
-                dataGridView1.Rows.Add(mail.id,status,mail.users_count,mail.accounts_count,mail.start_date,"Подробно");
+                dataGridView1.Rows.Add(mail.id,status,mail.users_count,mail.accounts_count,mail.start_date,mail.stop_date,"Подробно");
             }
         }
 

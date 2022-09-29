@@ -12,17 +12,16 @@ namespace Telegram
 {
     public partial class Login3 : Form
     {
+        internal static Login3 th;
         public Login3()
         {
             InitializeComponent();
+            th = this;
         }
 
         private void dungeonLinkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            /*
-             * Вернемся к вводу email
-             */
-            Login.load_form(new Login2());
+            
         }
 
         private void dungeonButtonLeft1_Click(object sender, EventArgs e)
@@ -31,6 +30,15 @@ namespace Telegram
              * Отправляем серверу email и код
              */
             server.send("restore_password|"+Login2.email+"|"+dungeonTextBox1.Text);
+        }
+
+        private void dungeonLinkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            /*
+             * Вернемся к вводу email
+             */
+            Login.load_form(new Login2());
+
         }
     }
 }

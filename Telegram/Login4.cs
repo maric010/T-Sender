@@ -19,6 +19,11 @@ namespace Telegram
 
         private void dungeonButtonLeft1_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void foreverButton1_Click(object sender, EventArgs e)
+        {
             /*
              * Кнопка которая проверяет новый пароль на правильность и отправляет 
              * серверу сообщение об изменение пароля и после завершает форму авторизации
@@ -51,13 +56,18 @@ namespace Telegram
                 }
             }
             server.send("change_password|" + dungeonTextBox1.Text);
-                MessageBox.Show("Пароль успешно изменен");
+            MessageBox.Show("Пароль успешно изменен");
             //Закрываем форму авторизации
-                Login.th.Invoke(new Action(() =>
-                {
-                    Login.th.Close();
-                }));
-            
+            Login.th.Invoke(new Action(() =>
+            {
+                Login.th.Close();
+            }));
+
+        }
+
+        private void dungeonLinkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
         }
     }
 }

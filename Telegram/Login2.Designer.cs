@@ -32,7 +32,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.bigLabel2 = new ReaLTaiizor.Controls.BigLabel();
             this.foreverButton1 = new Telegram.ForeverButton();
-            this.dungeonTextBox1 = new ReaLTaiizor.Controls.DungeonTextBox();
+            this.dungeonTextBox1 = new ReaLTaiizor.Controls.MaterialSingleTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -96,19 +96,21 @@
             // 
             // dungeonTextBox1
             // 
-            this.dungeonTextBox1.BackColor = System.Drawing.Color.Transparent;
-            this.dungeonTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
-            this.dungeonTextBox1.EdgeColor = System.Drawing.Color.White;
+            this.dungeonTextBox1.Depth = 0;
             this.dungeonTextBox1.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dungeonTextBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.dungeonTextBox1.Location = new System.Drawing.Point(85, 195);
+            this.dungeonTextBox1.Hint = "Электронная почта";
+            this.dungeonTextBox1.Location = new System.Drawing.Point(94, 203);
             this.dungeonTextBox1.MaxLength = 32767;
-            this.dungeonTextBox1.Multiline = false;
+            this.dungeonTextBox1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
             this.dungeonTextBox1.Name = "dungeonTextBox1";
-            this.dungeonTextBox1.ReadOnly = false;
-            this.dungeonTextBox1.Size = new System.Drawing.Size(373, 28);
-            this.dungeonTextBox1.TabIndex = 95;
-            this.dungeonTextBox1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
+            this.dungeonTextBox1.PasswordChar = '\0';
+            this.dungeonTextBox1.SelectedText = "";
+            this.dungeonTextBox1.SelectionLength = 0;
+            this.dungeonTextBox1.SelectionStart = 0;
+            this.dungeonTextBox1.Size = new System.Drawing.Size(350, 25);
+            this.dungeonTextBox1.TabIndex = 96;
+            this.dungeonTextBox1.TabStop = false;
+            this.dungeonTextBox1.UseAccentColor = false;
             this.dungeonTextBox1.UseSystemPasswordChar = false;
             // 
             // Login2
@@ -138,6 +140,6 @@
         private PictureBox pictureBox2;
         private ReaLTaiizor.Controls.BigLabel bigLabel2;
         private ForeverButton foreverButton1;
-        private ReaLTaiizor.Controls.DungeonTextBox dungeonTextBox1;
+        private ReaLTaiizor.Controls.MaterialSingleTextBox dungeonTextBox1;
     }
 }

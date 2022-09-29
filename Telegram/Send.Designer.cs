@@ -48,6 +48,7 @@
             this.dungeonTextBox2 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
             this.foreverButton1 = new ReaLTaiizor.Controls.ForeverButton();
             this.tPanel2 = new Telegram.TPanel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
@@ -55,21 +56,21 @@
             this.dungeonHeaderLabel5 = new ReaLTaiizor.Controls.DungeonHeaderLabel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.hopeRadioButton6 = new ReaLTaiizor.Controls.HopeRadioButton();
-            this.hopeRadioButton7 = new ReaLTaiizor.Controls.HopeRadioButton();
+            this.hopeRadioButton6 = new Telegram.HopeRadioButton();
+            this.hopeRadioButton7 = new Telegram.HopeRadioButton();
             this.tPanel3 = new Telegram.TPanel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.dungeonTextBox1 = new System.Windows.Forms.TextBox();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.hopeRadioButton2 = new ReaLTaiizor.Controls.HopeRadioButton();
-            this.hopeRadioButton1 = new ReaLTaiizor.Controls.HopeRadioButton();
+            this.hopeRadioButton2 = new Telegram.HopeRadioButton();
+            this.hopeRadioButton1 = new Telegram.HopeRadioButton();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.hopeRadioButton8 = new ReaLTaiizor.Controls.HopeRadioButton();
-            this.hopeRadioButton5 = new ReaLTaiizor.Controls.HopeRadioButton();
-            this.hopeRadioButton3 = new ReaLTaiizor.Controls.HopeRadioButton();
-            this.hopeRadioButton4 = new ReaLTaiizor.Controls.HopeRadioButton();
+            this.hopeRadioButton8 = new Telegram.HopeRadioButton();
+            this.hopeRadioButton5 = new Telegram.HopeRadioButton();
+            this.hopeRadioButton3 = new Telegram.HopeRadioButton();
+            this.hopeRadioButton4 = new Telegram.HopeRadioButton();
             this.dungeonLabel1 = new ReaLTaiizor.Controls.DungeonLabel();
-            this.bigLabel2 = new ReaLTaiizor.Controls.BigLabel();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -146,7 +147,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Image = global::Telegram.Properties.Resources.img_522136;
+            this.pictureBox1.Image = global::Telegram.Properties.Resources.photo_2022_09_08_16_39_57;
             this.pictureBox1.Location = new System.Drawing.Point(82, 269);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
@@ -204,11 +205,11 @@
             this.panel1.Controls.Add(this.panel7);
             this.panel1.Controls.Add(this.panel6);
             this.panel1.Controls.Add(this.dungeonLabel1);
-            this.panel1.Location = new System.Drawing.Point(31, 75);
+            this.panel1.Location = new System.Drawing.Point(40, 75);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
             this.panel1.Radius = 40;
-            this.panel1.Size = new System.Drawing.Size(630, 1013);
+            this.panel1.Size = new System.Drawing.Size(630, 1143);
             this.panel1.TabIndex = 30;
             this.panel1.Thickness = 10F;
             // 
@@ -247,7 +248,7 @@
             // 
             // panel3
             // 
-            this.panel3.Location = new System.Drawing.Point(200, 230);
+            this.panel3.Location = new System.Drawing.Point(207, 230);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(380, 154);
             this.panel3.TabIndex = 0;
@@ -257,7 +258,7 @@
             this.tpanelll.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(212)))), ((int)(((byte)(235)))));
             this.tpanelll.Controls.Add(this.dungeonTextBox2);
             this.tpanelll.Controls.Add(this.pictureBox3);
-            this.tpanelll.Location = new System.Drawing.Point(199, 110);
+            this.tpanelll.Location = new System.Drawing.Point(206, 110);
             this.tpanelll.Name = "tpanelll";
             this.tpanelll.Radius = 20;
             this.tpanelll.Size = new System.Drawing.Size(380, 40);
@@ -288,14 +289,25 @@
             // 
             // panel8
             // 
+            this.panel8.Controls.Add(this.label7);
             this.panel8.Controls.Add(this.foreverButton1);
             this.panel8.Controls.Add(this.tPanel2);
             this.panel8.Controls.Add(this.dungeonLabel2);
             this.panel8.Controls.Add(this.dungeonHeaderLabel5);
             this.panel8.Location = new System.Drawing.Point(26, 580);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(579, 473);
+            this.panel8.Size = new System.Drawing.Size(579, 505);
             this.panel8.TabIndex = 27;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Montserrat SemiBold", 9.0348F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label7.Location = new System.Drawing.Point(181, 269);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(164, 18);
+            this.label7.TabIndex = 46;
+            this.label7.Text = "Выбрано 0 аккаунтов.";
             // 
             // foreverButton1
             // 
@@ -303,7 +315,7 @@
             this.foreverButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
             this.foreverButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.foreverButton1.Font = new System.Drawing.Font("Montserrat SemiBold", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.foreverButton1.Location = new System.Drawing.Point(356, 410);
+            this.foreverButton1.Location = new System.Drawing.Point(360, 446);
             this.foreverButton1.Name = "foreverButton1";
             this.foreverButton1.Rounded = true;
             this.foreverButton1.Size = new System.Drawing.Size(200, 45);
@@ -316,7 +328,7 @@
             // 
             this.tPanel2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(212)))), ((int)(((byte)(235)))));
             this.tPanel2.Controls.Add(this.flowLayoutPanel1);
-            this.tPanel2.Location = new System.Drawing.Point(173, 10);
+            this.tPanel2.Location = new System.Drawing.Point(180, 10);
             this.tPanel2.Name = "tPanel2";
             this.tPanel2.Radius = 20;
             this.tPanel2.Size = new System.Drawing.Size(380, 245);
@@ -336,7 +348,7 @@
             this.dungeonLabel2.BackColor = System.Drawing.Color.Transparent;
             this.dungeonLabel2.Font = new System.Drawing.Font("Montserrat", 9.0348F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonLabel2.Location = new System.Drawing.Point(173, 270);
+            this.dungeonLabel2.Location = new System.Drawing.Point(180, 311);
             this.dungeonLabel2.Name = "dungeonLabel2";
             this.dungeonLabel2.Size = new System.Drawing.Size(380, 110);
             this.dungeonLabel2.TabIndex = 27;
@@ -364,7 +376,7 @@
             this.panel2.Controls.Add(this.tPanel3);
             this.panel2.Location = new System.Drawing.Point(26, 410);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(556, 143);
+            this.panel2.Size = new System.Drawing.Size(563, 143);
             this.panel2.TabIndex = 26;
             // 
             // label5
@@ -386,12 +398,12 @@
             this.hopeRadioButton6.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(198)))), ((int)(((byte)(202)))));
             this.hopeRadioButton6.DisabledStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(187)))), ((int)(((byte)(189)))));
             this.hopeRadioButton6.Enable = true;
-            this.hopeRadioButton6.EnabledCheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
+            this.hopeRadioButton6.EnabledCheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(161)))), ((int)(((byte)(210)))));
             this.hopeRadioButton6.EnabledStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.hopeRadioButton6.EnabledUncheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(158)))), ((int)(((byte)(161)))));
             this.hopeRadioButton6.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.hopeRadioButton6.ForeColor = System.Drawing.Color.Black;
-            this.hopeRadioButton6.Location = new System.Drawing.Point(259, 10);
+            this.hopeRadioButton6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.hopeRadioButton6.Location = new System.Drawing.Point(246, 10);
             this.hopeRadioButton6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.hopeRadioButton6.Name = "hopeRadioButton6";
             this.hopeRadioButton6.Size = new System.Drawing.Size(66, 20);
@@ -409,12 +421,12 @@
             this.hopeRadioButton7.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(198)))), ((int)(((byte)(202)))));
             this.hopeRadioButton7.DisabledStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(187)))), ((int)(((byte)(189)))));
             this.hopeRadioButton7.Enable = true;
-            this.hopeRadioButton7.EnabledCheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
+            this.hopeRadioButton7.EnabledCheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(161)))), ((int)(((byte)(210)))));
             this.hopeRadioButton7.EnabledStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.hopeRadioButton7.EnabledUncheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(158)))), ((int)(((byte)(161)))));
             this.hopeRadioButton7.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.hopeRadioButton7.ForeColor = System.Drawing.Color.Black;
-            this.hopeRadioButton7.Location = new System.Drawing.Point(173, 10);
+            this.hopeRadioButton7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.hopeRadioButton7.Location = new System.Drawing.Point(181, 10);
             this.hopeRadioButton7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.hopeRadioButton7.Name = "hopeRadioButton7";
             this.hopeRadioButton7.Size = new System.Drawing.Size(57, 20);
@@ -429,7 +441,7 @@
             this.tPanel3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(212)))), ((int)(((byte)(235)))));
             this.tPanel3.Controls.Add(this.pictureBox4);
             this.tPanel3.Controls.Add(this.dungeonTextBox1);
-            this.tPanel3.Location = new System.Drawing.Point(173, 40);
+            this.tPanel3.Location = new System.Drawing.Point(180, 40);
             this.tPanel3.Name = "tPanel3";
             this.tPanel3.Radius = 20;
             this.tPanel3.Size = new System.Drawing.Size(380, 100);
@@ -463,7 +475,7 @@
             // 
             this.panel7.Controls.Add(this.hopeRadioButton2);
             this.panel7.Controls.Add(this.hopeRadioButton1);
-            this.panel7.Location = new System.Drawing.Point(200, 37);
+            this.panel7.Location = new System.Drawing.Point(206, 40);
             this.panel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(251, 36);
@@ -477,7 +489,7 @@
             this.hopeRadioButton2.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(198)))), ((int)(((byte)(202)))));
             this.hopeRadioButton2.DisabledStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(187)))), ((int)(((byte)(189)))));
             this.hopeRadioButton2.Enable = true;
-            this.hopeRadioButton2.EnabledCheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
+            this.hopeRadioButton2.EnabledCheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(161)))), ((int)(((byte)(210)))));
             this.hopeRadioButton2.EnabledStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.hopeRadioButton2.EnabledUncheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(158)))), ((int)(((byte)(161)))));
             this.hopeRadioButton2.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -500,12 +512,12 @@
             this.hopeRadioButton1.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(198)))), ((int)(((byte)(202)))));
             this.hopeRadioButton1.DisabledStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(187)))), ((int)(((byte)(189)))));
             this.hopeRadioButton1.Enable = true;
-            this.hopeRadioButton1.EnabledCheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
+            this.hopeRadioButton1.EnabledCheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(161)))), ((int)(((byte)(210)))));
             this.hopeRadioButton1.EnabledStringColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.hopeRadioButton1.EnabledUncheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(158)))), ((int)(((byte)(161)))));
             this.hopeRadioButton1.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.hopeRadioButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.hopeRadioButton1.Location = new System.Drawing.Point(3, 13);
+            this.hopeRadioButton1.Location = new System.Drawing.Point(0, 13);
             this.hopeRadioButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.hopeRadioButton1.Name = "hopeRadioButton1";
             this.hopeRadioButton1.Size = new System.Drawing.Size(100, 20);
@@ -521,7 +533,7 @@
             this.panel6.Controls.Add(this.hopeRadioButton5);
             this.panel6.Controls.Add(this.hopeRadioButton3);
             this.panel6.Controls.Add(this.hopeRadioButton4);
-            this.panel6.Location = new System.Drawing.Point(200, 184);
+            this.panel6.Location = new System.Drawing.Point(207, 184);
             this.panel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(380, 45);
@@ -621,25 +633,23 @@
             // 
             this.dungeonLabel1.AutoSize = true;
             this.dungeonLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.dungeonLabel1.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dungeonLabel1.Font = new System.Drawing.Font("Montserrat", 9.0348F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.dungeonLabel1.Location = new System.Drawing.Point(199, 155);
+            this.dungeonLabel1.Location = new System.Drawing.Point(206, 155);
             this.dungeonLabel1.Name = "dungeonLabel1";
-            this.dungeonLabel1.Size = new System.Drawing.Size(150, 13);
+            this.dungeonLabel1.Size = new System.Drawing.Size(187, 18);
             this.dungeonLabel1.TabIndex = 5;
             this.dungeonLabel1.Text = "Загружено 1200 контактов";
             // 
-            // bigLabel2
+            // label6
             // 
-            this.bigLabel2.AutoSize = true;
-            this.bigLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.bigLabel2.Font = new System.Drawing.Font("Montserrat SemiBold", 24.0928F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bigLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.bigLabel2.Location = new System.Drawing.Point(31, 25);
-            this.bigLabel2.Name = "bigLabel2";
-            this.bigLabel2.Size = new System.Drawing.Size(478, 46);
-            this.bigLabel2.TabIndex = 28;
-            this.bigLabel2.Text = "Новая Telegram рассылка";
+            this.label6.Font = new System.Drawing.Font("Montserrat SemiBold", 24.0928F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.label6.Location = new System.Drawing.Point(35, 20);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(635, 45);
+            this.label6.TabIndex = 31;
+            this.label6.Text = "Новая Telegram рассылка";
             // 
             // Send
             // 
@@ -647,15 +657,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1018, 788);
+            this.ClientSize = new System.Drawing.Size(1018, 1100);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel4);
-            this.Controls.Add(this.bigLabel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.KeyPreview = true;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Send";
             this.Text = "Send";
+            this.Load += new System.EventHandler(this.Send_Load);
             this.Click += new System.EventHandler(this.Send_Click);
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -667,6 +678,7 @@
             this.tpanelll.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
             this.tPanel2.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -678,7 +690,6 @@
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -696,17 +707,16 @@
         private ReaLTaiizor.Controls.DungeonHeaderLabel dungeonHeaderLabel5;
         private Panel panel2;
         private Panel panel7;
-        private ReaLTaiizor.Controls.HopeRadioButton hopeRadioButton2;
-        private ReaLTaiizor.Controls.HopeRadioButton hopeRadioButton1;
+        private HopeRadioButton hopeRadioButton2;
+        private HopeRadioButton hopeRadioButton1;
         private Panel panel6;
-        private ReaLTaiizor.Controls.HopeRadioButton hopeRadioButton8;
-        private ReaLTaiizor.Controls.HopeRadioButton hopeRadioButton5;
-        private ReaLTaiizor.Controls.HopeRadioButton hopeRadioButton4;
+        private HopeRadioButton hopeRadioButton8;
+        private HopeRadioButton hopeRadioButton5;
+        private HopeRadioButton hopeRadioButton4;
         public ReaLTaiizor.Controls.DungeonLabel dungeonLabel1;
-        private ReaLTaiizor.Controls.BigLabel bigLabel2;
         public PictureBox pictureBox2;
         public PictureBox pictureBox1;
-        public ReaLTaiizor.Controls.HopeRadioButton hopeRadioButton3;
+        public HopeRadioButton hopeRadioButton3;
         public OpenFileDialog openFileDialog2;
         private PictureBox pictureBox3;
         private TPanel tPanel2;
@@ -721,8 +731,10 @@
         private Label label2;
         private Label label4;
         private Label label3;
-        private ReaLTaiizor.Controls.HopeRadioButton hopeRadioButton6;
-        private ReaLTaiizor.Controls.HopeRadioButton hopeRadioButton7;
+        private HopeRadioButton hopeRadioButton6;
+        private HopeRadioButton hopeRadioButton7;
         private Label label5;
+        private Label label6;
+        public Label label7;
     }
 }

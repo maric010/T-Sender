@@ -73,7 +73,7 @@
             this.dungeonLinkLabel1.Font = new System.Drawing.Font("Montserrat", 11.2935F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dungeonLinkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.AlwaysUnderline;
             this.dungeonLinkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(119)))), ((int)(((byte)(70)))));
-            this.dungeonLinkLabel1.Location = new System.Drawing.Point(915, 3);
+            this.dungeonLinkLabel1.Location = new System.Drawing.Point(976, 3);
             this.dungeonLinkLabel1.Name = "dungeonLinkLabel1";
             this.dungeonLinkLabel1.Size = new System.Drawing.Size(80, 22);
             this.dungeonLinkLabel1.TabIndex = 16;
@@ -92,7 +92,7 @@
             this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "GridAccountDel";
-            this.Size = new System.Drawing.Size(1000, 30);
+            this.Size = new System.Drawing.Size(1060, 30);
             this.ResumeLayout(false);
             this.PerformLayout();
 

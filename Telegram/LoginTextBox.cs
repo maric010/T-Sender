@@ -131,7 +131,7 @@ namespace Telegram
                     DungeonTB.Multiline = value;
                     if (value)
                     {
-                        DungeonTB.Height = base.Height - 10;
+                        DungeonTB.Height = base.Height - 15;
                     }
                     else
                     {
@@ -203,7 +203,7 @@ namespace Telegram
             base.OnResize(e);
             if (_Multiline)
             {
-                DungeonTB.Height = base.Height - 10;
+                DungeonTB.Height = base.Height - 15;
             }
             else
             {

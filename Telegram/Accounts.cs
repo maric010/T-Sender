@@ -40,11 +40,7 @@ namespace Telegram
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //Отправить номер телефона на сервер, для получения кода на телеграм
-            if (my.accounts.Count < my.accounts_count)
-                server.send("send_code|" + dreamTextBox1.Text);
-            else
-                MessageBox.Show("Вы достигли лимита аккаунтов");
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -68,7 +64,7 @@ namespace Telegram
         private void flowLayoutPanel1_ControlAdded(object sender, ControlEventArgs e)
         {
             var height = 10;
-            height += (flowLayoutPanel1.Controls.Count+1) * 23;
+            height += (flowLayoutPanel1.Controls.Count+1) * 40;
 
             tPanel1.Height = height + 60;
             flowLayoutPanel1.Height = height;
@@ -106,6 +102,16 @@ namespace Telegram
 
         private void dungeonHeaderLabel4_Paint(object sender, PaintEventArgs e)
         {
+        }
+
+        private void dreamTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dreamTextBox4_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

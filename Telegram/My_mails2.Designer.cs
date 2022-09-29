@@ -28,27 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.bigLabel1 = new ReaLTaiizor.Controls.BigLabel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.headerLabel2 = new ReaLTaiizor.Controls.HeaderLabel();
             this.headerLabel1 = new ReaLTaiizor.Controls.HeaderLabel();
             this.dungeonButtonLeft1 = new ReaLTaiizor.Controls.DungeonButtonLeft();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // bigLabel1
-            // 
-            this.bigLabel1.AutoSize = true;
-            this.bigLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.bigLabel1.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bigLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.bigLabel1.Location = new System.Drawing.Point(43, 26);
-            this.bigLabel1.Name = "bigLabel1";
-            this.bigLabel1.Size = new System.Drawing.Size(230, 46);
-            this.bigLabel1.TabIndex = 0;
-            this.bigLabel1.Text = "Все рассылки";
             // 
             // panel1
             // 
@@ -126,13 +114,23 @@
             this.dungeonButtonLeft1.TextAlignment = System.Drawing.StringAlignment.Center;
             this.dungeonButtonLeft1.Click += new System.EventHandler(this.dungeonButtonLeft1_Click_1);
             // 
+            // label6
+            // 
+            this.label6.Font = new System.Drawing.Font("Montserrat SemiBold", 24.0928F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.label6.Location = new System.Drawing.Point(35, 20);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(635, 45);
+            this.label6.TabIndex = 33;
+            this.label6.Text = "Все рассылки";
+            // 
             // My_mails2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(820, 488);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.bigLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "My_mails2";
@@ -141,17 +139,15 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private ReaLTaiizor.Controls.BigLabel bigLabel1;
         private Panel panel1;
         private PictureBox pictureBox1;
         private ReaLTaiizor.Controls.HeaderLabel headerLabel2;
         private ReaLTaiizor.Controls.HeaderLabel headerLabel1;
         private ReaLTaiizor.Controls.DungeonButtonLeft dungeonButtonLeft1;
+        private Label label6;
     }
 }

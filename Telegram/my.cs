@@ -82,6 +82,8 @@ namespace Telegram
             }
         }
         private static string _mails;
+        internal static bool exit = false;
+
         internal static string получатели { get; set; }
         internal static string получатели_файл { get; set; }
         internal static int получатели_количество { get; set; }

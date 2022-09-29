@@ -40,6 +40,7 @@ namespace Telegram
                 dungeonLabel1.Font = new Font(dungeonLabel1.Font, FontStyle.Regular);
                 dungeonLabel2.Font = new Font(dungeonLabel2.Font, FontStyle.Regular);
             }
+            Send.REFRESH();
         }
 
         private void hopeRadioButton1_Click(object sender, EventArgs e)
@@ -51,6 +52,11 @@ namespace Telegram
                 hopeRadioButton1.Checked = true;
                 isChecked = false;
             }
+        }
+
+        private void Grid_Select_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
